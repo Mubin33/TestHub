@@ -6,6 +6,7 @@ import HeroSection from "./components/_ui/HeroSection";
 import ITelligence from "./components/_ui/ITelligence";
 import Product from "./components/_ui/Product";
 import Service from "./components/_ui/Service";
+import TestimonialSlider from "./components/_ui/Testimonial";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
     <ITelligence/>
     <CaseStudy/>
     <Blogs/>
+    <TestimonialSlider/>
     <Contact/>
     </div>
   );
