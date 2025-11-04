@@ -22,9 +22,9 @@ export default function Blogs() {
 
 
         {/* content */}
-        <div className='grid grid-cols-2 gap-20 mt-6 px-[60px]'>
+        <div className='grid grid-cols-1 xl:grid-cols-2 gap-20 mt-6 px-5 2xl:px-[60px]'>
             <div>
-                   <div className="overflow-hidden w-[700px] h-[400px]">
+                   <div className="overflow-hidden max-w-[700px] max-h-[400px]">
   <Image
     src="/The_Future_of_Business_Efficiency.png"
     alt="The_Future_of_Business_Efficiency"
@@ -62,7 +62,7 @@ export default function Blogs() {
                 </div>             
             {/*  */}
             <div>
-                <div className="overflow-hidden w-[700px] h-[400px]">
+                <div className="overflow-hidden max-w-[700px] max-h-[400px]">
   <Image
     src="/Building_a_Secure_Digital_Future.png"
     alt="Building_a_Secure_Digital_Future"

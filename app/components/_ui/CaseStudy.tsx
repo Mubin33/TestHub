@@ -16,9 +16,9 @@ export default function CaseStudy() {
         </h1>
 
         {/* 1st content */}
-        <div className="grid grid-cols-12 gap-10 mt-10">
+        <div className="grid grid-cols-1 xl:grid-cols-12 gap-10 mt-10 px-3 xl:px-0">
           {/*  */}
-          <div className="col-span-5 pb-12 px-10 bg-linear-to-b from-[#222631] via-[#454545] to-black rounded-3xl">
+          <div className="xl:col-span-5 pb-12 px-4 xl:px-10 bg-linear-to-b from-[#222631] via-[#454545] to-black rounded-3xl">
             <Image
               src="/AI-Powered.png"
               alt="AI-Powered"
@@ -58,8 +58,8 @@ export default function CaseStudy() {
             </Button>
           </div>
           {/*  */}
-          <div className="col-span-7 flex flex-col justify-between">
-            <div className="grid grid-cols-2 gap-5 py-10 px-6 bg-linear-to-r from-[#222631] via-[#454545] to-black rounded-3xl">
+          <div className="xl:col-span-7 flex flex-col justify-between">
+            <div className="grid md:grid-cols-2 gap-5 py-10 px-4 xl:px-6 bg-linear-to-r from-[#222631] via-[#454545] to-black rounded-3xl">
               <Image
                 src="/Cybersecurity_Modernization_for_a_Global_Fintech_Platform.png"
                 alt="Cybersecurity_Modernization_for_a_Global_Fintech_Platform"
@@ -98,7 +98,7 @@ export default function CaseStudy() {
                 </Button>
               </div>
             </div>
-            <div className="grid grid-cols-2 gap-5 py-10 px-6 bg-linear-to-r from-[#222631] via-[#454545] to-black rounded-3xl">
+            <div className="grid md:grid-cols-2 gap-5 py-10 px-4 xl:px-6 bg-linear-to-r from-[#222631] via-[#454545] to-black rounded-3xl">
               <Image
                 src="/Global_Cloud_Infrastructure_Modernization_for_a_Logistics_Enterprise.png"
                 alt="Global_Cloud_Infrastructure_Modernization_for_a_Logistics_Enterprise"
@@ -143,7 +143,7 @@ export default function CaseStudy() {
         </div>
 
         {/* 2nd content */}
-        <div className="grid grid-cols-4 gap-10 mt-20">
+        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-10 mt-20 px-4 lg:px-0">
           {/*  */}
           <div
             className="relative h-[520px] py-2 px-6 group transition-all duration-500 ease-in-out"
