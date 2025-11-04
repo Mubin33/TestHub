@@ -6,7 +6,7 @@ import React from "react";
 export default function Contact() {
   return (
     <div className="bg-black">
-      <div className="py-[120px] max-w-[1600px] mx-auto grid grid-cols-2 gap-20">
+      <div className="py-[80px] max-w-[1600px] mx-auto grid grid-cols-2 gap-20">
         <div className="">
           <h1 className="text-[40px] text-primary-foreground font-bold font-orbitron max-w-[988px]">
             Contact

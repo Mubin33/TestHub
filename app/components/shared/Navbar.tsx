@@ -18,15 +18,17 @@ export default function Navbar() {
 
   return (
     <div className="backdrop-blur-md">
-      <div className="h-[80px] flex items-center justify-between px-6 sm:px-10 md:px-16 lg:px-24 xl:px-32">
+      <div className="h-20 flex items-center justify-between px-6 sm:px-10 md:px-16 lg:px-24 xl:px-32">
         {/* Logo */}
+        <Link href="/">
         <Image
           src="/testhub_logo.png"
           alt="Logo"
           width={145}
           height={56}
           className="w-[120px] sm:w-[140px] md:w-[145px] h-auto"
-        />
+          />
+          </Link>
 
         {/* Desktop Menu */}
         <div className="hidden lg:flex items-center space-x-8">

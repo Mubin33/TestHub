@@ -13,11 +13,11 @@ export default function AboutUs() {
         </div>
 
         {/* content */}
-        <div className="grid grid-cols-11 gap-24 mt-[165px] mb-[137px]">
-          <div className="col-span-5 ">
+        <div className="grid grid-cols-1 lg:grid-cols-11 gap-24 mt-[165px] mb-[137px] px-5 lg:px-0">
+          <div className="lg:col-span-5 ">
             <Image src="/about_us.png" alt="" width={663} height={423} />
           </div>
-          <div className="col-span-6 my-auto">
+          <div className="lg:col-span-6 my-auto">
             <h1 className="text-[40px] text-primary-foreground font-bold font-orbitron max-w-[988px] mx-auto">
               Who We Are
             </h1>

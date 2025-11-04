@@ -37,7 +37,7 @@ export default function SuccessStory_CloudInfrastructure() {
                 </div>
                 <Link href="#">
                 <Button
-                  className="group w-fit mb-0 px-7 py-5 flex items-center gap-2"
+                  className="group w-fit mb-0 px-7 py-5 flex items-center gap-2 mt-20"
                   variant="outline"
                   >
                 Read Full Article

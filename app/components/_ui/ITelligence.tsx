@@ -17,7 +17,7 @@ export default function ITelligence() {
         <div className="mt-[165px] relative">
           {/* inner logo */}
           <Image
-            className="absolute top-[35%] left-[45%]"
+            className="hidden lg:flex absolute top-[35%] left-[45%]"
             src="/testhub_logo.png"
             alt="Logo"
             width={165}
@@ -26,7 +26,7 @@ export default function ITelligence() {
 
           {/* 1 no line arrow */}
           <svg
-            className="absolute top-[17%] left-[35%]"
+            className="hidden 2xl:flex absolute top-[17%] left-[35%]"
             xmlns="http://www.w3.org/2000/svg"
             width="482"
             height="33"
@@ -55,7 +55,7 @@ export default function ITelligence() {
 
           {/* 2 no line arrow */}
           <svg
-            className="absolute top-[33.5%] left-[31%]"
+            className="hidden 2xl:flex absolute top-[33.5%] left-[31%]"
             xmlns="http://www.w3.org/2000/svg"
             width="218"
             height="252"
@@ -84,7 +84,7 @@ export default function ITelligence() {
 
           {/* 3 no line arrow */}
           <svg
-            className="absolute top-[33.5%] right-[31%]"
+            className="hidden 2xl:flex absolute top-[33.5%] right-[31%]"
             xmlns="http://www.w3.org/2000/svg"
             width="218"
             height="252"
@@ -112,7 +112,7 @@ export default function ITelligence() {
           </svg>
 
           {/* upper content */}
-          <div className="flex items-center justify-evenly gap-[200px]">
+          <div className="flex flex-col lg:flex-row items-center justify-evenly gap-[200px]">
             <div
               className="rounded-full w-[280px] h-[280px]"
               style={{
