@@ -5,6 +5,7 @@ import React from 'react'
 export default function Product() {
   return (
     <div
+    id='product'
   className="w-full h-[1004px] bg-center bg-cover"
   style={{ backgroundImage: "url('/product_bg.png')" }}
 >

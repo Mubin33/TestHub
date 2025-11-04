@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function CaseStudy() {
   return (
-    <div className="bg-[#111111]">
+    <div className="bg-[#111111]" id="case_study">
       <div className="py-5 max-w-[1600px] mx-auto">
         <div className="w-fit mx-auto mt-20">
           <h1 className="text-[40px] text-primary-foreground font-bold font-orbitron max-w-[988px]">
