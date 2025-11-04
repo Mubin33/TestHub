@@ -12,7 +12,15 @@ export default function Home() {
   return (
     <div>
     <div className="-mt-10">
-      <HeroSection />
+       <HeroSection
+      videoSrc="/hero_video.mp4"
+      heading="Your Partner for Smarter, Safer & Scalable Digital Solutions"
+      description="From AI driven automation to enterprise cybersecurity and cloud infrastructure, we empower businesses across industries to innovate, grow, and stay secure."
+      button1Text="Let’s Build Together"
+      button1Link="#"
+      button2Text="Explore Our Services"
+      button2Link="#"
+    />
     </div>
     <Product/>
     <Service/>
