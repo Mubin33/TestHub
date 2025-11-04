@@ -1,14 +1,16 @@
 import Image from "next/image";
 import React from "react";
 import Marquee from "react-fast-marquee";
-export default function TechnologyStack_AITransformation() {
+export default function TechnologyStack_Cybersecurity() {
   const logos = [
-    "/Tech_Tools_Logo/Google-Cloud-Logo 1.png",
-    "/Tech_Tools_Logo/ChatGPT Image Sep 10, 2025, 04_02_13 PM 1.png",
-    "/Tech_Tools_Logo/ChatGPT Image Sep 10, 2025, 03_50_49 PM 1.png",
-    "/Tech_Tools_Logo/Oracle_logo.svg 1.png",
-    "/Tech_Tools_Logo/Salesforce.com_logo.svg 1.png",
-    "/Tech_Tools_Logo/ChatGPT Image Sep 10, 2025, 03_15_29 PM 1.png", 
+    "/Tech_Tools_Logo/266-2660015_logo-elastic-elasticsearch-logo-transparent 1.png",
+    "/Tech_Tools_Logo/Logo-Suricata-vert-R 1.png",
+    "/Tech_Tools_Logo/Ansible_Logo 1.png",
+    "/Tech_Tools_Logo/1200px-HashiCorp_Logo 1.png",
+    "/Tech_Tools_Logo/image 1.png",
+    "/Tech_Tools_Logo/image 2.png", 
+    "/Tech_Tools_Logo/terraform 1.png", 
+    "/Tech_Tools_Logo/Logo_of_Keycloak.svg 1.png", 
   ];
   return (
     <div className="bg-[#111111]">
