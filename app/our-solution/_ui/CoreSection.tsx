@@ -22,6 +22,8 @@ import YourBenefits_CloudInfrastructure from "./YourBenefits_CloudInfrastructure
 import OurCapabilities_Cybersecurity from "./OurCapabilities_Cybersecurity";
 import OurCapabilities_CloudInfrastructure from "./OurCapabilities_CloudInfrastructure";
 import TechnologyStack_Cybersecurity from "./TechnologyStack_Cybersecurity";
+import SuccessStory_Cybersecurity from "./SuccessStory_Cybersecurity";
+import SuccessStory_CloudInfrastructure from "./SuccessStory_CloudInfrastructure";
 
 interface TabItem {
   id: number;
@@ -198,8 +200,8 @@ export default function CoreSection() {
             {activeTabData.title === "Cloud Infrastructure" && <TechnologyStack_AITransformation/>} 
             {/*  */}
             {activeTabData.title === "AI & Automation" && <SuccessStory_AITransformation/>} 
-            {activeTabData.title === "Cybersecurity Solutions" && ""} 
-            {activeTabData.title === "Cloud Infrastructure" && ""} 
+            {activeTabData.title === "Cybersecurity Solutions" && <SuccessStory_Cybersecurity/>} 
+            {activeTabData.title === "Cloud Infrastructure" && <SuccessStory_CloudInfrastructure/>} 
             {/*  */}
             <TestimonialSlider/>
             {/*  */}

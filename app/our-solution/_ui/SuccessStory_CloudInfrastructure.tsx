@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
-export default function SuccessStory_AITransformation() {
+export default function SuccessStory_CloudInfrastructure() {
   return (
     <div className="bg-[#111111]">
       <div className="py-5 max-w-[1600px] mx-auto">
@@ -22,19 +22,18 @@ export default function SuccessStory_AITransformation() {
         {/* content */}
         <div className="grid grid-cols-2 gap-20 py-14 px-10 bg-linear-to-r from-[#222631] via-[#454545] to-black rounded-3xl max-w-[1120px] mx-auto mt-10">
               <Image
-                src="/AI-Powered.png"
-                alt="AI-Powered"
+                src="/Global_Cloud_Infrastructure_Modernization_for_a_Logistics_Enterprise.png"
+                alt="Global_Cloud_Infrastructure_Modernization_for_a_Logistics_Enterprise"
                 width={424}
                 height={327}
               />
               <div className="flex flex-col justify-between">
                 <div>
                   <h4 className="text-2xl text-primary-foreground font-semibold font-parkinsans mt-3">
-                    AI-Powered Predictive Intelligence for a Global Manufacturing Leader
+                    Global Cloud Infrastructure Modernization for a Logistics Enterprise
                   </h4>
                   <p className="text-lg text-primary-foreground font-normal font-parkinsans mt-4">
-                   TasteHub implemented AI-powered process automation for a global manufacturing client, enabling them to automate 65% of their manual operations and increase production efficiency by 42%. The result? A faster, more intelligent, and cost-effective business model.
-                  </p>
+                   A leading logistics enterprise partnered with TasteHub ITelligence to modernize its on-prem infrastructure. Our team designed a multi cloud environment leveraging AWS and Azure, automating DevOps pipelines for continuous delivery and achieving zero downtime during migration. The result — faster deployment, enhanced security, and operational cost savings of 35%. </p>
                 </div>
                 <Link href="#">
                 <Button

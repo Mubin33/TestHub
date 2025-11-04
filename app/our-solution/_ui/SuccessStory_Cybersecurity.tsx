@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
-export default function SuccessStory_AITransformation() {
+export default function SuccessStory_Cybersecurity() {
   return (
     <div className="bg-[#111111]">
       <div className="py-5 max-w-[1600px] mx-auto">
@@ -22,18 +22,18 @@ export default function SuccessStory_AITransformation() {
         {/* content */}
         <div className="grid grid-cols-2 gap-20 py-14 px-10 bg-linear-to-r from-[#222631] via-[#454545] to-black rounded-3xl max-w-[1120px] mx-auto mt-10">
               <Image
-                src="/AI-Powered.png"
-                alt="AI-Powered"
+                src="/Cybersecurity_Modernization_for_a_Global_Fintech_Platform.png"
+                alt="Cybersecurity_Modernization_for_a_Global_Fintech_Platform"
                 width={424}
                 height={327}
               />
               <div className="flex flex-col justify-between">
                 <div>
                   <h4 className="text-2xl text-primary-foreground font-semibold font-parkinsans mt-3">
-                    AI-Powered Predictive Intelligence for a Global Manufacturing Leader
+                   Cybersecurity Modernization for a Global Fintech Platform
                   </h4>
                   <p className="text-lg text-primary-foreground font-normal font-parkinsans mt-4">
-                   TasteHub implemented AI-powered process automation for a global manufacturing client, enabling them to automate 65% of their manual operations and increase production efficiency by 42%. The result? A faster, more intelligent, and cost-effective business model.
+                  A leading European fintech enterprise partnered with TasteHub ITelligence to deploy a Zero-Trust Security Architecture across its hybrid infrastructure. The solution powered by AI driven monitoring and automated threat response reduced incident detection time by 78% and achieved ISO 27001 certification within six months.
                   </p>
                 </div>
                 <Link href="#">
