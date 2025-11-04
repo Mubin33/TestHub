@@ -1,14 +1,12 @@
-"use client";
-
-import React from "react";
+"use client"; 
 import Image from "next/image";
 
 interface MarqueeProps {
-  images: string[];          // image src paths (e.g. '/logo1.png')
-  height?: number;           // container height in px (default 120)
-  speed?: number;            // seconds for one full loop (default 20)
-  gap?: number;              // gap between images in px (default 24)
-  alt?: string;              // fallback alt text prefix
+  images: string[];       
+  height?: number;        
+  speed?: number;         
+  gap?: number;           
+  alt?: string;           
 }
 
 export default function Marquee({
@@ -49,7 +47,7 @@ export default function Marquee({
           {loopImages.map((src, idx) => (
             <div
               key={`${src}-${idx}`}
-              className="flex-shrink-0"
+              className="shrink-0"
               style={{
                 display: "inline-flex",
                 alignItems: "center",

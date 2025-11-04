@@ -19,7 +19,7 @@ export default function TheSolutions_CloudInfrastructure() {
           </div>
 
           <Image
-            className="mt-[96px]"
+            className="mt-24"
             src="/icon_Frame.png"
             alt="icon_Frame"
             width={180}

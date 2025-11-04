@@ -15,6 +15,10 @@ import OurCapabilities_AITransformation from "./OurCapabilities_AITransformation
 import TechnologyStack_AITransformation from "./TechnologyStack_AITransformation";
 import SuccessStory_AITransformation from "./SuccessStory_AITransformation";
 import TestimonialSlider from "@/app/components/_ui/Testimonial";
+import AutomationJourney_AITransformation from "./AutomationJourney_AITransformation";
+import { FAQ_AITransformation } from "./FAQ_AITransformation";
+import YourBenefits_Cybersecurity from "./YourBenefits_Cybersecurity";
+import YourBenefits_CloudInfrastructure from "./YourBenefits_CloudInfrastructure";
 
 interface TabItem {
   id: number;
@@ -179,8 +183,8 @@ export default function CoreSection() {
             {activeTabData.title === "Cloud Infrastructure" && <TheSolutions_CloudInfrastructure/>} 
             {/*  */}
             {activeTabData.title === "AI & Automation" && <YourBenefits_AITransformation/>} 
-            {activeTabData.title === "Cybersecurity Solutions" && ""} 
-            {activeTabData.title === "Cloud Infrastructure" && ""} 
+            {activeTabData.title === "Cybersecurity Solutions" && <YourBenefits_Cybersecurity/>} 
+            {activeTabData.title === "Cloud Infrastructure" && <YourBenefits_CloudInfrastructure/>} 
             {/*  */}
             {activeTabData.title === "AI & Automation" && <OurCapabilities_AITransformation/>} 
             {activeTabData.title === "Cybersecurity Solutions" && ""} 
@@ -196,6 +200,13 @@ export default function CoreSection() {
             {/*  */}
             <TestimonialSlider/>
             {/*  */}
+            {activeTabData.title === "AI & Automation" && <AutomationJourney_AITransformation/>} 
+            {activeTabData.title === "Cybersecurity Solutions" && ""} 
+            {activeTabData.title === "Cloud Infrastructure" && ""} 
+            {/*  */}
+            {activeTabData.title === "AI & Automation" && <FAQ_AITransformation/>} 
+            {activeTabData.title === "Cybersecurity Solutions" && ""} 
+            {activeTabData.title === "Cloud Infrastructure" && ""} 
           </div>
 
 
