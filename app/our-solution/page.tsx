@@ -1,8 +1,7 @@
 import React from 'react'
-import HeroSection from '../components/_ui/HeroSection'
-import TheProblems from './_ui/TheProblems'
-import CoreSection from './_ui/CoreSection'
-
+import HeroSection from '../components/_ui/HeroSection' 
+import CoreSection from './_ui/CoreSection' 
+import Contact from '../components/_ui/Contact'
 export default function page() {
   return (
     <div>
@@ -20,9 +19,8 @@ export default function page() {
       button2Link="#"
       />
       </div>
-      <CoreSection/>
-      <TheProblems/>
-
+      <CoreSection/>  
+<Contact/>
     </div>
   )
 }

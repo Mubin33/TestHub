@@ -4,6 +4,17 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
+import TheProblems_AITransformation from "./TheProblems_AITransformation";
+import TheProblems_Cybersecurity from "./TheProblems_Cybersecurity";
+import TheProblems_CloudInfrastructure from "./TheProblems_CloudInfrastructure";
+import TheSolutions_AITransformation from "./TheSolutions_AITransformation";
+import TheSolutions_Cybersecurity from "./TheSolutions_Cybersecurity";
+import TheSolutions_CloudInfrastructure from "./TheSolutions_CloudInfrastructure";
+import YourBenefits_AITransformation from "./YourBenefits_AITransformation";
+import OurCapabilities_AITransformation from "./OurCapabilities_AITransformation";
+import TechnologyStack_AITransformation from "./TechnologyStack_AITransformation";
+import SuccessStory_AITransformation from "./SuccessStory_AITransformation";
+import TestimonialSlider from "@/app/components/_ui/Testimonial";
 
 interface TabItem {
   id: number;
@@ -27,7 +38,8 @@ export default function CoreSection() {
       tab_title: "AI Transformation & Intelligent Automation",
       title: "AI & Automation",
       subtitle: "Transform Operations with Intelligent Automation",
-      details: "Empower your enterprise to work smarter, faster, and error free through AI driven process automation tailored to your business needs.",
+      details:
+        "Empower your enterprise to work smarter, faster, and error free through AI driven process automation tailored to your business needs.",
       button_link: "#",
       button_text: "Get a Free Consultation",
       tab_image: "/aiautomation.png",
@@ -38,7 +50,8 @@ export default function CoreSection() {
       tab_title: "Cybersecurity Solutions",
       title: "Cybersecurity Solutions",
       subtitle: "Intelligent Security for a Connected World",
-      details: "Protect your digital ecosystem with AI driven cybersecurity frameworks designed to prevent threats, ensure compliance, and safeguard business continuity.",
+      details:
+        "Protect your digital ecosystem with AI driven cybersecurity frameworks designed to prevent threats, ensure compliance, and safeguard business continuity.",
       button_link: "#",
       button_text: "Get a Free Consultation",
       tab_image: "/CybersecuritySolutions.png",
@@ -49,7 +62,8 @@ export default function CoreSection() {
       tab_title: "Cloud Infrastructure & Modernization",
       title: "Cloud Infrastructure",
       subtitle: "Built for Agility. Secured for Growth.",
-      details: "Design, deploy, and manage scalable multi cloud infrastructures that deliver performance, resilience, and business continuity powered by intelligent automation and secure architecture.",
+      details:
+        "Design, deploy, and manage scalable multi cloud infrastructures that deliver performance, resilience, and business continuity powered by intelligent automation and secure architecture.",
       button_link: "#",
       button_text: "Get a Free Consultation",
       tab_image: "/CloudInfrastructure.png",
@@ -63,10 +77,11 @@ export default function CoreSection() {
   const activeTabData = tabs.find((tab) => tab.id === activeTab);
 
   return (
+    <div>
     <div className="bg-[#111111]">
-      <div className="py-16 max-w-[1600px] mx-auto">
+      <div className="py-16">
         {/* Tabs */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 lg:gap-32 px-5">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 lg:gap-32 px-5 max-w-[1600px] mx-auto">
           {tabs.map((tab) => {
             const isActive = activeTab === tab.id;
             const isHovered = hoveredTab === tab.id;
@@ -103,40 +118,96 @@ export default function CoreSection() {
         {/* Active Tab Title */}
         {activeTabData && (
           <div className="mt-20">
-            <div className="grid grid-cols-11 gap-[104px]">
-                {/* left side */}
-            <div className="col-span-6">
+            <div className="grid grid-cols-11 gap-[104px] max-w-[1600px] mx-auto">
+              {/* left side */}
+              <div className="col-span-6">
                 <div className="mt-10">
-          <h1 className="text-[40px] text-primary-foreground font-bold font-orbitron">
-           {activeTabData.title}
-          </h1>
-          <div className="h-1 w-52 bg-white"></div>
-          <div>
-            <h1 className="text-[40px] text-primary-foreground font-bold font-orbitron mt-10">
-          {activeTabData.subtitle}
-          </h1>
-          <p className="mt-6 text-2xl font-normal font-parkinsans text-primary-foreground">
-          {activeTabData.details}
-        </p>
-          </div>
-        </div>
-        <Link href={activeTabData.button_link}>
-            <Button className="font-normal px-5 py-6 mt-10 flex items-center gap-2" variant="default">
-              {activeTabData.button_text}<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-  <path d="M18.884 12.884C19.1178 12.6492 19.249 12.3313 19.249 12C19.249 11.6687 19.1178 11.3508 18.884 11.116L13.884 6.116C13.7679 5.99991 13.6301 5.90782 13.4784 5.845C13.3268 5.78217 13.1642 5.74983 13 5.74983C12.6685 5.74983 12.3505 5.88155 12.116 6.116C11.8816 6.35045 11.7499 6.66843 11.7499 7C11.7499 7.33156 11.8816 7.64955 12.116 7.884L14.982 10.75H6.00003C5.66851 10.75 5.35056 10.8817 5.11614 11.1161C4.88172 11.3505 4.75003 11.6685 4.75003 12C4.75003 12.3315 4.88172 12.6495 5.11614 12.8839C5.35056 13.1183 5.66851 13.25 6.00003 13.25H14.982L12.116 16.116C11.9999 16.2321 11.9079 16.3699 11.845 16.5216C11.7822 16.6733 11.7499 16.8358 11.7499 17C11.7499 17.1642 11.7822 17.3267 11.845 17.4784C11.9079 17.6301 11.9999 17.7679 12.116 17.884C12.2321 18.0001 12.3699 18.0922 12.5216 18.155C12.6733 18.2178 12.8359 18.2502 13 18.2502C13.1642 18.2502 13.3268 18.2178 13.4784 18.155C13.6301 18.0922 13.7679 18.0001 13.884 17.884L18.884 12.884Z" fill="#181818"/>
-</svg>
-            </Button>
-          </Link>
-            </div>
+                  <h1 className="text-[40px] text-primary-foreground font-bold font-orbitron">
+                    {activeTabData.title}
+                  </h1>
+                  <div className="h-1 w-52 bg-white"></div>
+                  <div>
+                    <h1 className="text-[40px] text-primary-foreground font-bold font-orbitron mt-10">
+                      {activeTabData.subtitle}
+                    </h1>
+                    <p className="mt-6 text-2xl font-normal font-parkinsans text-primary-foreground">
+                      {activeTabData.details}
+                    </p>
+                  </div>
+                </div>
+                <Link href={activeTabData.button_link}>
+                  <Button
+                    className="font-normal px-5 py-6 mt-10 flex items-center gap-2"
+                    variant="default"
+                  >
+                    {activeTabData.button_text}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <path
+                        d="M18.884 12.884C19.1178 12.6492 19.249 12.3313 19.249 12C19.249 11.6687 19.1178 11.3508 18.884 11.116L13.884 6.116C13.7679 5.99991 13.6301 5.90782 13.4784 5.845C13.3268 5.78217 13.1642 5.74983 13 5.74983C12.6685 5.74983 12.3505 5.88155 12.116 6.116C11.8816 6.35045 11.7499 6.66843 11.7499 7C11.7499 7.33156 11.8816 7.64955 12.116 7.884L14.982 10.75H6.00003C5.66851 10.75 5.35056 10.8817 5.11614 11.1161C4.88172 11.3505 4.75003 11.6685 4.75003 12C4.75003 12.3315 4.88172 12.6495 5.11614 12.8839C5.35056 13.1183 5.66851 13.25 6.00003 13.25H14.982L12.116 16.116C11.9999 16.2321 11.9079 16.3699 11.845 16.5216C11.7822 16.6733 11.7499 16.8358 11.7499 17C11.7499 17.1642 11.7822 17.3267 11.845 17.4784C11.9079 17.6301 11.9999 17.7679 12.116 17.884C12.2321 18.0001 12.3699 18.0922 12.5216 18.155C12.6733 18.2178 12.8359 18.2502 13 18.2502C13.1642 18.2502 13.3268 18.2178 13.4784 18.155C13.6301 18.0922 13.7679 18.0001 13.884 17.884L18.884 12.884Z"
+                        fill="#181818"
+                      />
+                    </svg>
+                  </Button>
+                </Link>
+              </div>
 
-            {/* right side */}
-            <div className="col-span-5">
-                <Image className="rounded-3xl" src={activeTabData.image} alt={activeTabData.title} width={700} height={488}/>
-            </div>
+              {/* right side */}
+              <div className="col-span-5">
+                <Image
+                  className="rounded-3xl"
+                  src={activeTabData.image}
+                  alt={activeTabData.title}
+                  width={700}
+                  height={488}
+                />
+              </div>
             </div> 
+
+            {/*  */}
+            {activeTabData.title === "AI & Automation" && <TheProblems_AITransformation/>} 
+            {activeTabData.title === "Cybersecurity Solutions" && <TheProblems_Cybersecurity/>} 
+            {activeTabData.title === "Cloud Infrastructure" && <TheProblems_CloudInfrastructure/>} 
+            {/*  */}
+            {activeTabData.title === "AI & Automation" && <TheSolutions_AITransformation/>} 
+            {activeTabData.title === "Cybersecurity Solutions" && <TheSolutions_Cybersecurity/>} 
+            {activeTabData.title === "Cloud Infrastructure" && <TheSolutions_CloudInfrastructure/>} 
+            {/*  */}
+            {activeTabData.title === "AI & Automation" && <YourBenefits_AITransformation/>} 
+            {activeTabData.title === "Cybersecurity Solutions" && ""} 
+            {activeTabData.title === "Cloud Infrastructure" && ""} 
+            {/*  */}
+            {activeTabData.title === "AI & Automation" && <OurCapabilities_AITransformation/>} 
+            {activeTabData.title === "Cybersecurity Solutions" && ""} 
+            {activeTabData.title === "Cloud Infrastructure" && ""} 
+            {/*  */}
+            {activeTabData.title === "AI & Automation" && <TechnologyStack_AITransformation/>} 
+            {activeTabData.title === "Cybersecurity Solutions" && ""} 
+            {activeTabData.title === "Cloud Infrastructure" && ""} 
+            {/*  */}
+            {activeTabData.title === "AI & Automation" && <SuccessStory_AITransformation/>} 
+            {activeTabData.title === "Cybersecurity Solutions" && ""} 
+            {activeTabData.title === "Cloud Infrastructure" && ""} 
+            {/*  */}
+            <TestimonialSlider/>
+            {/*  */}
           </div>
+
+
+
+
         )}
       </div>
+    </div>
+
+
+
+
     </div>
   );
 }
