@@ -59,19 +59,19 @@ export default function Footer() {
                     <div className="h-0.5 w-11 bg-[#F8F8F8]"></div>
                     <div className='mt-6 space-y-3 flex items-center gap-2 text-sm text-[#FFF] font-parkinsans font-normal'>
                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-  <path d="M12.666 15C13.7706 15 14.666 14.1046 14.666 13C14.666 11.8954 13.7706 11 12.666 11C11.5614 11 10.666 11.8954 10.666 13C10.666 14.1046 11.5614 15 12.666 15Z" stroke="#F8F8F8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M12.666 15C13.7706 15 14.666 14.1046 14.666 13C14.666 11.8954 13.7706 11 12.666 11C11.5614 11 10.666 11.8954 10.666 13C10.666 14.1046 11.5614 15 12.666 15Z" stroke="#F8F8F8" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"/>
 </svg> AI & Automation 
 
                     </div>
                     <div className='mt-2 space-y-3 flex items-center gap-2 text-sm text-[#FFF] font-parkinsans font-normal'>
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-  <path d="M12.666 15C13.7706 15 14.666 14.1046 14.666 13C14.666 11.8954 13.7706 11 12.666 11C11.5614 11 10.666 11.8954 10.666 13C10.666 14.1046 11.5614 15 12.666 15Z" stroke="#F8F8F8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M12.666 15C13.7706 15 14.666 14.1046 14.666 13C14.666 11.8954 13.7706 11 12.666 11C11.5614 11 10.666 11.8954 10.666 13C10.666 14.1046 11.5614 15 12.666 15Z" stroke="#F8F8F8" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"/>
 </svg> Cybersecurity Solutions
 
                     </div>
                     <div className='mt-2 space-y-3 flex items-center gap-2 text-sm text-[#FFF] font-parkinsans font-normal'>
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-  <path d="M12.666 15C13.7706 15 14.666 14.1046 14.666 13C14.666 11.8954 13.7706 11 12.666 11C11.5614 11 10.666 11.8954 10.666 13C10.666 14.1046 11.5614 15 12.666 15Z" stroke="#F8F8F8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M12.666 15C13.7706 15 14.666 14.1046 14.666 13C14.666 11.8954 13.7706 11 12.666 11C11.5614 11 10.666 11.8954 10.666 13C10.666 14.1046 11.5614 15 12.666 15Z" stroke="#F8F8F8" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"/>
 </svg> Cloud Infrastructure 
 
                     </div>
@@ -83,31 +83,31 @@ export default function Footer() {
                   
                     <div className='mt-2 space-y-3 flex items-center gap-2 text-sm text-[#FFF] font-parkinsans font-normal'>
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-  <path d="M12.666 15C13.7706 15 14.666 14.1046 14.666 13C14.666 11.8954 13.7706 11 12.666 11C11.5614 11 10.666 11.8954 10.666 13C10.666 14.1046 11.5614 15 12.666 15Z" stroke="#F8F8F8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M12.666 15C13.7706 15 14.666 14.1046 14.666 13C14.666 11.8954 13.7706 11 12.666 11C11.5614 11 10.666 11.8954 10.666 13C10.666 14.1046 11.5614 15 12.666 15Z" stroke="#F8F8F8" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"/>
 </svg> Case Study
 
                     </div>
                     <div className='mt-2 space-y-3 flex items-center gap-2 text-sm text-[#FFF] font-parkinsans font-normal'>
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-  <path d="M12.666 15C13.7706 15 14.666 14.1046 14.666 13C14.666 11.8954 13.7706 11 12.666 11C11.5614 11 10.666 11.8954 10.666 13C10.666 14.1046 11.5614 15 12.666 15Z" stroke="#F8F8F8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M12.666 15C13.7706 15 14.666 14.1046 14.666 13C14.666 11.8954 13.7706 11 12.666 11C11.5614 11 10.666 11.8954 10.666 13C10.666 14.1046 11.5614 15 12.666 15Z" stroke="#F8F8F8" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"/>
 </svg> Blogs
 
                     </div>
                     <div className='mt-2 space-y-3 flex items-center gap-2 text-sm text-[#FFF] font-parkinsans font-normal'>
                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-  <path d="M12.666 15C13.7706 15 14.666 14.1046 14.666 13C14.666 11.8954 13.7706 11 12.666 11C11.5614 11 10.666 11.8954 10.666 13C10.666 14.1046 11.5614 15 12.666 15Z" stroke="#F8F8F8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M12.666 15C13.7706 15 14.666 14.1046 14.666 13C14.666 11.8954 13.7706 11 12.666 11C11.5614 11 10.666 11.8954 10.666 13C10.666 14.1046 11.5614 15 12.666 15Z" stroke="#F8F8F8" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"/>
 </svg> Career
 
                     </div>
                     <div className='mt-2 space-y-3 flex items-center gap-2 text-sm text-[#FFF] font-parkinsans font-normal'>
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-  <path d="M12.666 15C13.7706 15 14.666 14.1046 14.666 13C14.666 11.8954 13.7706 11 12.666 11C11.5614 11 10.666 11.8954 10.666 13C10.666 14.1046 11.5614 15 12.666 15Z" stroke="#F8F8F8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M12.666 15C13.7706 15 14.666 14.1046 14.666 13C14.666 11.8954 13.7706 11 12.666 11C11.5614 11 10.666 11.8954 10.666 13C10.666 14.1046 11.5614 15 12.666 15Z" stroke="#F8F8F8" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"/>
 </svg> Privacy Policy
 
                     </div>
                     <div className='mt-2 space-y-3 flex items-center gap-2 text-sm text-[#FFF] font-parkinsans font-normal'>
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-  <path d="M12.666 15C13.7706 15 14.666 14.1046 14.666 13C14.666 11.8954 13.7706 11 12.666 11C11.5614 11 10.666 11.8954 10.666 13C10.666 14.1046 11.5614 15 12.666 15Z" stroke="#F8F8F8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M12.666 15C13.7706 15 14.666 14.1046 14.666 13C14.666 11.8954 13.7706 11 12.666 11C11.5614 11 10.666 11.8954 10.666 13C10.666 14.1046 11.5614 15 12.666 15Z" stroke="#F8F8F8" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"/>
 </svg> Terms & Conditions 
 
                     </div>
@@ -128,6 +128,33 @@ export default function Footer() {
   <path d="M21.3333 4C23.1014 4 24.7971 4.70238 26.0474 5.95262C27.2976 7.20286 28 8.89856 28 10.6667V21.3333C28 23.1014 27.2976 24.7971 26.0474 26.0474C24.7971 27.2976 23.1014 28 21.3333 28H10.6667C8.89856 28 7.20286 27.2976 5.95262 26.0474C4.70238 24.7971 4 23.1014 4 21.3333V10.6667C4 8.89856 4.70238 7.20286 5.95262 5.95262C7.20286 4.70238 8.89856 4 10.6667 4H21.3333ZM16 10.6667C14.5855 10.6667 13.229 11.2286 12.2288 12.2288C11.2286 13.229 10.6667 14.5855 10.6667 16C10.6667 17.4145 11.2286 18.771 12.2288 19.7712C13.229 20.7714 14.5855 21.3333 16 21.3333C17.4145 21.3333 18.771 20.7714 19.7712 19.7712C20.7714 18.771 21.3333 17.4145 21.3333 16C21.3333 14.5855 20.7714 13.229 19.7712 12.2288C18.771 11.2286 17.4145 10.6667 16 10.6667ZM16 13.3333C16.7072 13.3333 17.3855 13.6143 17.8856 14.1144C18.3857 14.6145 18.6667 15.2928 18.6667 16C18.6667 16.7072 18.3857 17.3855 17.8856 17.8856C17.3855 18.3857 16.7072 18.6667 16 18.6667C15.2928 18.6667 14.6145 18.3857 14.1144 17.8856C13.6143 17.3855 13.3333 16.7072 13.3333 16C13.3333 15.2928 13.6143 14.6145 14.1144 14.1144C14.6145 13.6143 15.2928 13.3333 16 13.3333ZM22 8.66667C21.6464 8.66667 21.3072 8.80714 21.0572 9.05719C20.8071 9.30724 20.6667 9.64638 20.6667 10C20.6667 10.3536 20.8071 10.6928 21.0572 10.9428C21.3072 11.1929 21.6464 11.3333 22 11.3333C22.3536 11.3333 22.6928 11.1929 22.9428 10.9428C23.1929 10.6928 23.3333 10.3536 23.3333 10C23.3333 9.64638 23.1929 9.30724 22.9428 9.05719C22.6928 8.80714 22.3536 8.66667 22 8.66667Z" fill="#F8F8F8"/>
 </svg>
                     </div>
+                    {/*  */}
+                    <label className='relative'>
+                        <input className='mt-4 bg-white text-[#555] rounded-xl py-4 px-3' placeholder='Your Email Address'/>
+                        <button
+  className="absolute -top-2 right-2 px-2 py-2 rounded-lg"
+  style={{
+    background: "linear-gradient(142deg, #EC20FF -34.17%, rgba(177, 24, 191, 0.95) -13.05%, rgba(118, 16, 128, 0.90) 17.43%, rgba(111, 15, 119, 0.86) 22.16%, rgba(103, 14, 111, 0.83) 26.89%, rgba(88, 13, 95, 0.76) 33.29%, rgba(58, 10, 62, 0.62) 43.45%, rgba(57, 10, 62, 0.62) 47.12%, rgba(54, 10, 58, 0.60) 50.67%, rgba(51, 9, 55, 0.59) 54.59%, rgba(48, 9, 51, 0.57) 58.77%, rgba(44, 9, 47, 0.56) 62.37%, rgba(37, 8, 40, 0.52) 66.59%, rgba(24, 7, 26, 0.46) 76.5%, rgba(11, 5, 11, 0.40) 86.4%)"
+  }}
+> 
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none" 
+  >
+    <path
+      d="M19 12H6M19 12L15 16M19 12L15 8"
+      stroke="#F8F8F8"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+</button>
+
+                    </label>
                 </div>
             </div>
         </div>
