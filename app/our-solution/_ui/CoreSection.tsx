@@ -24,6 +24,7 @@ import OurCapabilities_CloudInfrastructure from "./OurCapabilities_CloudInfrastr
 import TechnologyStack_Cybersecurity from "./TechnologyStack_Cybersecurity";
 import SuccessStory_Cybersecurity from "./SuccessStory_Cybersecurity";
 import SuccessStory_CloudInfrastructure from "./SuccessStory_CloudInfrastructure";
+import AutomationJourney_Cybersecurity from "./AutomationJourney_Cybersecurity";
 
 interface TabItem {
   id: number;
@@ -206,7 +207,7 @@ export default function CoreSection() {
             <TestimonialSlider/>
             {/*  */}
             {activeTabData.title === "AI & Automation" && <AutomationJourney_AITransformation/>} 
-            {activeTabData.title === "Cybersecurity Solutions" && ""} 
+            {activeTabData.title === "Cybersecurity Solutions" && <AutomationJourney_Cybersecurity/>} 
             {activeTabData.title === "Cloud Infrastructure" && ""} 
             {/*  */}
             {activeTabData.title === "AI & Automation" && <FAQ_AITransformation/>} 

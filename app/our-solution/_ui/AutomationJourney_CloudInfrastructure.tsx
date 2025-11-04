@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import React from "react";
 
-export default function AutomationJourney_AITransformation() {
+export default function AutomationJourney_CloudInfrastructure() {
   return (
     <div className="bg-[#111111]">
       <div className="py-16 max-w-[1600px] mx-auto">
@@ -14,18 +14,19 @@ export default function AutomationJourney_AITransformation() {
           }}
         >
           <h1 className="text-[40px] text-primary-foreground font-bold font-orbitron w-fit mx-auto mt-4">
-            Start Your Automation Journey Today!
+            Accelerate Your Cloud Transformation!
           </h1>
           <p className="mt-6 text-lg font-normal text-center mx-auto font-parkinsans text-primary-foreground">
-            Embrace the future of business with AI-driven efficiency. Let’s
-            build intelligent systems that grow with you.
+            From strategy to implementation, TasteHub ITelligence helps you
+            build a modern, secure, and intelligent cloud foundation, designed
+            to evolve with your business.
           </p>
           <Link href="#">
             <Button
               className="font-normal px-5 py-6 flex items-center gap-2 mx-auto mt-6"
               variant="default"
             >
-              Book a Strategy Session{" "}
+              Start Your Cloud Journey
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"

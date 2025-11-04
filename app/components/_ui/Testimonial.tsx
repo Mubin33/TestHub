@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 export const StarIcon = () => (
   <svg
@@ -219,7 +219,7 @@ const TestimonialSlider: React.FC = () => {
                   }}
                   className="rounded-xl px-6 sm:px-12 py-10 sm:py-14 md:py-16 text-center shadow-xl w-full max-w-[1240px] flex flex-col md:flex-row items-center gap-6 md:gap-10"
                 >
-                  <div className="flex-shrink-0 w-36 sm:w-40 md:w-48 text-center">
+                  <div className="shrink-0 w-36 sm:w-40 md:w-48 text-center">
                     <Image
                       width={200}
                       height={200}
