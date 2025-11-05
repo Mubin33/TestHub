@@ -33,7 +33,7 @@ export default function OurCapabilities_Cybersecurity() {
             height={55}
             className="sm:w-[55px] sm:h-[65px]"
           />
-          <h4 className="text-transparent bg-clip-text bg-gradient-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
+          <h4 className="text-transparent bg-clip-text bg-linear-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
             Threat Detection & Response (XDR / SIEM)
           </h4>
         </div>
@@ -55,7 +55,7 @@ export default function OurCapabilities_Cybersecurity() {
             height={55}
             className="sm:w-[55px] sm:h-[65px]"
           />
-          <h4 className="text-transparent bg-clip-text bg-gradient-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
+          <h4 className="text-transparent bg-clip-text bg-linear-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
             Identity & Access Management (IAM)
           </h4>
         </div>
@@ -77,7 +77,7 @@ export default function OurCapabilities_Cybersecurity() {
             height={55}
             className="sm:w-[55px] sm:h-[65px]"
           />
-          <h4 className="text-transparent bg-clip-text bg-gradient-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
+          <h4 className="text-transparent bg-clip-text bg-linear-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
             Data Encryption & Backup
           </h4>
         </div>
@@ -102,7 +102,7 @@ export default function OurCapabilities_Cybersecurity() {
             height={55}
             className="sm:w-[55px] sm:h-[65px]"
           />
-          <h4 className="text-transparent bg-clip-text bg-gradient-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
+          <h4 className="text-transparent bg-clip-text bg-linear-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
             Vulnerability Assessment
           </h4>
         </div>
@@ -124,7 +124,7 @@ export default function OurCapabilities_Cybersecurity() {
             height={55}
             className="sm:w-[55px] sm:h-[65px]"
           />
-          <h4 className="text-transparent bg-clip-text bg-gradient-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
+          <h4 className="text-transparent bg-clip-text bg-linear-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
             Cloud & Network Security
           </h4>
         </div>
@@ -146,7 +146,7 @@ export default function OurCapabilities_Cybersecurity() {
             height={55}
             className="sm:w-[55px] sm:h-[65px]"
           />
-          <h4 className="text-transparent bg-clip-text bg-gradient-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
+          <h4 className="text-transparent bg-clip-text bg-linear-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
             Risk Assessment & Compliance Auditing
           </h4>
         </div>
@@ -171,7 +171,7 @@ export default function OurCapabilities_Cybersecurity() {
             height={55}
             className="sm:w-[55px] sm:h-[65px]"
           />
-          <h4 className="text-transparent bg-clip-text bg-gradient-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
+          <h4 className="text-transparent bg-clip-text bg-linear-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
             Penetration Testing
           </h4>
         </div>
@@ -193,7 +193,7 @@ export default function OurCapabilities_Cybersecurity() {
             height={55}
             className="sm:w-[55px] sm:h-[65px]"
           />
-          <h4 className="text-transparent bg-clip-text bg-gradient-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
+          <h4 className="text-transparent bg-clip-text bg-linear-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
             Endpoint Protection & Device Control
           </h4>
         </div>
@@ -215,7 +215,7 @@ export default function OurCapabilities_Cybersecurity() {
             height={55}
             className="sm:w-[55px] sm:h-[65px]"
           />
-          <h4 className="text-transparent bg-clip-text bg-gradient-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
+          <h4 className="text-transparent bg-clip-text bg-linear-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
             Cybersecurity Awareness & Training Programs
           </h4>
         </div>

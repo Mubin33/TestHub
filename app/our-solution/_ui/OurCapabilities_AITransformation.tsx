@@ -32,7 +32,7 @@ export default function OurCapabilities_AITransformation() {
             height={55}
             className="sm:w-[55px] sm:h-[65px]"
           />
-          <h4 className="text-transparent bg-clip-text bg-gradient-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
+          <h4 className="text-transparent bg-clip-text bg-linear-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
             Process Automation
           </h4>
         </div>
@@ -53,7 +53,7 @@ export default function OurCapabilities_AITransformation() {
             height={55}
             className="sm:w-[55px] sm:h-[65px]"
           />
-          <h4 className="text-transparent bg-clip-text bg-gradient-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
+          <h4 className="text-transparent bg-clip-text bg-linear-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
             Intelligent Document Processing
           </h4>
         </div>
@@ -77,7 +77,7 @@ export default function OurCapabilities_AITransformation() {
             height={55}
             className="sm:w-[55px] sm:h-[65px]"
           />
-          <h4 className="text-transparent bg-clip-text bg-gradient-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
+          <h4 className="text-transparent bg-clip-text bg-linear-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
             Machine Learning Development
           </h4>
         </div>
@@ -98,7 +98,7 @@ export default function OurCapabilities_AITransformation() {
             height={55}
             className="sm:w-[55px] sm:h-[65px]"
           />
-          <h4 className="text-transparent bg-clip-text bg-gradient-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
+          <h4 className="text-transparent bg-clip-text bg-linear-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
             Predictive Analytics & Business Insights
           </h4>
         </div>
@@ -122,7 +122,7 @@ export default function OurCapabilities_AITransformation() {
             height={55}
             className="sm:w-[55px] sm:h-[65px]"
           />
-          <h4 className="text-transparent bg-clip-text bg-gradient-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
+          <h4 className="text-transparent bg-clip-text bg-linear-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
             Natural Language Processing (NLP)
           </h4>
         </div>
@@ -143,7 +143,7 @@ export default function OurCapabilities_AITransformation() {
             height={55}
             className="sm:w-[55px] sm:h-[65px]"
           />
-          <h4 className="text-transparent bg-clip-text bg-gradient-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
+          <h4 className="text-transparent bg-clip-text bg-linear-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
             AI Powered Chatbots
           </h4>
         </div>

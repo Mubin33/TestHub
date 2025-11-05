@@ -91,7 +91,7 @@ export default function CoreSection() {
       <div className="bg-[#111111]">
         <div className="py-16">
           {/* Tabs */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 lg:gap-20 xl:gap-28 px-4 sm:px-6 lg:px-10 max-w-[1600px] mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 sm:gap-8 lg:gap-20 xl:gap-28 px-4 sm:px-6 lg:px-10 max-w-[1600px] mx-auto">
             {tabs.map((tab) => {
               const isActive = activeTab === tab.id;
               const isHovered = hoveredTab === tab.id;
@@ -115,7 +115,7 @@ export default function CoreSection() {
                     className="min-w-[100px] min-h-[100px] sm:min-w-[120px] sm:min-h-[120px] lg:min-w-[140px] lg:min-h-[140px] flex items-center justify-center rounded-2xl bg-cover bg-center transition-opacity duration-500"
                     style={{ backgroundImage: `url(${tab.tab_image})` }}
                   >
-                    <span className="group-hover:opacity-100 opacity-0 text-transparent bg-clip-text bg-gradient-to-r from-[#c20dd3f5] to-[#FFF] transition-opacity duration-500 ease-out text-lg sm:text-xl md:text-2xl">
+                    <span className="group-hover:opacity-100 opacity-0 text-transparent bg-clip-text bg-linear-to-r from-[#c20dd3f5] to-[#FFF] transition-opacity duration-500 ease-out text-lg sm:text-xl md:text-2xl">
                       Click
                     </span>
                   </div>
@@ -132,7 +132,7 @@ export default function CoreSection() {
           {/* Active Tab Title */}
           {activeTabData && (
             <div className="mt-20">
-              <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-11 gap-8 lg:gap-[60px] xl:gap-[80px] 2xl:gap-[104px] max-w-[1600px] mx-auto">
+              <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-11 gap-8 lg:gap-[60px] xl:gap-20 2xl:gap-[104px] max-w-[1600px] mx-auto">
                 {/* left side */}
                 <div className="col-span-1 md:col-span-1 lg:col-span-6 flex flex-col justify-center px-4 md:px-6 lg:px-0">
                   <div className="mt-10">

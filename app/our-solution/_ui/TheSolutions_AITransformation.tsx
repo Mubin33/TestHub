@@ -4,7 +4,7 @@ import React from "react";
 export default function TheSolutions_AITransformation() {
   return (
     <div className="bg-black">
-       <div className="py-16 sm:py-20 max-w-[1600px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-10 lg:gap-16 xl:gap-[80px] 2xl:gap-[104px] px-4 sm:px-6 lg:px-8">
+       <div className="py-16 sm:py-20 max-w-[1600px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-10 lg:gap-16 xl:gap-20 2xl:gap-[104px] px-4 sm:px-6 lg:px-8">
   {/* Left side */}
   <div className="col-span-1 flex flex-col justify-start items-center md:items-start text-center md:text-left">
     <div className="w-full md:w-fit mx-auto md:mx-0">
@@ -47,7 +47,7 @@ export default function TheSolutions_AITransformation() {
           height={55}
           className="sm:w-[55px] sm:h-[65px]"
         />
-        <h4 className="text-transparent bg-clip-text bg-gradient-to-r from-[#c20dd3f5] to-[#FFF] text-xl sm:text-2xl font-parkinsans font-semibold">
+        <h4 className="text-transparent bg-clip-text bg-linear-to-r from-[#c20dd3f5] to-[#FFF] text-xl sm:text-2xl font-parkinsans font-semibold">
           AI-Driven Process Automation
         </h4>
       </div>
@@ -72,7 +72,7 @@ export default function TheSolutions_AITransformation() {
           height={55}
           className="sm:w-[55px] sm:h-[65px]"
         />
-        <h4 className="text-transparent bg-clip-text bg-gradient-to-r from-[#c20dd3f5] to-[#FFF] text-xl sm:text-2xl font-parkinsans font-semibold">
+        <h4 className="text-transparent bg-clip-text bg-linear-to-r from-[#c20dd3f5] to-[#FFF] text-xl sm:text-2xl font-parkinsans font-semibold">
           Predictive Decision Systems
         </h4>
       </div>
@@ -97,7 +97,7 @@ export default function TheSolutions_AITransformation() {
           height={55}
           className="sm:w-[55px] sm:h-[65px]"
         />
-        <h4 className="text-transparent bg-clip-text bg-gradient-to-r from-[#c20dd3f5] to-[#FFF] text-xl sm:text-2xl font-parkinsans font-semibold">
+        <h4 className="text-transparent bg-clip-text bg-linear-to-r from-[#c20dd3f5] to-[#FFF] text-xl sm:text-2xl font-parkinsans font-semibold">
           Adaptive Workflows
         </h4>
       </div>
@@ -122,7 +122,7 @@ export default function TheSolutions_AITransformation() {
           height={55}
           className="sm:w-[55px] sm:h-[65px]"
         />
-        <h4 className="text-transparent bg-clip-text bg-gradient-to-r from-[#c20dd3f5] to-[#FFF] text-xl sm:text-2xl font-parkinsans font-semibold">
+        <h4 className="text-transparent bg-clip-text bg-linear-to-r from-[#c20dd3f5] to-[#FFF] text-xl sm:text-2xl font-parkinsans font-semibold">
           AI Strategy & Consulting
         </h4>
       </div>
@@ -147,7 +147,7 @@ export default function TheSolutions_AITransformation() {
           height={55}
           className="sm:w-[55px] sm:h-[65px]"
         />
-        <h4 className="text-transparent bg-clip-text bg-gradient-to-r from-[#c20dd3f5] to-[#FFF] text-xl sm:text-2xl font-parkinsans font-semibold">
+        <h4 className="text-transparent bg-clip-text bg-linear-to-r from-[#c20dd3f5] to-[#FFF] text-xl sm:text-2xl font-parkinsans font-semibold">
           Data Intelligence & Predictive Insights
         </h4>
       </div>

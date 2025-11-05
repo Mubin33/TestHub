@@ -33,7 +33,7 @@ export default function OurCapabilities_CloudInfrastructure() {
                   height={55}
                   className="sm:w-[55px] sm:h-[65px]"
                 />
-                <h4 className="text-transparent bg-clip-text bg-gradient-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
+                <h4 className="text-transparent bg-clip-text bg-linear-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
                   Multi Cloud & Hybrid Architecture Design
                 </h4>
               </div>
@@ -55,7 +55,7 @@ export default function OurCapabilities_CloudInfrastructure() {
                   height={55}
                   className="sm:w-[55px] sm:h-[65px]"
                 />
-                <h4 className="text-transparent bg-clip-text bg-gradient-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
+                <h4 className="text-transparent bg-clip-text bg-linear-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
                   Kubernetes & Container Management
                 </h4>
               </div>
@@ -80,7 +80,7 @@ export default function OurCapabilities_CloudInfrastructure() {
                   height={55}
                   className="sm:w-[55px] sm:h-[65px]"
                 />
-                <h4 className="text-transparent bg-clip-text bg-gradient-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
+                <h4 className="text-transparent bg-clip-text bg-linear-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
                   Cloud Migration & Modernization
                 </h4>
               </div>
@@ -102,7 +102,7 @@ export default function OurCapabilities_CloudInfrastructure() {
                   height={55}
                   className="sm:w-[55px] sm:h-[65px]"
                 />
-                <h4 className="text-transparent bg-clip-text bg-gradient-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
+                <h4 className="text-transparent bg-clip-text bg-linear-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
                   Cloud Security & Governance
                 </h4>
               </div>
@@ -127,7 +127,7 @@ export default function OurCapabilities_CloudInfrastructure() {
                   height={55}
                   className="sm:w-[55px] sm:h-[65px]"
                 />
-                <h4 className="text-transparent bg-clip-text bg-gradient-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
+                <h4 className="text-transparent bg-clip-text bg-linear-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
                   DevOps & Infrastructure Automation
                 </h4>
               </div>
@@ -149,7 +149,7 @@ export default function OurCapabilities_CloudInfrastructure() {
                   height={55}
                   className="sm:w-[55px] sm:h-[65px]"
                 />
-                <h4 className="text-transparent bg-clip-text bg-gradient-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
+                <h4 className="text-transparent bg-clip-text bg-linear-to-r from-[#c20dd3f5] to-[#FFF] text-lg sm:text-xl md:text-2xl font-parkinsans font-semibold">
                   Disaster Recovery & Cost Optimization
                 </h4>
               </div>
