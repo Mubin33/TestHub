@@ -31,33 +31,68 @@ function AccordionTrigger({
   ...props
 }: React.ComponentProps<typeof AccordionPrimitive.Trigger>) {
   return (
-    <AccordionPrimitive.Header className="flex">
-      <AccordionPrimitive.Trigger
-        data-slot="accordion-trigger"
-        className={cn(
-          "cursor-pointer flex flex-1 text-primary-foreground items-start justify-between gap-4 rounded-md py-4 text-left text-sm font-medium transition-all outline-none focus-visible:ring-[3px] disabled:pointer-events-none disabled:opacity-50 [&[data-state=open]>svg]:rotate-180",
-          className
-        )}
-        {...props}
-      >
-        {children}
-        {/* <ChevronDownIcon className="text-muted-foreground pointer-events-none size-4 shrink-0 translate-y-0.5 transition-transform duration-200" /> */}
-        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
-  <path d="M6.66675 16H25.3334" stroke="url(#paint0_linear_643_2405)" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"/>
-  <path d="M16 6.66699V25.3337" stroke="url(#paint1_linear_643_2405)" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"/>
-  <defs>
-    <linearGradient id="paint0_linear_643_2405" x1="6.66675" y1="16.5" x2="25.3334" y2="16.5" gradientUnits="userSpaceOnUse">
-      <stop stopColor="#EF48FF"/>
-      <stop offset="0.740385" stopColor="#FBF5FB" stopOpacity="0.4"/>
-    </linearGradient>
-    <linearGradient id="paint1_linear_643_2405" x1="16" y1="16.0003" x2="17" y2="16.0003" gradientUnits="userSpaceOnUse">
-      <stop stopColor="#EF48FF"/>
-      <stop offset="0.740385" stopColor="#FBF5FB" stopOpacity="0.4"/>
-    </linearGradient>
-  </defs>
-</svg>
-      </AccordionPrimitive.Trigger>
-    </AccordionPrimitive.Header>
+   <AccordionPrimitive.Header className="flex">
+  <AccordionPrimitive.Trigger
+    data-slot="accordion-trigger"
+    className={cn(
+      "cursor-pointer flex flex-1 text-primary-foreground items-start justify-between gap-4 rounded-md py-4 text-left text-sm font-medium transition-all outline-none focus-visible:ring-[3px] disabled:pointer-events-none disabled:opacity-50 [&[data-state=open]>svg]:rotate-45", // rotate 90° when open
+      "transition-transform duration-300", // smooth animation
+      className
+    )}
+    {...props}
+  >
+    {children}
+
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="32"
+      height="32"
+      viewBox="0 0 32 32"
+      fill="none"
+      className="transition-transform duration-300" // adds smooth rotation
+    >
+      <path
+        d="M6.66675 16H25.3334"
+        stroke="url(#paint0_linear_643_2405)"
+        strokeWidth="4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M16 6.66699V25.3337"
+        stroke="url(#paint1_linear_643_2405)"
+        strokeWidth="4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <defs>
+        <linearGradient
+          id="paint0_linear_643_2405"
+          x1="6.66675"
+          y1="16.5"
+          x2="25.3334"
+          y2="16.5"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#EF48FF" />
+          <stop offset="0.740385" stopColor="#FBF5FB" stopOpacity="0.4" />
+        </linearGradient>
+        <linearGradient
+          id="paint1_linear_643_2405"
+          x1="16"
+          y1="16.0003"
+          x2="17"
+          y2="16.0003"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#EF48FF" />
+          <stop offset="0.740385" stopColor="#FBF5FB" stopOpacity="0.4" />
+        </linearGradient>
+      </defs>
+    </svg>
+  </AccordionPrimitive.Trigger>
+</AccordionPrimitive.Header>
+
   )
 }
 
