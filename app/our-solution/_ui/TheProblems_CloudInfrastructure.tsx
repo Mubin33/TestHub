@@ -11,7 +11,7 @@ export default function TheProblems_CloudInfrastructure() {
           </h1>
           <div className="h-1 w-80 bg-white"></div>
           <p className="mt-6 text-lg font-normal max-w-[784px] text-center mx-auto font-parkinsans text-primary-foreground">
-           Legacy Infrastructure can&apos;t  Power the future
+            Legacy Infrastructure can&apos;t Power the future
           </p>
         </div>
 
@@ -35,8 +35,8 @@ export default function TheProblems_CloudInfrastructure() {
               high Downtime Risks
             </h4>
             <p className="text-sm sm:text-base md:text-lg font-normal text-center font-parkinsans text-primary-foreground mt-3">
-            Rigid infrastructure reduces uptime and scalability
-              </p>
+              Rigid infrastructure reduces uptime and scalability
+            </p>
           </div>
 
           {/*  */}
@@ -58,7 +58,7 @@ export default function TheProblems_CloudInfrastructure() {
               Complex Multi Cloud Management
             </h4>
             <p className="text-sm sm:text-base md:text-lg font-normal text-center font-parkinsans text-primary-foreground mt-3">
-               Fragmented platforms increase costs and security gaps.
+              Fragmented platforms increase costs and security gaps.
             </p>
           </div>
 
@@ -78,7 +78,7 @@ export default function TheProblems_CloudInfrastructure() {
               height={65}
             />
             <h4 className="text-center text-lg sm:text-xl md:text-2xl font-parkinsans font-normal text-primary-foreground">
-             Ineficient Resource Utilization
+              Ineficient Resource Utilization
             </h4>
             <p className="text-sm sm:text-base md:text-lg font-normal text-center font-parkinsans text-primary-foreground mt-3">
               Overprovisioned systems waste operational budgets
@@ -100,7 +100,7 @@ export default function TheProblems_CloudInfrastructure() {
               height={65}
             />
             <h4 className="text-center text-lg sm:text-xl md:text-2xl font-parkinsans font-normal text-primary-foreground">
-             Slow Deployment
+              Slow Deployment
             </h4>
             <p className="text-sm sm:text-base md:text-lg font-normal text-center font-parkinsans text-primary-foreground mt-3">
               manual configurations block DevOps velocity

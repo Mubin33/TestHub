@@ -11,7 +11,7 @@ export default function TheProblems_Cybersecurity() {
           </h1>
           <div className="h-1 w-80 bg-white"></div>
           <p className="mt-6 text-sm sm:text-base md:text-lg font-normal max-w-[784px] text-center mx-auto font-parkinsans text-primary-foreground">
-           Ensolving threats Demand Evolving Security
+            Ensolving threats Demand Evolving Security
           </p>
         </div>
 
@@ -36,7 +36,7 @@ export default function TheProblems_Cybersecurity() {
             </h4>
             <p className="text-sm sm:text-base md:text-lg font-normal text-center font-parkinsans text-primary-foreground mt-3">
               Multi cloud and hybrid networks increase vulnerability
-              </p>
+            </p>
           </div>
 
           {/*  */}
@@ -55,10 +55,10 @@ export default function TheProblems_Cybersecurity() {
               height={65}
             />
             <h4 className="text-center text-lg sm:text-xl md:text-2xl font-parkinsans font-normal text-primary-foreground">
-              Ransomeware & Insider  threats
+              Ransomeware & Insider threats
             </h4>
             <p className="text-sm sm:text-base md:text-lg font-normal text-center font-parkinsans text-primary-foreground mt-3">
-               Breaches often come from within or through automation gaps.
+              Breaches often come from within or through automation gaps.
             </p>
           </div>
 
