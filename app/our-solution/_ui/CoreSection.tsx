@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import TheProblems_AITransformation from "./TheProblems_AITransformation";
 import TheProblems_Cybersecurity from "./TheProblems_Cybersecurity";
 import TheProblems_CloudInfrastructure from "./TheProblems_CloudInfrastructure";
@@ -84,11 +84,66 @@ export default function CoreSection() {
   const gradient =
     "linear-gradient(142deg, rgba(188, 25, 203, 0.96) -5.65%, rgba(185, 25, 199, 0.96) 16.09%, #F8F8F8 18.21%, rgba(177, 24, 191, 0.95) 32.68%, rgba(107, 16, 116, 0.74) 51.85%, rgba(37, 8, 40, 0.52) 77.92%, rgba(24, 7, 26, 0.46) 79.57%, rgba(11, 5, 11, 0.40) 86.65%)";
 
+  // const activeTabData = tabs.find((tab) => tab.id === activeTab);
+
   const activeTabData = tabs.find((tab) => tab.id === activeTab);
+
+  // ✅ Hash → number → setActiveTab
+  // useEffect(() => {
+  //   const setTabFromHash = () => {
+  //     const hash = window.location.hash?.replace("?", "");
+  //     const tabNumber = Number(hash);
+
+  //     if (!isNaN(tabNumber) && tabNumber >= 1 && tabNumber <= tabs.length) {
+  //       setActiveTab(tabNumber);
+  //     } else {
+  //       setActiveTab(1);
+  //     }
+  //   };
+
+  //   setTabFromHash();
+  //   window.addEventListener("hashchange", setTabFromHash);
+  //   return () => window.removeEventListener("hashchange", setTabFromHash);
+  // }, [tabs.length]);
+
+
+  useEffect(() => {
+  const setTabFromURL = () => {
+    const url = new URL(window.location.href);
+    const section = url.search.replace("?", "");  
+    const hash = url.hash.replace("#", "");  
+ 
+    if (section === "core_section") {
+      const tabNumber = Number(hash);
+      if (!isNaN(tabNumber) && tabNumber >= 1 && tabNumber <= tabs.length) {
+        setActiveTab(tabNumber);
+      } else {
+        setActiveTab(1);
+      }
+
+      // smooth scroll to section
+      const sectionEl = document.getElementById(section);
+      if (sectionEl) {
+        sectionEl.scrollIntoView({ behavior: "smooth" });
+      }
+    } else { 
+      setActiveTab(1);
+    }
+  };
+
+  setTabFromURL();
+  window.addEventListener("hashchange", setTabFromURL);
+  window.addEventListener("popstate", setTabFromURL);
+
+  return () => {
+    window.removeEventListener("hashchange", setTabFromURL);
+    window.removeEventListener("popstate", setTabFromURL);
+  };
+}, [tabs.length]);
 
   return (
     <div>
-      <div className="bg-[#111111]">
+      <div className="bg-[#111111]" id="core_section">
         <div className="py-16">
           {/* Tabs */}
           <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 sm:gap-8 lg:gap-20 xl:gap-28 px-4 sm:px-6 lg:px-10 max-w-[1600px] mx-auto">

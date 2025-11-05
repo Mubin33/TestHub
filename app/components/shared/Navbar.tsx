@@ -21,14 +21,14 @@ export default function Navbar() {
       <div className="h-20 flex items-center justify-between px-6 sm:px-10 md:px-16 lg:px-24 xl:px-32">
         {/* Logo */}
         <Link href="/">
-        <Image
-          src="/testhub_logo.png"
-          alt="Logo"
-          width={145}
-          height={56}
-          className="w-[120px] sm:w-[140px] md:w-[145px] h-auto"
+          <Image
+            src="/testhub_logo.png"
+            alt="Logo"
+            width={145}
+            height={56}
+            className="w-[120px] sm:w-[140px] md:w-[145px] h-auto"
           />
-          </Link>
+        </Link>
 
         {/* Desktop Menu */}
         <div className="hidden lg:flex items-center space-x-8">
@@ -54,10 +54,59 @@ export default function Navbar() {
               </div>
             </DropdownMenuTrigger>
             <DropdownMenuContent className="w-56" align="start">
-              <DropdownMenuLabel>Our Services</DropdownMenuLabel>
-              <DropdownMenuItem>AI Solutions</DropdownMenuItem>
-              <DropdownMenuItem>Cybersecurity</DropdownMenuItem>
-              <DropdownMenuItem>Cloud Infrastructure</DropdownMenuItem>
+              <Link href="/our-solution?core_section#1">
+                <DropdownMenuItem>
+                  AI & Automation{" "}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="15"
+                    height="13"
+                    viewBox="0 0 15 13"
+                    fill="none"
+                  >
+                    <path
+                      d="M14.134 7.13416C14.3678 6.89935 14.499 6.5815 14.499 6.25016C14.499 5.91883 14.3678 5.60098 14.134 5.36617L9.13403 0.366165C9.01794 0.250077 8.88012 0.15799 8.72845 0.0951633C8.57677 0.0323367 8.4142 0 8.25003 0C7.91846 0 7.60048 0.131714 7.36603 0.366165C7.13158 0.600617 6.99986 0.918601 6.99986 1.25016C6.99986 1.58173 7.13158 1.89971 7.36603 2.13416L10.232 5.00016H1.25003C0.918508 5.00016 0.600565 5.13186 0.366144 5.36628C0.131723 5.6007 2.86102e-05 5.91864 2.86102e-05 6.25016C2.86102e-05 6.58169 0.131723 6.89963 0.366144 7.13405C0.600565 7.36847 0.918508 7.50016 1.25003 7.50016H10.232L7.36603 10.3662C7.24994 10.4823 7.15785 10.6201 7.09503 10.7717C7.0322 10.9234 6.99986 11.086 6.99986 11.2502C6.99986 11.4143 7.0322 11.5769 7.09503 11.7286C7.15785 11.8803 7.24994 12.0181 7.36603 12.1342C7.48212 12.2503 7.61993 12.3423 7.77161 12.4052C7.92329 12.468 8.08585 12.5003 8.25003 12.5003C8.4142 12.5003 8.57677 12.468 8.72845 12.4052C8.88012 12.3423 9.01794 12.2503 9.13403 12.1342L14.134 7.13416Z"
+                      fill="#EC20FF"
+                    />
+                  </svg>
+                </DropdownMenuItem>
+              </Link>
+              {/*  */}
+              <Link href="/our-solution?core_section#2">
+                <DropdownMenuItem>
+                  Cybersecurity Solutions{" "}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="15"
+                    height="13"
+                    viewBox="0 0 15 13"
+                    fill="none"
+                  >
+                    <path
+                      d="M14.134 7.13416C14.3678 6.89935 14.499 6.5815 14.499 6.25016C14.499 5.91883 14.3678 5.60098 14.134 5.36617L9.13403 0.366165C9.01794 0.250077 8.88012 0.15799 8.72845 0.0951633C8.57677 0.0323367 8.4142 0 8.25003 0C7.91846 0 7.60048 0.131714 7.36603 0.366165C7.13158 0.600617 6.99986 0.918601 6.99986 1.25016C6.99986 1.58173 7.13158 1.89971 7.36603 2.13416L10.232 5.00016H1.25003C0.918508 5.00016 0.600565 5.13186 0.366144 5.36628C0.131723 5.6007 2.86102e-05 5.91864 2.86102e-05 6.25016C2.86102e-05 6.58169 0.131723 6.89963 0.366144 7.13405C0.600565 7.36847 0.918508 7.50016 1.25003 7.50016H10.232L7.36603 10.3662C7.24994 10.4823 7.15785 10.6201 7.09503 10.7717C7.0322 10.9234 6.99986 11.086 6.99986 11.2502C6.99986 11.4143 7.0322 11.5769 7.09503 11.7286C7.15785 11.8803 7.24994 12.0181 7.36603 12.1342C7.48212 12.2503 7.61993 12.3423 7.77161 12.4052C7.92329 12.468 8.08585 12.5003 8.25003 12.5003C8.4142 12.5003 8.57677 12.468 8.72845 12.4052C8.88012 12.3423 9.01794 12.2503 9.13403 12.1342L14.134 7.13416Z"
+                      fill="#EC20FF"
+                    />
+                  </svg>
+                </DropdownMenuItem>
+              </Link>
+              {/*  */}
+              <Link href="/our-solution?core_section#3">
+                <DropdownMenuItem>
+                  Cloud Infrastructure{" "}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="15"
+                    height="13"
+                    viewBox="0 0 15 13"
+                    fill="none"
+                  >
+                    <path
+                      d="M14.134 7.13416C14.3678 6.89935 14.499 6.5815 14.499 6.25016C14.499 5.91883 14.3678 5.60098 14.134 5.36617L9.13403 0.366165C9.01794 0.250077 8.88012 0.15799 8.72845 0.0951633C8.57677 0.0323367 8.4142 0 8.25003 0C7.91846 0 7.60048 0.131714 7.36603 0.366165C7.13158 0.600617 6.99986 0.918601 6.99986 1.25016C6.99986 1.58173 7.13158 1.89971 7.36603 2.13416L10.232 5.00016H1.25003C0.918508 5.00016 0.600565 5.13186 0.366144 5.36628C0.131723 5.6007 2.86102e-05 5.91864 2.86102e-05 6.25016C2.86102e-05 6.58169 0.131723 6.89963 0.366144 7.13405C0.600565 7.36847 0.918508 7.50016 1.25003 7.50016H10.232L7.36603 10.3662C7.24994 10.4823 7.15785 10.6201 7.09503 10.7717C7.0322 10.9234 6.99986 11.086 6.99986 11.2502C6.99986 11.4143 7.0322 11.5769 7.09503 11.7286C7.15785 11.8803 7.24994 12.0181 7.36603 12.1342C7.48212 12.2503 7.61993 12.3423 7.77161 12.4052C7.92329 12.468 8.08585 12.5003 8.25003 12.5003C8.4142 12.5003 8.57677 12.468 8.72845 12.4052C8.88012 12.3423 9.01794 12.2503 9.13403 12.1342L14.134 7.13416Z"
+                      fill="#EC20FF"
+                    />
+                  </svg>
+                </DropdownMenuItem>
+              </Link>
             </DropdownMenuContent>
           </DropdownMenu>
 
@@ -119,24 +168,6 @@ export default function Navbar() {
   );
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // import Image from "next/image";
 // import {
 //   DropdownMenu,
@@ -167,9 +198,9 @@ export default function Navbar() {
 //                     height="24"
 //                     viewBox="0 0 24 24"
 //                     fill="none"
-//                     className="transition-all duration-300 ease-out 
-//                stroke-current 
-//                text-primary-foreground 
+//                     className="transition-all duration-300 ease-out
+//                stroke-current
+//                text-primary-foreground
 //                group-hover:text-[#7c4b81]  "
 //                   >
 //                     <path
@@ -183,7 +214,7 @@ export default function Navbar() {
 //               <DropdownMenuContent className="w-56" align="start">
 //                 <DropdownMenuLabel>My Account</DropdownMenuLabel>
 //                 <DropdownMenuItem>GitHub</DropdownMenuItem>
-//                 <DropdownMenuItem>Support</DropdownMenuItem> 
+//                 <DropdownMenuItem>Support</DropdownMenuItem>
 //               </DropdownMenuContent>
 //             </DropdownMenu>
 //           </div>

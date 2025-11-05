@@ -89,62 +89,70 @@ export default function Footer() {
               Services
             </h6>
             <div className="h-0.5 w-11 bg-[#F8F8F8]"></div>
-            <div className="mt-6 space-y-3 flex items-center gap-2 text-sm text-[#FFF] font-parkinsans font-normal">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-              >
-                <path
-                  d="M12.666 15C13.7706 15 14.666 14.1046 14.666 13C14.666 11.8954 13.7706 11 12.666 11C11.5614 11 10.666 11.8954 10.666 13C10.666 14.1046 11.5614 15 12.666 15Z"
-                  stroke="#F8F8F8"
-                  strokeWidth="4"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>{" "}
-              AI & Automation
-            </div>
-            <div className="mt-2 space-y-3 flex items-center gap-2 text-sm text-[#FFF] font-parkinsans font-normal">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-              >
-                <path
-                  d="M12.666 15C13.7706 15 14.666 14.1046 14.666 13C14.666 11.8954 13.7706 11 12.666 11C11.5614 11 10.666 11.8954 10.666 13C10.666 14.1046 11.5614 15 12.666 15Z"
-                  stroke="#F8F8F8"
-                  strokeWidth="4"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />{" "}
-              </svg>{" "}
-              Cybersecurity Solutions{" "}
-            </div>{" "}
-            <div className="mt-2 space-y-3 flex items-center gap-2 text-sm text-[#FFF] font-parkinsans font-normal">
-              {" "}
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-              >
+            <Link href="/our-solution?core_section#1">
+              <div className="mt-6 space-y-3 flex items-center gap-2 text-sm text-[#FFF] font-parkinsans font-normal">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M12.666 15C13.7706 15 14.666 14.1046 14.666 13C14.666 11.8954 13.7706 11 12.666 11C11.5614 11 10.666 11.8954 10.666 13C10.666 14.1046 11.5614 15 12.666 15Z"
+                    stroke="#F8F8F8"
+                    strokeWidth="4"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>{" "}
+                AI & Automation
+              </div>
+            </Link>
+            {/*  */}
+            <Link href="/our-solution?core_section#2">
+              <div className="mt-2 space-y-3 flex items-center gap-2 text-sm text-[#FFF] font-parkinsans font-normal">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M12.666 15C13.7706 15 14.666 14.1046 14.666 13C14.666 11.8954 13.7706 11 12.666 11C11.5614 11 10.666 11.8954 10.666 13C10.666 14.1046 11.5614 15 12.666 15Z"
+                    stroke="#F8F8F8"
+                    strokeWidth="4"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />{" "}
+                </svg>{" "}
+                Cybersecurity Solutions{" "}
+              </div>{" "}
+            </Link>
+            {/*  */}
+            <Link href="/our-solution?core_section#3">
+              <div className="mt-2 space-y-3 flex items-center gap-2 text-sm text-[#FFF] font-parkinsans font-normal">
                 {" "}
-                <path
-                  d="M12.666 15C13.7706 15 14.666 14.1046 14.666 13C14.666 11.8954 13.7706 11 12.666 11C11.5614 11 10.666 11.8954 10.666 13C10.666 14.1046 11.5614 15 12.666 15Z"
-                  stroke="#F8F8F8"
-                  strokeWidth="4"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />{" "}
-              </svg>{" "}
-              Cloud Infrastructure{" "}
-            </div>{" "}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  {" "}
+                  <path
+                    d="M12.666 15C13.7706 15 14.666 14.1046 14.666 13C14.666 11.8954 13.7706 11 12.666 11C11.5614 11 10.666 11.8954 10.666 13C10.666 14.1046 11.5614 15 12.666 15Z"
+                    stroke="#F8F8F8"
+                    strokeWidth="4"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />{" "}
+                </svg>{" "}
+                Cloud Infrastructure{" "}
+              </div>{" "}
+            </Link>
           </div>{" "}
           {/* Quick Links */}{" "}
           <div>
