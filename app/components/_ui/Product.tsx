@@ -67,29 +67,29 @@ export default function Product() {
           </div> */}
              <div className='grid grid-cols-1 2xl:grid-cols-11 gap-[166px] max-w-[1600px] mx-auto mt-10'>
       <div className='2xl:col-span-6'>
-           <h1 className="text-[40px] text-primary-foreground font-bold font-orbitron max-w-[988px] mx-auto">Employee <br /> Management Portal</h1>
-  <p className="mt-2 text-2xl text-primary-foreground font-normal max-w-[958px] mx-auto font-parkinsans">Smarter HR Management in One Platform</p>
+           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[30px] xl:text-[40px] text-primary-foreground font-bold font-orbitron max-w-[988px] mx-auto">Employee <br /> Management Portal</h1>
+  <p className="mt-2 text-base sm:text-lg md:text-xl lg:text-2xl text-primary-foreground font-normal max-w-[958px] mx-auto font-parkinsans">Smarter HR Management in One Platform</p>
   <div className='flex flex-wrap gap-10 items-center justify-center mt-6'>
   <div className='w-[242px] rounded-xl h-44 bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] p-6 space-y-1'>
       <Image src="/performance_report_unscreen.gif" alt="performance_report_unscreen Icon"  width={55} height={65} />
-      <p className='font-parkinsans font-normal text-2xl text-primary-foreground'>Performance & Evaluation Tools</p>
+      <p className='font-parkinsans font-normal text-base sm:text-lg md:text-xl lg:text-2xl text-primary-foreground'>Performance & Evaluation Tools</p>
   </div>
 
  <div className='w-[242px] rounded-xl h-44 bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] p-6 space-y-1'>
       <Image src="/self-service-unscreen.gif" alt="self-service-unscreen Icon"  width={55} height={65} />
-      <p className='font-parkinsans font-normal text-2xl text-primary-foreground'>Employee Self Service Portal</p>
+      <p className='font-parkinsans font-normal text-base sm:text-lg md:text-xl lg:text-2xl text-primary-foreground'>Employee Self Service Portal</p>
   </div>
   <div className='w-[242px] rounded-xl h-44 bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] p-6 space-y-1'>
       <Image src="/folder-unscreen.gif" alt="folder-unscreen Icon"  width={55} height={65} />
-      <p className='font-parkinsans font-normal text-2xl text-primary-foreground'>Secure Data Management</p>
+      <p className='font-parkinsans font-normal text-base sm:text-lg md:text-xl lg:text-2xl text-primary-foreground'>Secure Data Management</p>
   </div>
   <div className='w-[282px] rounded-xl h-44 bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] p-6 space-y-1'>
       <Image src="/salary-increase-unscreen.gif" alt="salary-increase-unscreen Icon"  width={55} height={65} />
-      <p className='font-parkinsans font-normal text-2xl text-primary-foreground'>Automated Payroll & Tax Compliance</p>
+      <p className='font-parkinsans font-normal text-base sm:text-lg md:text-xl lg:text-2xl text-primary-foreground'>Automated Payroll & Tax Compliance</p>
   </div>
   <div className='w-[282px] rounded-xl h-44 bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] p-6 space-y-1'>
       <Image src="/finder-unscreen.gif" alt="finder-unscreen Icon"  width={55} height={65} />
-      <p className='font-parkinsans font-normal text-2xl text-primary-foreground'>Smart Attendance & Leave Tracking</p>
+      <p className='font-parkinsans font-normal text-base sm:text-lg md:text-xl lg:text-2xl text-primary-foreground'>Smart Attendance & Leave Tracking</p>
   </div>
   </div>
       </div>
