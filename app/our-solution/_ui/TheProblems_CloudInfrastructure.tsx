@@ -6,7 +6,7 @@ export default function TheProblems_CloudInfrastructure() {
     <div className="bg-[#111111]">
       <div className="py-16 max-w-[1600px] mx-auto">
         <div className="w-fit mx-auto mt-10">
-          <h1 className="text-[40px] text-primary-foreground font-bold font-orbitron max-w-[988px]">
+          <h1 className="text-2xl sm:text-3xl md:text-[32px] lg:text-[36px] xl:text-[40px] text-primary-foreground font-bold font-orbitron max-w-[988px]">
             The Problems we solve
           </h1>
           <div className="h-1 w-80 bg-white"></div>

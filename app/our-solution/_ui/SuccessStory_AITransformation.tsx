@@ -20,7 +20,7 @@ export default function SuccessStory_AITransformation() {
 
 
         {/* content */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 py-14 px-10 bg-linear-to-r from-[#222631] via-[#454545] to-black rounded-3xl max-w-[1120px] mx-auto mt-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-1 lg:gap-20 py-5 lg:py-14 px-5 lg:px-10 bg-linear-to-r from-[#222631] via-[#454545] to-black rounded-3xl max-w-[1120px] mx-auto mt-10">
               <Image
                 src="/AI-Powered.png"
                 alt="AI-Powered"
@@ -29,10 +29,10 @@ export default function SuccessStory_AITransformation() {
               />
               <div className="flex flex-col justify-between">
                 <div>
-                  <h4 className="text-2xl text-primary-foreground font-semibold font-parkinsans mt-3">
+                  <h4 className="text-lg md:text-xl lg:text-2xl text-primary-foreground font-semibold font-parkinsans mt-3">
                     AI-Powered Predictive Intelligence for a Global Manufacturing Leader
                   </h4>
-                  <p className="text-lg text-primary-foreground font-normal font-parkinsans mt-4">
+                  <p className="text-sm md:text-base lg:text-lg text-primary-foreground font-normal font-parkinsans mt-4">
                    TasteHub implemented AI-powered process automation for a global manufacturing client, enabling them to automate 65% of their manual operations and increase production efficiency by 42%. The result? A faster, more intelligent, and cost-effective business model.
                   </p>
                 </div>

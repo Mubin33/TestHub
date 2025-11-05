@@ -7,12 +7,12 @@ export default function Service() {
     <div className="bg-[#111111]">
       <div className="py-[120px] max-w-[1600px] mx-auto">
         <div className="w-fit mx-auto mt-20">
-          <h1 className="text-[40px] text-primary-foreground font-bold font-orbitron max-w-[988px]">
+          <h1 className="text-2xl sm:text-3xl md:text-[32px] lg:text-[36px] xl:text-[40px] text-primary-foreground font-bold font-orbitron max-w-[988px]">
             Service
           </h1>
           <div className="h-1 w-32 bg-white"></div>
         </div>
-        <h1 className="text-[40px] text-primary-foreground font-bold font-orbitron max-w-[988px] w-fit mx-auto mt-3">
+        <h1 className="text-2xl sm:text-3xl md:text-[32px] lg:text-[36px] xl:text-[40px] text-primary-foreground font-bold font-orbitron max-w-[988px] w-fit mx-auto mt-3">
           Our Core Expertise
         </h1>
         {/*  */}

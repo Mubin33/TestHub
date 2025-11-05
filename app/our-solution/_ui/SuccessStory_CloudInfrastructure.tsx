@@ -20,7 +20,7 @@ export default function SuccessStory_CloudInfrastructure() {
 
 
         {/* content */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 py-14 px-10 bg-linear-to-r from-[#222631] via-[#454545] to-black rounded-3xl max-w-[1120px] mx-auto mt-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2  gap-1 lg:gap-20 py-5 lg:py-14 px-5 lg:px-10 bg-linear-to-r from-[#222631] via-[#454545] to-black rounded-3xl max-w-[1120px] mx-auto mt-10">
               <Image
                 src="/Global_Cloud_Infrastructure_Modernization_for_a_Logistics_Enterprise.png"
                 alt="Global_Cloud_Infrastructure_Modernization_for_a_Logistics_Enterprise"
@@ -29,10 +29,10 @@ export default function SuccessStory_CloudInfrastructure() {
               />
               <div className="flex flex-col justify-between">
                 <div>
-                  <h4 className="text-2xl text-primary-foreground font-semibold font-parkinsans mt-3">
+                  <h4 className="text-lg md:text-xl lg:text-2xl text-primary-foreground font-semibold font-parkinsans mt-3">
                     Global Cloud Infrastructure Modernization for a Logistics Enterprise
                   </h4>
-                  <p className="text-lg text-primary-foreground font-normal font-parkinsans mt-4">
+                  <p className="text-sm md:text-base lg:text-lg text-primary-foreground font-normal font-parkinsans mt-4">
                    A leading logistics enterprise partnered with TasteHub ITelligence to modernize its on-prem infrastructure. Our team designed a multi cloud environment leveraging AWS and Azure, automating DevOps pipelines for continuous delivery and achieving zero downtime during migration. The result — faster deployment, enhanced security, and operational cost savings of 35%. </p>
                 </div>
                 <Link href="#">

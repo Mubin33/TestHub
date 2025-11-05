@@ -6,12 +6,12 @@ export default function CaseStudy() {
     <div className="bg-[#111111]" id="case_study">
       <div className="py-5 max-w-[1600px] mx-auto">
         <div className="w-fit mx-auto mt-20">
-          <h1 className="text-[40px] text-primary-foreground font-bold font-orbitron max-w-[988px]">
+          <h1 className="text-2xl sm:text-3xl md:text-[32px] lg:text-[36px] xl:text-[40px] text-primary-foreground font-bold font-orbitron max-w-[988px]">
             Case Study
           </h1>
           <div className="h-1 w-48 bg-white"></div>
         </div>
-        <h1 className="text-[40px] text-primary-foreground font-bold font-orbitron max-w-[988px] w-fit mx-auto mt-3">
+        <h1 className="text-2xl sm:text-3xl md:text-[32px] lg:text-[36px] xl:text-[40px] text-primary-foreground font-bold font-orbitron max-w-[988px] w-fit mx-auto mt-3">
           Our Impact in Action
         </h1>
 
@@ -26,11 +26,11 @@ export default function CaseStudy() {
               width={505}
               height={386}
             />
-            <h4 className="text-2xl text-primary-foreground font-semibold font-parkinsans">
+            <h4 className="text-base md:text-lg lg:text-2xl text-primary-foreground font-semibold font-parkinsans">
               AI-Powered Predictive Intelligence for a Global Manufacturing
               Leader
             </h4>
-            <p className="text-lg text-primary-foreground font-normal font-parkinsans mt-6">
+            <p className="text-sm md:text-base lg:text-lg text-primary-foreground font-normal font-parkinsans mt-6">
               TasteHub ITelligence designed and deployed an AI & Automation
               solution integrated with the client’s existing MES (Manufacturing
               Execution System). Using real time sensor data, computer vision,
@@ -58,7 +58,7 @@ export default function CaseStudy() {
             </Button>
           </div>
           {/*  */}
-          <div className="xl:col-span-7 flex flex-col justify-between">
+          <div className="xl:col-span-7 flex flex-col gap-9 justify-between">
             <div className="grid md:grid-cols-2 gap-5 py-10 px-4 xl:px-6 bg-linear-to-r from-[#222631] via-[#454545] to-black rounded-3xl">
               <Image
                 src="/Cybersecurity_Modernization_for_a_Global_Fintech_Platform.png"
@@ -68,16 +68,16 @@ export default function CaseStudy() {
               />
               <div className="flex flex-col justify-between">
                 <div>
-                  <h4 className="text-2xl text-primary-foreground font-semibold font-parkinsans mt-3">
+                  <h4 className="text-base md:text-lg lg:text-2xl text-primary-foreground font-semibold font-parkinsans mt-3">
                     Cybersecurity Modernization for a Global Fintech Platform
                   </h4>
-                  <p className="text-lg text-primary-foreground font-normal font-parkinsans mt-4">
+                  <p className="text-sm md:text-base lg:text-lg text-primary-foreground font-normal font-parkinsans mt-4">
                     TasteHub ITelligence deployed a Zero Trust Security
                     Architecture supported by AI driven monitoring and .......
                   </p>
                 </div>
                 <Button
-                  className="group mt-full w-fit mb-0 px-7 py-5 flex items-center gap-2"
+                  className="group mt-9 lg:mt-full w-fit mb-0 px-7 py-5 flex items-center gap-2"
                   variant="outline"
                 >
                   Read Full Case Study{" "}
@@ -107,18 +107,18 @@ export default function CaseStudy() {
               />
               <div className="flex flex-col justify-between">
                 <div>
-                  <h4 className="text-2xl text-primary-foreground font-semibold font-parkinsans mt-3">
+                  <h4 className="text-base md:text-lg lg:text-2xl text-primary-foreground font-semibold font-parkinsans mt-3">
                     Global Cloud Infrastructure Modernization for a Logistics
                     Enterprise
                   </h4>
-                  <p className="text-lg text-primary-foreground font-normal font-parkinsans mt-4">
+                  <p className="text-sm md:text-base lg:text-lg text-primary-foreground font-normal font-parkinsans mt-4">
                     TasteHub ITelligence designed a multi cloud architecture
                     leveraging AWS and Azure to ensure flexibility, redundancy,
                     and .......
                   </p>
                 </div>
                 <Button
-                  className="group mt-full w-fit mb-0 px-7 py-5 flex items-center gap-2"
+                  className="group mt-9 lg:mt-full w-fit mb-0 px-7 py-5 flex items-center gap-2"
                   variant="outline"
                 >
                   Read Full Case Study{" "}

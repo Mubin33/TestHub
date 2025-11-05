@@ -180,7 +180,7 @@ const TestimonialSlider: React.FC = () => {
 
         {/* Header */}
         <div className="flex flex-col md:flex-row justify-between items-center mt-8 md:mt-12 px-4">
-          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-[40px] font-normal font-parkinsans text-primary-foreground mb-4 md:mb-0">
+          <h2 className="text-xl md:text-3xl lg:text-[40px] font-normal font-parkinsans text-primary-foreground mb-4 md:mb-0">
             What Our Clients Say
           </h2>
           <div className="flex gap-3">

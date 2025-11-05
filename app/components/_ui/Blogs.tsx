@@ -1,43 +1,46 @@
-import { Button } from '@/components/ui/button'
-import Image from 'next/image'
-import React from 'react'
+import { Button } from "@/components/ui/button";
+import Image from "next/image";
+import React from "react";
 
 export default function Blogs() {
   return (
-    <div className="bg-[#111111]" id='blog'>
+    <div className="bg-[#111111]" id="blog">
       <div className="py-5 max-w-[1600px] mx-auto">
         <div className="w-fit mx-auto mt-20">
-          <h1 className="text-[40px] text-primary-foreground font-bold font-orbitron max-w-[988px]">
+          <h1 className="text-2xl sm:text-3xl md:text-[32px] lg:text-[36px] xl:text-[40px]  text-primary-foreground font-bold font-orbitron max-w-[988px]">
             Blog
           </h1>
           <div className="h-1 w-16 bg-white"></div>
         </div>
-        <h1 className="text-[40px] text-primary-foreground font-bold font-orbitron max-w-[988px] w-fit mx-auto mt-4">
+        <h1 className="text-2xl sm:text-3xl md:text-[32px] lg:text-[36px] xl:text-[40px]  text-primary-foreground font-bold font-orbitron max-w-[988px] w-fit mx-auto mt-4">
           Insights & Innovation
         </h1>
-        <p className="mt-6 text-lg font-normal max-w-[784px] text-center mx-auto font-parkinsans text-primary-foreground">
-         Stay ahead with our latest articles on AI trends, cloud advancements, and cybersecurity best practices.
+        <p className="mt-6 text-sm md:text-base lg:text-lg font-normal max-w-[784px] text-center mx-auto font-parkinsans text-primary-foreground">
+          Stay ahead with our latest articles on AI trends, cloud advancements,
+          and cybersecurity best practices.
         </p>
 
-
-
         {/* content */}
-        <div className='grid grid-cols-1 xl:grid-cols-2 gap-20 mt-6 px-5 2xl:px-[60px]'>
-            <div>
-                   <div className="overflow-hidden max-w-[700px] max-h-[400px]">
-  <Image
-    src="/The_Future_of_Business_Efficiency.png"
-    alt="The_Future_of_Business_Efficiency"
-    width={700}
-    height={400}
-    className="transition-transform duration-500 ease-in-out transform origin-left hover:scale-y-90"
-  />
-</div> 
-                 <h4 className="text-2xl text-primary-foreground font-semibold font-parkinsans mt-6">
-              The Future of Business Efficiency; How AI and Automation Are Redefining Enterprise Growth
+        <div className="grid grid-cols-1 xl:grid-cols-2 gap-20 mt-6 px-5 2xl:px-[60px]">
+          <div>
+            <div className="overflow-hidden max-w-[700px] max-h-[400px]">
+              <Image
+                src="/The_Future_of_Business_Efficiency.png"
+                alt="The_Future_of_Business_Efficiency"
+                width={700}
+                height={400}
+                className="transition-transform duration-500 ease-in-out transform origin-left hover:scale-y-90"
+              />
+            </div>
+            <h4 className="text-base md:text-lg lg:text-2xl text-primary-foreground font-semibold font-parkinsans mt-6">
+              The Future of Business Efficiency; How AI and Automation Are
+              Redefining Enterprise Growth
             </h4>
-            <p className="text-lg text-primary-foreground font-normal font-parkinsans mt-6">
-              The pace of digital transformation has never been faster. From predictive analytics to robotic process automation, Artificial Intelligence (AI) and Automation are now the driving forces behind enterprise growth and operational excellence.
+            <p className="text-sm md:text-base lg:text-lg text-primary-foreground font-normal font-parkinsans mt-6">
+              The pace of digital transformation has never been faster. From
+              predictive analytics to robotic process automation, Artificial
+              Intelligence (AI) and Automation are now the driving forces behind
+              enterprise growth and operational excellence.
             </p>
             <Button
               className="group px-7 py-5 mt-6 flex items-center gap-2"
@@ -59,23 +62,28 @@ export default function Blogs() {
                 />
               </svg>
             </Button>
-                </div>             
-            {/*  */}
-            <div>
-                <div className="overflow-hidden max-w-[700px] max-h-[400px]">
-  <Image
-    src="/Building_a_Secure_Digital_Future.png"
-    alt="Building_a_Secure_Digital_Future"
-    width={700}
-    height={400}
-    className="transition-transform duration-500 ease-in-out transform origin-left hover:scale-y-90"
-  />
-</div>
- <h4 className="text-2xl text-primary-foreground font-semibold font-parkinsans mt-6">
-              Building a Secure Digital Future; Why Cybersecurity Is the Core of Digital Transformation
+          </div>
+          {/*  */}
+          <div>
+            <div className="overflow-hidden max-w-[700px] max-h-[400px]">
+              <Image
+                src="/Building_a_Secure_Digital_Future.png"
+                alt="Building_a_Secure_Digital_Future"
+                width={700}
+                height={400}
+                className="transition-transform duration-500 ease-in-out transform origin-left hover:scale-y-90"
+              />
+            </div>
+            <h4 className="text-base md:text-lg lg:text-2xl text-primary-foreground font-semibold font-parkinsans mt-6">
+              Building a Secure Digital Future; Why Cybersecurity Is the Core of
+              Digital Transformation
             </h4>
-            <p className="text-lg text-primary-foreground font-normal font-parkinsans mt-6">
-              In today’s hyperconnected world, every digital advancement introduces new vulnerabilities. With cyberattacks rising 300% in the last five years, organizations face an urgent need to protect their data, systems, and customers.</p>
+            <p className="text-sm md:text-base lg:text-lg text-primary-foreground font-normal font-parkinsans mt-6">
+              In today’s hyperconnected world, every digital advancement
+              introduces new vulnerabilities. With cyberattacks rising 300% in
+              the last five years, organizations face an urgent need to protect
+              their data, systems, and customers.
+            </p>
             <Button
               className="group px-7 py-5 mt-6 flex items-center gap-2"
               variant="outline"
@@ -96,9 +104,9 @@ export default function Blogs() {
                 />
               </svg>
             </Button>
-                </div>             
+          </div>
         </div>
-        </div>
+      </div>
     </div>
-  )
+  );
 }

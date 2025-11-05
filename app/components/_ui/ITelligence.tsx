@@ -4,10 +4,10 @@ export default function ITelligence() {
   return (
     <div className="bg-[#111111]">
       <div className="pt-[120px] max-w-[1600px] mx-auto">
-        <h1 className="text-[40px] text-primary-foreground font-bold font-orbitron text-center">
+        <h1 className="text-2xl sm:text-3xl md:text-[32px] lg:text-[36px] xl:text-[40px] text-primary-foreground font-bold font-orbitron text-center">
           Why TasteHub ITelligence
         </h1>
-        <p className="mt-6 text-lg font-normal max-w-[784px] text-center mx-auto font-parkinsans text-primary-foreground">
+        <p className="mt-6 text-sm md:text-base lg:text-lg font-normal max-w-[784px] text-center mx-auto font-parkinsans text-primary-foreground">
           We don’t just deliver technology, we deliver transformation. Our team
           blends deep expertise with creativity to provide future ready, secure,
           and scalable solutions tailored to your business goals.
@@ -112,7 +112,7 @@ export default function ITelligence() {
           </svg>
 
           {/* upper content */}
-          <div className="flex flex-col lg:flex-row items-center justify-evenly gap-[200px]">
+          <div className="flex flex-col lg:flex-row items-center justify-evenly gap-10 lg:gap-[200px]">
             <div
               className="rounded-full w-[280px] h-[280px]"
               style={{
@@ -127,7 +127,7 @@ export default function ITelligence() {
                 width={55}
                 height={65}
               />
-              <h4 className="text-center text-2xl font-parkinsans font-normal text-primary-foreground">
+              <h4 className="text-center text-base md:text-lg lg:text-2xl font-parkinsans font-normal text-primary-foreground">
                 Innovation driven development
               </h4>
             </div>
@@ -147,14 +147,14 @@ export default function ITelligence() {
                 width={55}
                 height={65}
               />
-              <h4 className="text-center text-2xl font-parkinsans font-normal text-primary-foreground">
+              <h4 className="text-center text-base md:text-lg lg:text-2xl font-parkinsans font-normal text-primary-foreground">
                 24/7 global <br /> support
               </h4>
             </div>
           </div>
           {/* bottom content */}
           <div
-            className="rounded-full w-[280px] h-[280px] mx-auto mt-[184px]"
+            className="rounded-full w-[280px] h-[280px] mx-auto mt-10 lg:mt-[184px]"
             style={{
               background:
                 "linear-gradient(142deg, rgba(188, 25, 203, 0.96) -5.65%, rgba(185, 25, 199, 0.96) 16.09%, #F8F8F8 18.21%, rgba(177, 24, 191, 0.95) 32.68%, rgba(107, 16, 116, 0.74) 51.85%, rgba(37, 8, 40, 0.52) 77.92%, rgba(24, 7, 26, 0.46) 79.57%, rgba(11, 5, 11, 0.40) 86.65%)",
@@ -168,7 +168,7 @@ export default function ITelligence() {
                 width={55}
                 height={65}
               />
-              <h4 className="text-center text-2xl font-parkinsans font-normal text-primary-foreground">
+              <h4 className="text-center text-base md:text-lg lg:text-2xl font-parkinsans font-normal text-primary-foreground">
                 Proven results & partnerships
               </h4>
             </div>

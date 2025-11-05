@@ -20,7 +20,7 @@ export default function SuccessStory_Cybersecurity() {
 
 
         {/* content */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 py-14 px-10 bg-linear-to-r from-[#222631] via-[#454545] to-black rounded-3xl max-w-[1120px] mx-auto mt-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-1 lg:gap-20 py-5 lg:py-14 px-5 lg:px-10 bg-linear-to-r from-[#222631] via-[#454545] to-black rounded-3xl max-w-[1120px] mx-auto mt-10">
               <Image
                 src="/Cybersecurity_Modernization_for_a_Global_Fintech_Platform.png"
                 alt="Cybersecurity_Modernization_for_a_Global_Fintech_Platform"
@@ -29,10 +29,10 @@ export default function SuccessStory_Cybersecurity() {
               />
               <div className="flex flex-col justify-between">
                 <div>
-                  <h4 className="text-2xl text-primary-foreground font-semibold font-parkinsans mt-3">
+                  <h4 className="text-lg md:text-xl lg:text-2xl text-primary-foreground font-semibold font-parkinsans mt-3">
                    Cybersecurity Modernization for a Global Fintech Platform
                   </h4>
-                  <p className="text-lg text-primary-foreground font-normal font-parkinsans mt-4">
+                  <p className="text-sm md:text-base lg:text-lg text-primary-foreground font-normal font-parkinsans mt-4">
                   A leading European fintech enterprise partnered with TasteHub ITelligence to deploy a Zero-Trust Security Architecture across its hybrid infrastructure. The solution powered by AI driven monitoring and automated threat response reduced incident detection time by 78% and achieved ISO 27001 certification within six months.
                   </p>
                 </div>
