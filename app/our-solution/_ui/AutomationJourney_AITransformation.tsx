@@ -7,16 +7,16 @@ export default function AutomationJourney_AITransformation() {
     <div className="bg-[#111111]">
       <div className="py-16 max-w-[1600px] mx-auto">
         <div
-          className="py-14 px-10  rounded-3xl max-w-[1120px] mx-auto mt-10"
+          className="py-6 md:py-9 lg:py-14 px-5 md:px-7 lg:px-10 rounded-3xl max-w-[1120px] mx-auto mt-10"
           style={{
             background:
               "linear-gradient(90deg, #EC20FF 0%, rgba(118, 31, 143, 0.90) 24%, rgba(251, 245, 251, 0.40) 100%)",
           }}
         >
-          <h1 className="text-[40px] text-primary-foreground font-bold font-orbitron w-fit mx-auto mt-4">
+          <h1 className="text-2xl sm:text-3xl md:text-[32px] lg:text-[36px] xl:text-[40px] text-primary-foreground font-bold font-orbitron w-fit mx-auto mt-4">
             Start Your Automation Journey Today!
           </h1>
-          <p className="mt-6 text-lg font-normal text-center mx-auto font-parkinsans text-primary-foreground">
+          <p className="mt-6 text-sm md:text-base lg:text-lg font-normal text-center mx-auto font-parkinsans text-primary-foreground">
             Embrace the future of business with AI-driven efficiency. Let’s
             build intelligent systems that grow with you.
           </p>

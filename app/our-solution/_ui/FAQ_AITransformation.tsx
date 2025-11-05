@@ -10,7 +10,7 @@ export function FAQ_AITransformation() {
     <div className="bg-[#111111]">
       <div className="py-16 max-w-[1600px] mx-auto">
         <div className="w-fit mx-auto my-10">
-          <h1 className="text-[40px] text-primary-foreground font-bold font-orbitron max-w-[988px]">
+          <h1 className="text-2xl sm:text-3xl md:text-[32px] lg:text-[36px] xl:text-[40px] text-primary-foreground font-bold font-orbitron max-w-[988px]">
             FAQ
           </h1>
           <div className="h-1 w-10 bg-white"></div>
