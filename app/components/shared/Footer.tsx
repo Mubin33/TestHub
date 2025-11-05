@@ -202,7 +202,7 @@ export default function Footer() {
               </svg>{" "}
               Blogs{" "}
             </div>{" "}
-            <div className="mt-2 space-y-3 flex items-centegap-2 text-sm text-[#FFF] font-parkinsans font-normal">
+            <div className="mt-2 space-y-3 flex items-cente gap-2 text-sm text-[#FFF] font-parkinsans font-normal">
               {" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"

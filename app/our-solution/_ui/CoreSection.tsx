@@ -25,6 +25,7 @@ import TechnologyStack_Cybersecurity from "./TechnologyStack_Cybersecurity";
 import SuccessStory_Cybersecurity from "./SuccessStory_Cybersecurity";
 import SuccessStory_CloudInfrastructure from "./SuccessStory_CloudInfrastructure";
 import AutomationJourney_Cybersecurity from "./AutomationJourney_Cybersecurity";
+import AutomationJourney_CloudInfrastructure from "./AutomationJourney_CloudInfrastructure";
 
 interface TabItem {
   id: number;
@@ -106,40 +107,39 @@ export default function CoreSection() {
   //   return () => window.removeEventListener("hashchange", setTabFromHash);
   // }, [tabs.length]);
 
-
   useEffect(() => {
-  const setTabFromURL = () => {
-    const url = new URL(window.location.href);
-    const section = url.search.replace("?", "");  
-    const hash = url.hash.replace("#", "");  
- 
-    if (section === "core_section") {
-      const tabNumber = Number(hash);
-      if (!isNaN(tabNumber) && tabNumber >= 1 && tabNumber <= tabs.length) {
-        setActiveTab(tabNumber);
+    const setTabFromURL = () => {
+      const url = new URL(window.location.href);
+      const section = url.search.replace("?", "");
+      const hash = url.hash.replace("#", "");
+
+      if (section === "core_section") {
+        const tabNumber = Number(hash);
+        if (!isNaN(tabNumber) && tabNumber >= 1 && tabNumber <= tabs.length) {
+          setActiveTab(tabNumber);
+        } else {
+          setActiveTab(1);
+        }
+
+        // smooth scroll to section
+        const sectionEl = document.getElementById(section);
+        if (sectionEl) {
+          sectionEl.scrollIntoView({ behavior: "smooth" });
+        }
       } else {
         setActiveTab(1);
       }
+    };
 
-      // smooth scroll to section
-      const sectionEl = document.getElementById(section);
-      if (sectionEl) {
-        sectionEl.scrollIntoView({ behavior: "smooth" });
-      }
-    } else { 
-      setActiveTab(1);
-    }
-  };
+    setTabFromURL();
+    window.addEventListener("hashchange", setTabFromURL);
+    window.addEventListener("popstate", setTabFromURL);
 
-  setTabFromURL();
-  window.addEventListener("hashchange", setTabFromURL);
-  window.addEventListener("popstate", setTabFromURL);
-
-  return () => {
-    window.removeEventListener("hashchange", setTabFromURL);
-    window.removeEventListener("popstate", setTabFromURL);
-  };
-}, [tabs.length]);
+    return () => {
+      window.removeEventListener("hashchange", setTabFromURL);
+      window.removeEventListener("popstate", setTabFromURL);
+    };
+  }, [tabs.length]);
 
   return (
     <div>
@@ -191,16 +191,16 @@ export default function CoreSection() {
                 {/* left side */}
                 <div className="col-span-1 md:col-span-1 lg:col-span-6 flex flex-col justify-center px-4 md:px-6 lg:px-0">
                   <div className="mt-10">
-                    <h1 className="text-3xl sm:text-4xl md:text-[36px] lg:text-[40px] text-primary-foreground font-bold font-orbitron">
+                    <h1 className="text-2xl sm:text-4xl md:text-[36px] lg:text-[40px] text-primary-foreground font-bold font-orbitron">
                       {activeTabData.title}
                     </h1>
                     <div className="h-1 w-32 sm:w-40 md:w-48 lg:w-52 bg-white"></div>
 
                     <div>
-                      <h1 className="text-2xl sm:text-3xl md:text-[32px] lg:text-[40px] text-primary-foreground font-bold font-orbitron mt-6 sm:mt-8 lg:mt-10">
+                      <h1 className="text-xl sm:text-3xl md:text-[32px] lg:text-[40px] text-primary-foreground font-bold font-orbitron mt-6 sm:mt-8 lg:mt-10">
                         {activeTabData.subtitle}
                       </h1>
-                      <p className="mt-4 sm:mt-5 md:mt-6 text-base sm:text-lg md:text-xl lg:text-2xl font-normal font-parkinsans text-primary-foreground">
+                      <p className="mt-4 sm:mt-5 md:mt-6 text-sm sm:text-lg md:text-xl lg:text-2xl font-normal font-parkinsans text-primary-foreground">
                         {activeTabData.details}
                       </p>
                     </div>
@@ -301,7 +301,7 @@ export default function CoreSection() {
                 <SuccessStory_CloudInfrastructure />
               )}
               {/*  */}
-              <TestimonialSlider />
+              <TestimonialSlider /> 
               {/*  */}
               {activeTabData.title === "AI & Automation" && (
                 <AutomationJourney_AITransformation />
@@ -309,13 +309,19 @@ export default function CoreSection() {
               {activeTabData.title === "Cybersecurity Solutions" && (
                 <AutomationJourney_Cybersecurity />
               )}
-              {activeTabData.title === "Cloud Infrastructure" && ""}
+              {activeTabData.title === "Cloud Infrastructure" && (
+                <AutomationJourney_CloudInfrastructure />
+              )}
               {/*  */}
               {activeTabData.title === "AI & Automation" && (
                 <FAQ_AITransformation />
               )}
-              {activeTabData.title === "Cybersecurity Solutions" && ""}
-              {activeTabData.title === "Cloud Infrastructure" && ""}
+              {activeTabData.title === "Cybersecurity Solutions" && (
+                <FAQ_AITransformation />
+              )}
+              {activeTabData.title === "Cloud Infrastructure" && (
+                <FAQ_AITransformation />
+              )}
             </div>
           )}
         </div>
