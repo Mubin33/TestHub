@@ -8,7 +8,7 @@ export default function SuccessStory_AITransformation() {
     <div className="bg-[#111111]">
       <div className="py-5 max-w-[1600px] mx-auto">
         <div className="w-fit mx-auto mt-20">
-          <h1 className="text-[40px] text-primary-foreground font-bold font-orbitron max-w-[988px]">
+          <h1 className="text-2xl sm:text-3xl md:text-[32px] lg:text-[36px] xl:text-[40px] text-primary-foreground font-bold font-orbitron max-w-[988px]">
             Success Story
           </h1>
           <div className="h-1 w-48 bg-white"></div>
@@ -20,7 +20,7 @@ export default function SuccessStory_AITransformation() {
 
 
         {/* content */}
-        <div className="grid grid-cols-2 gap-20 py-14 px-10 bg-linear-to-r from-[#222631] via-[#454545] to-black rounded-3xl max-w-[1120px] mx-auto mt-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 py-14 px-10 bg-linear-to-r from-[#222631] via-[#454545] to-black rounded-3xl max-w-[1120px] mx-auto mt-10">
               <Image
                 src="/AI-Powered.png"
                 alt="AI-Powered"
