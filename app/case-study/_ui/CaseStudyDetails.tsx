@@ -152,12 +152,74 @@ export default function CaseStudyDetails() {
         {/*  */}
         <div className="mt-20">
           <h4 className="text-primary-foreground font-parkinsans text-base md:text-lg lg:text-2xl font-semibold">
-           Our Solution
+            Our Solution
           </h4>
           <p className="text-sm md:text-base lg:text-lg text-primary-foreground font-parkinsans font-normal mt-1">
-           TasteHub ITelligence designed and deployed a custom AI & Automation system integrated with MüllerTech’s existing MES (Manufacturing Execution System).
+            TasteHub ITelligence designed and deployed a custom AI & Automation
+            system integrated with MüllerTech’s existing MES (Manufacturing
+            Execution System).
           </p>
+          <div className="flex items-center justify-center gap-10 mt-10">
+            <div className="p-5 max-w-24">
+              <Image
+                className="mx-auto"
+                src="/solution_icon1.png"
+                alt="solution_icon"
+                width={56}
+                height={56}
+              />
+
+              <p className="mt-2 text-xs md:text-sm lg:text-base font-normal text-center max-w-[102px] font-parkinsans text-primary-foreground">
+                AI Vison
+              </p>
+            </div>
+            <div className="p-5 max-w-28">
+              <Image
+                className="mx-auto"
+                src="/solution_icon2.png"
+                alt="solution_icon"
+                width={56}
+                height={56}
+              />
+              <p className="mt-2 text-xs md:text-sm lg:text-base font-normal text-center max-w-[102px] font-parkinsans text-primary-foreground">
+                Predictive Analytics
+              </p>
+            </div>
+            <div className="p-5 max-w-28">
+              <Image
+                className="mx-auto"
+                src="/solution_icon3.png"
+                alt="solution_icon"
+                width={56}
+                height={56}
+              />
+              <p className="mt-2 text-xs md:text-sm lg:text-base font-normal text-center max-w-[102px] font-parkinsans text-primary-foreground">
+                ERP Integration
+              </p>
+            </div>
+            <div className="p-5 max-w-28">
+              <Image
+                className="mx-auto"
+                src="/solution_icon4.png"
+                alt="solution_icon"
+                width={56}
+                height={56}
+              />
+              <p className="mt-2 text-xs md:text-sm lg:text-base font-normal text-center max-w-[102px] font-parkinsans text-primary-foreground">
+                Dashboard insights
+              </p>
+            </div>
+          </div>
         </div>
+        {/*  */}
+        <div className="mt-20">
+          <h4 className="text-primary-foreground font-parkinsans text-base md:text-lg lg:text-2xl font-semibold">
+            Key Features
+          </h4>
+          <p className="text-sm md:text-base lg:text-lg text-primary-foreground font-parkinsans font-normal mt-1">
+            Core capabilities that powered MüllerTech’s transformation through AI-driven automation and intelligent analytics.
+          </p>
+          </div>
       </div>
     </div>
   );
