@@ -266,7 +266,88 @@ export default function CaseStudyDetails() {
           <p className="text-sm md:text-base lg:text-lg text-primary-foreground font-parkinsans font-normal mt-1">
           The deployment produced measurable impact within three months
           </p>
+                    <div className="grid grid-cols-2 lg:grid-cols-4 gap-20 mt-5">
+                        <div>
+                            <Image className="mx-auto" src="/results_icon1.png" alt="results_icon Icon"  width={56} height={56} />
+              <h3 className="mt-2 text-2xl lg:text-4xl xl:text-[56px] text-primary-foreground font-bold font-orbitron text-center">
+                35% 
+              </h3>
+              <p className="mt-2 text-xs md:text-sm lg:text-base font-normal text-center mx-auto font-parkinsans text-primary-foreground">
+               Reduction in unplanned downtime
+              </p>
+            </div>
+                        <div>
+                            <Image className="mx-auto" src="/results_icon2.png" alt="results_icon Icon"  width={56} height={56} />
+              <h3 className="mt-2 text-2xl lg:text-4xl xl:text-[56px] text-primary-foreground font-bold font-orbitron text-center">
+                25%
+              </h3>
+              <p className="mt-2 text-xs md:text-sm lg:text-base font-normal text-center mx-auto font-parkinsans text-primary-foreground">
+              ncrease in overall equipment effectiveness (OEE)
+              </p>
+            </div>
+                        <div>
+                            <Image className="mx-auto" src="/results_icon3.png" alt="results_icon Icon"  width={56} height={56} />
+              <h3 className="mt-2 text-2xl lg:text-4xl xl:text-[56px] text-primary-foreground font-bold font-orbitron text-center">
+              4.2%1.1%
+              </h3>
+              <p className="mt-2 text-xs md:text-sm lg:text-base font-normal text-center mx-auto font-parkinsans text-primary-foreground">
+              Increase in overall equipment effectiveness (OEE)
+              </p>
+            </div>
+                        <div>
+                            <Image className="mx-auto" src="/results_icon4.png" alt="results_icon Icon"  width={56} height={56} />
+              <h3 className="mt-2 text-2xl lg:text-4xl xl:text-[56px] text-primary-foreground font-bold font-orbitron text-center">
+                9 Months
+              </h3>
+              <p className="mt-2 text-xs md:text-sm lg:text-base font-normal text-center mx-auto font-parkinsans text-primary-foreground">
+          ROI achieved
+              </p>
+            </div>
+                    </div>
+          </div>
+          {/*  */}
+          <div className="mt-20">
+          <h4 className="text-primary-foreground font-parkinsans text-base md:text-lg lg:text-2xl font-semibold">
+          Technology Stack
+          </h4>
+          <p className="text-sm md:text-base lg:text-lg text-primary-foreground font-parkinsans font-normal mt-1">
+Seamlessly integrated technologies driving predictive intelligence.          </p>
 
+ <div className="flex items-center flex-wrap justify-center gap-16 mt-10">
+                        <div>
+                            <div className="flex items-center gap-4">
+                            <Image className="mx-auto" src="/material-icon-theme_python.png" alt="material-icon-theme_python Icon"  width={48} height={48} /> 
+                            <Image className="mx-auto" src="/devicon_tensorflow.png" alt="devicon_tensorflow Icon"  width={48} height={48} /> 
+                            <Image className="mx-auto" src="/devicon_azure.png" alt="devicon_azure Icon"  width={48} height={48} /> 
+
+                            </div>
+              <p className="mt-2 text-sm md:text-base lg:text-lg font-normal text-center mx-auto font-parkinsans text-primary-foreground">
+              AL & ML
+              </p>
+            </div>
+                        <div>
+                            <Image className="mx-auto" src="/logos_microsoft-power-bi.png" alt="logos_microsoft-power-bi Icon"  width={48} height={48} /> 
+              <p className="mt-2 text-sm md:text-base lg:text-lg font-normal text-center mx-auto font-parkinsans text-primary-foreground">
+            Data Visualization
+              </p>
+            </div>
+                        <div>
+                            <div className="flex items-center gap-4">
+                            <Image className="mx-auto" src="/logos_sap.png" alt="logos_sap Icon"  width={48} height={48} /> 
+                            <Image className="mx-auto" src="/image 4.png" alt="image 4 Icon"  width={48} height={48} />  
+
+                            </div> 
+              <p className="mt-2 text-sm md:text-base lg:text-lg font-normal text-center mx-auto font-parkinsans text-primary-foreground">
+             Data Integration
+              </p>
+            </div>
+                        <div>
+                            <Image className="mx-auto" src="/cloud and hybrid 1.png" alt="cloud and hybrid 1 Icon"  width={48} height={48} /> 
+              <p className="mt-2 text-sm md:text-base lg:text-lg font-normal text-center mx-auto font-parkinsans text-primary-foreground">
+         Infrastructure
+              </p>
+            </div>
+                    </div>
           </div>
       </div>
     </div>
