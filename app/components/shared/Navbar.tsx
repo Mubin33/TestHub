@@ -116,7 +116,7 @@ export default function Navbar() {
             Products
           </Link>
           <Link
-            href={"/#case_study"}
+            href={"/case-study"}
             className="font-parkinsans text-lg text-primary-foreground hover:text-transparent hover:bg-clip-text hover:bg-linear-to-r hover:from-[#c20dd3f5] hover:to-[#a46eaa86] transition-all"
           >
             Case Study

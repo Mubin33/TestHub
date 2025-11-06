@@ -159,7 +159,7 @@ export default function CaseStudyDetails() {
             system integrated with MüllerTech’s existing MES (Manufacturing
             Execution System).
           </p>
-          <div className="flex items-center justify-center gap-10 mt-10">
+          <div className="flex flex-wrap items-center justify-center gap-10 mt-10">
             <div className="p-5 max-w-24">
               <Image
                 className="mx-auto"
@@ -219,6 +219,54 @@ export default function CaseStudyDetails() {
           <p className="text-sm md:text-base lg:text-lg text-primary-foreground font-parkinsans font-normal mt-1">
             Core capabilities that powered MüllerTech’s transformation through AI-driven automation and intelligent analytics.
           </p>
+          <div className='flex flex-wrap gap-10 items-center justify-center mt-6'>
+            <div className='w-[475px] rounded-xl bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] p-6 space-y-1 transition-transform duration-500 hover:scale-[1.03]'>
+                <Image src="/key_features_icon1.png" alt="key_features_icon1 Icon"  width={24} height={24} />
+                <p className='font-parkinsans font-semibold text-base sm:text-lg md:text-xl lg:text-2xl text-white mt-2'>AI Vision System</p>
+                <p className="text-sm md:text-base lg:text-lg text-white font-parkinsans font-normal mt-1">
+            Real-time anomaly detection using TensorFlow - based AI models.
+          </p>
+            </div>
+            <div className='w-[475px] rounded-xl bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] p-6 space-y-1 transition-transform duration-500 hover:scale-[1.03]'>
+                <Image src="/key_features_icon2.png" alt="key_features_icon1 Icon"  width={24} height={24} />
+                <p className='font-parkinsans font-semibold text-base sm:text-lg md:text-xl lg:text-2xl text-white mt-2'>Predictive Analytics</p>
+                <p className="text-sm md:text-base lg:text-lg text-white font-parkinsans font-normal mt-1">
+            Predictive maintenance analytics powered by Azure Machine Learning.
+          </p>
+            </div>
+            <div className='w-[475px] rounded-xl bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] p-6 space-y-1 transition-transform duration-500 hover:scale-[1.03]'>
+                <Image src="/key_features_icon3.png" alt="key_features_icon1 Icon"  width={24} height={24} />
+                <p className='font-parkinsans font-semibold text-base sm:text-lg md:text-xl lg:text-2xl text-white mt-2'>Centralized Reporting</p>
+                <p className="text-sm md:text-base lg:text-lg text-white font-parkinsans font-normal mt-1">
+            SAP ERP integration for unified performance visibility.
+          </p>
+            </div>
+            <div className='w-[475px] rounded-xl bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] p-6 space-y-1 transition-transform duration-500 hover:scale-[1.03]'>
+                <Image src="/key_features_icon4.png" alt="key_features_icon1 Icon"  width={24} height={24} />
+                <p className='font-parkinsans font-semibold text-base sm:text-lg md:text-xl lg:text-2xl text-white mt-2'>IoT-Enabled Monitoring</p>
+                <p className="text-sm md:text-base lg:text-lg text-white font-parkinsans font-normal mt-1">
+           Continuous data streaming from edge sensors across production lines.
+          </p>
+            </div>
+            <div className='w-[475px] rounded-xl bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] p-6 space-y-1 transition-transform duration-500 hover:scale-[1.03]'>
+                <Image src="/key_features_icon5.png" alt="key_features_icon1 Icon"  width={24} height={24} />
+                <p className='font-parkinsans font-semibold text-base sm:text-lg md:text-xl lg:text-2xl text-white mt-2'>Interactive Dashboards</p>
+                <p className="text-sm md:text-base lg:text-lg text-white font-parkinsans font-normal mt-1">
+          Power BI dashboards delivering live KPIs and trend analysis.
+          </p>
+            </div>
+           
+            </div>
+          </div>
+          {/*  */}
+          <div className="mt-20">
+          <h4 className="text-primary-foreground font-parkinsans text-base md:text-lg lg:text-2xl font-semibold">
+          Results
+          </h4>
+          <p className="text-sm md:text-base lg:text-lg text-primary-foreground font-parkinsans font-normal mt-1">
+          The deployment produced measurable impact within three months
+          </p>
+
           </div>
       </div>
     </div>
