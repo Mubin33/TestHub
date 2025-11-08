@@ -3,7 +3,7 @@ import React from "react";
 
 export default function BlogDetailsHero() {
   return (
-    <div className="bg-black  h-[calc(100vh-20px)] overflow-hidden">
+    <div className="bg-black h-[calc(100vh-450px)] lg:h-screen overflow-hidden">
       {/* Content */}
       <div className="max-w-[1600px] mx-auto h-full px-2 2xl:px-3">
         {/* left side */}
