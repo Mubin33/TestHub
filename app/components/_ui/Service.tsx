@@ -39,7 +39,7 @@ export default function Service() {
                 vitae.
               </p>
 
-              <Link href="/our-solution">
+              <Link href="/our-solution?core_section#1">
                 <Button
                   className="flex items-center gap-2 mt-8 font-normal px-5 py-6"
                   variant="default"
@@ -85,7 +85,7 @@ export default function Service() {
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis,
                 vitae.
               </p>
-              <Link href="/our-solution">
+              <Link href="/our-solution?core_section#2">
                 <Button
                   className="flex items-center gap-2 mt-8 font-normal px-5 py-6"
                   variant="default"
@@ -132,7 +132,7 @@ export default function Service() {
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis,
                 vitae.
               </p>
-              <Link href="/our-solution">
+              <Link href="/our-solution?core_section#3">
                 <Button
                   className="flex items-center gap-2 mt-8 font-normal px-5 py-6 group"
                   variant="default"
