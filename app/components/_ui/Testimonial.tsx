@@ -159,6 +159,33 @@ const testimonials: Testimonial[] = [
     text: "An absolute game changer. We now operate more efficiently than ever before.",
     bg: "p",
   },
+  {
+    id: 14,
+    name: "Lars Becker",
+    role: "Head of Operations",
+    company: "MüllerTech Industries GmbH",
+    image: "/person_t1.png",
+    text: "TasteHub ITelligence revolutionized how we manage production...",
+    bg: "p",
+  },
+  {
+    id: 15,
+    name: "Emma Stone",
+    role: "Product Manager",
+    company: "NextGen Labs",
+    image: "/person_t2.png",
+    text: "The integration was smooth and the insights we gained have been invaluable...",
+    bg: "b",
+  },
+  {
+    id: 16,
+    name: "John Smith",
+    role: "CTO",
+    company: "InnovateX",
+    image: "https://i.ibb.co/F77Dsx8/person3.jpg",
+    text: "An absolute game changer. We now operate more efficiently than ever before.",
+    bg: "p",
+  },
 ];
 
 const TestimonialSlider: React.FC = () => {
