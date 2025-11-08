@@ -162,7 +162,10 @@ export default function Footer() {
               Quick Links{" "}
             </h6>{" "}
             <div className="h-0.5 w-11 bg-[#F8F8F8]"></div>{" "}
-            <div className="mt-2 space-y-3 flex items-center gap-2 text-sm text-[#FFF] font-parkinsans font-normal">
+            <Link
+              href={"/case-study"}
+              className="mt-2 space-y-3 flex items-center gap-2 text-sm text-[#FFF] font-parkinsans font-normal"
+            >
               {" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -181,8 +184,11 @@ export default function Footer() {
                 />{" "}
               </svg>{" "}
               Case Study{" "}
-            </div>{" "}
-            <div className="mt-2 space-y-3 flex items-center gap-2 text-sm text-[#FFF] font-parkinsans font-normal">
+            </Link>{" "}
+            <Link
+              href={"/blog"}
+              className="mt-2 space-y-3 flex items-center gap-2 text-sm text-[#FFF] font-parkinsans font-normal"
+            >
               {" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -201,7 +207,7 @@ export default function Footer() {
                 />{" "}
               </svg>{" "}
               Blogs{" "}
-            </div>{" "}
+            </Link>{" "}
             <div className="mt-2 space-y-3 flex items-cente gap-2 text-sm text-[#FFF] font-parkinsans font-normal">
               {" "}
               <svg
