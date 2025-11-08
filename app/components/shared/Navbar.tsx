@@ -122,7 +122,7 @@ export default function Navbar() {
             Case Study
           </Link>
           <Link
-            href={"/#blog"}
+            href={"/blog"}
             className="font-parkinsans text-lg text-primary-foreground hover:text-transparent hover:bg-clip-text hover:bg-linear-to-r hover:from-[#c20dd3f5] hover:to-[#a46eaa86] transition-all"
           >
             Blog
@@ -155,7 +155,7 @@ export default function Navbar() {
           <Link href={"/case-study"} onClick={() => setOpen(false)}>
             Case Study
           </Link>
-          <Link href={"/#blog"} onClick={() => setOpen(false)}>
+          <Link href={"/blog"} onClick={() => setOpen(false)}>
             Blog
           </Link>
           <Link href="/contact" onClick={() => setOpen(false)}>

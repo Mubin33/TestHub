@@ -104,13 +104,13 @@ export default function AllBlogs() {
   return (
     <div className="w-full max-w-[1600px] mx-auto px-4 py-10">
       {/* Tabs */}
-      <div className="mb-10 bg-[linear-gradient(90deg,rgba(236,32,255,0.20)_0%,rgba(118,31,143,0.18)_24%,rgba(251,245,251,0.08)_100%)] flex items-center justify-between px-10 lg:px-20 py-4">
+      <div className="mb-10 bg-[linear-gradient(90deg,rgba(236,32,255,0.20)_0%,rgba(118,31,143,0.18)_24%,rgba(251,245,251,0.08)_100%)] flex flex-col lg:flex-row items-center justify-between px-10 lg:px-20 py-4">
         <div className="flex flex-wrap justify-center gap-4">
           {tabs.map((tab) => (
             <button
               key={tab}
               onClick={() => setActiveTab(tab)}
-              className={`px-4 py-2 rounded-full text-xs md:text-sm font-parkinsans font-medium transition-all duration-300 ${
+              className={`px-4 py-2 cursor-pointer rounded-full text-xs md:text-sm font-parkinsans font-medium transition-all duration-300 ${
                 activeTab === tab
                   ? "bg-[#B118BF] text-primary-foreground"
                   : "bg-transparent text-white  hover:bg-primary/10"
@@ -165,7 +165,7 @@ export default function AllBlogs() {
               alt={post.title}
               width={500}
               height={270}
-              className="w-full h-48 object-cover rounded-t-xl"
+              className="w-full h-48 object-cover rounded-t-xl transition-transform duration-500 ease-in-out transform origin-left hover:scale-y-105"
             />
 
             <div className="p-3 flex flex-col grow">
@@ -181,11 +181,10 @@ export default function AllBlogs() {
                 {post.description}
               </p>
 
-              {/* 👇 এই div টা কার্ডের নিচে থাকবে */}
               <div className="mt-auto flex items-center justify-between pt-4">
                 <Link href="/blog/1">
                   <Button
-                    className="font-normal bg-[#B118BF] text-white rounded-lg py-3 px-3 sm:py-4 md:py-5"
+                    className="font-normal bg-[#B118BF] md:text-sm text-white rounded-lg py-3 px-3 sm:py-4 md:py-5"
                     variant="default"
                   >
                     Read More
@@ -198,6 +197,23 @@ export default function AllBlogs() {
             </div>
           </div>
         ))}
+      </div>
+
+
+
+      {/* Subscribe */}
+
+      <div className="max-w-[1166px] h-[272px] mx-auto bg-cover mt-10 p-10 gap-5 lg:gap-20 flex flex-col lg:flex-row items-center justify-center" style={{ backgroundImage: "url('/subscriber_bg.png')" }} >
+        <h2 className="text-xl md:text-2xl lg:text-[32px] text-[#FDFDFD] font-parkinsans font-semibold">Subscribe For The <br /> Daily Updates</h2>
+      <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 items-center">
+        <input type="email" placeholder="Write Your Email" className="bg-white p-2 lg:p-3 rounded-lg w-64"/>
+        <Button
+                    className="font-normal bg-[#B118BF] md:text-sm text-white rounded-lg py-3 px-3 sm:py-4 md:py-6"
+                    variant="default"
+                  >
+                   Submit Now
+                  </Button>
+      </div>
       </div>
     </div>
   );
