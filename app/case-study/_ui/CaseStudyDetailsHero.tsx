@@ -5,7 +5,7 @@ import React from "react";
 
 export default function CaseStudyDetailsHero() {
   return (
-    <div className="relative bg-black h-[calc(100vh-40px)] overflow-hidden">
+    <div className="relative bg-black h-[calc(100vh-400px)] lg:h-[calc(100vh-40px)] overflow-hidden">
       {/* Background Image */}
       <Image
         className="absolute top-0 right-0 z-0 w-[1000px] h-auto"
@@ -16,7 +16,7 @@ export default function CaseStudyDetailsHero() {
       />
 
       {/* Foreground Content */}
-      <div className="relative z-20 max-w-[1600px] mx-auto h-full flex flex-col lg:flex-row items-center justify-between xl:gap-20 px-2 2xl:px-3">
+      <div className="relative z-20 max-w-[1600px] mx-auto h-full flex flex-row items-center justify-between xl:gap-20 px-2 2xl:px-3">
         <div>
           <h2 className="mt-6 xl:leading-[70px] text-2xl sm:text-4xl md:text-5xl lg:text-[40px] xl:text-[56px] text-primary-foreground font-bold font-orbitron max-w-[868px]">
             Designing AI-Powered Experiences that Shape the Future.
