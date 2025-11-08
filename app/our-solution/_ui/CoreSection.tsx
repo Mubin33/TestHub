@@ -152,8 +152,8 @@ export default function CoreSection() {
               const isHovered = hoveredTab === tab.id;
 
               return (
-                <div
-                  key={tab.id}
+                <div  key={tab.id} className={`${isActive ? "lg:border-b-4 border-[#c20dd3f5]" : ""} lg:pb-16`}>
+                <div 
                   className={`flex items-center sm:items-start md:items-center gap-4 rounded-2xl group cursor-pointer transition-all duration-500 ${
                     isActive || isHovered ? "scale-[1.02]" : "scale-100"
                   }`}
@@ -179,6 +179,7 @@ export default function CoreSection() {
                   <h4 className="text-lg sm:text-xl md:text-2xl font-parkinsans text-primary-foreground">
                     {tab.tab_title}
                   </h4>
+                </div> 
                 </div>
               );
             })}
