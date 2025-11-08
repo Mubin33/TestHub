@@ -104,7 +104,7 @@ export default function AllBlogs() {
   return (
     <div className="w-full max-w-[1600px] mx-auto px-4 py-10">
       {/* Tabs */}
-      <div className=" mb-10 bg-[linear-gradient(90deg,rgba(236,32,255,0.20)_0%,rgba(118,31,143,0.18)_24%,rgba(251,245,251,0.08)_100%)] flex items-center justify-between px-20 py-4">
+      <div className="mb-10 bg-[linear-gradient(90deg,rgba(236,32,255,0.20)_0%,rgba(118,31,143,0.18)_24%,rgba(251,245,251,0.08)_100%)] flex items-center justify-between px-10 lg:px-20 py-4">
         <div className="flex flex-wrap justify-center gap-4">
           {tabs.map((tab) => (
             <button
@@ -119,6 +119,37 @@ export default function AllBlogs() {
               {tab}
             </button>
           ))}
+        </div>
+        {/*  */}
+        <div className="relative">
+          <input
+            type="text"
+            placeholder="Search"
+            className="border text-[#B118BF] border-[#B118BF] rounded-sm pl-7 py-2 pr-2"
+          />
+          <svg
+            className="absolute top-3 left-2"
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            viewBox="0 0 16 16"
+            fill="none"
+          >
+            <path
+              d="M11.333 11.3333L13.9997 14"
+              stroke="#B118BF"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+            <path
+              d="M12.6667 7.33333C12.6667 4.38781 10.2789 2 7.33333 2C4.38781 2 2 4.38781 2 7.33333C2 10.2789 4.38781 12.6667 7.33333 12.6667C10.2789 12.6667 12.6667 10.2789 12.6667 7.33333Z"
+              stroke="#B118BF"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
         </div>
       </div>
 
@@ -152,7 +183,7 @@ export default function AllBlogs() {
 
               {/* 👇 এই div টা কার্ডের নিচে থাকবে */}
               <div className="mt-auto flex items-center justify-between pt-4">
-                <Link href="#">
+                <Link href="/blog/1">
                   <Button
                     className="font-normal bg-[#B118BF] text-white rounded-lg py-3 px-3 sm:py-4 md:py-5"
                     variant="default"
