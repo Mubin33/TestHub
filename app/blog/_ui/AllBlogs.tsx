@@ -1,0 +1,173 @@
+"use client";
+
+import { useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+
+type Blog = {
+  id: number;
+  title: string;
+  description: string;
+  image: string;
+  date: string;
+  day: string;
+  time: string;
+  category: "Artificial Intelligence" | "Cyber Security" | "Cloud Computing";
+};
+
+const blogData: Blog[] = [
+  {
+    id: 1,
+    title:
+      "The Future of Business Efficiency How AI and Automation Are Redefining Enterprise Growth",
+    description:
+      "Discover how AI and automation revolutionize enterprise workflows and unlock new growth opportunities.",
+    image: "/blog_image.png",
+    date: "Nov 2, 2025",
+    day: "Sunday",
+    time: "10:30 AM",
+    category: "Artificial Intelligence",
+  },
+  {
+    id: 2,
+    title: "Cloud & AI: The Dynamic Duo Transforming Digital Operations",
+    description:
+      "Discover how AI and automation revolutionize enterprise workflows and unlock new growth opportunities.",
+    image: "/blog_image.png",
+    date: "Nov 3, 2025",
+    day: "Monday",
+    time: "9:00 AM",
+    category: "Artificial Intelligence",
+  },
+  {
+    id: 3,
+    title: "How AI is Reinventing Cyber Security in the Digital Age",
+    description:
+      " Explore how artificial intelligence helps detect threats, predict breaches, and secure enterprise systems faster than ever before.",
+    image: "/blog_image.png",
+    date: "Nov 4, 2025",
+    day: "Tuesday",
+    time: "11:00 AM",
+    category: "Cyber Security",
+  },
+  {
+    id: 4,
+    title: "The Rise of Hybrid Cloud — Balancing Flexibility and Security",
+    description:
+      " Discover how hybrid cloud solutions help enterprises maintain data control while scaling globally with agility and cost efficiency.",
+    image: "/blog_image.png",
+    date: "Nov 5, 2025",
+    day: "Wednesday",
+    time: "2:30 PM",
+    category: "Cloud Computing",
+  },
+  {
+    id: 5,
+    title: "Cloud Migration Made Simple — A Strategic Guide for 2025",
+    description:
+      "Learn the key steps to move your business to the cloud successfully, minimize downtime, and optimize performance.",
+    image: "/blog_image.png",
+    date: "Nov 3, 2025",
+    day: "Monday",
+    time: "9:00 AM",
+    category: "Cloud Computing",
+  },
+  {
+    id: 6,
+    title: "Cloud Security in the Era of AI-Powered Attacks",
+    description:
+      " Understand the new wave of AI-driven cyber threats and how enterprises can protect their cloud infrastructure effectively.",
+    image: "/blog_image.png",
+    date: "Nov 4, 2025",
+    day: "Tuesday",
+    time: "11:00 AM",
+    category: "Cyber Security",
+  },
+];
+
+const tabs = [
+  "All Post",
+  "Artificial Intelligence",
+  "Cyber Security",
+  "Cloud Computing",
+];
+
+export default function AllBlogs() {
+  const [activeTab, setActiveTab] = useState("All Post");
+
+  const filteredData =
+    activeTab === "All Post"
+      ? blogData
+      : blogData.filter((item) => item.category === activeTab);
+
+  return (
+    <div className="w-full max-w-[1600px] mx-auto px-4 py-10">
+      {/* Tabs */}
+      <div className=" mb-10 bg-[linear-gradient(90deg,rgba(236,32,255,0.20)_0%,rgba(118,31,143,0.18)_24%,rgba(251,245,251,0.08)_100%)] flex items-center justify-between px-20 py-4">
+        <div className="flex flex-wrap justify-center gap-4">
+          {tabs.map((tab) => (
+            <button
+              key={tab}
+              onClick={() => setActiveTab(tab)}
+              className={`px-4 py-2 rounded-full text-xs md:text-sm font-parkinsans font-medium transition-all duration-300 ${
+                activeTab === tab
+                  ? "bg-[#B118BF] text-primary-foreground"
+                  : "bg-transparent text-white  hover:bg-primary/10"
+              }`}
+            >
+              {tab}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {/* Cards */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        {filteredData.map((post) => (
+          <div
+            key={post.id}
+            className="bg-[#454545] rounded-xl flex flex-col h-full"
+          >
+            <Image
+              src={post.image}
+              alt={post.title}
+              width={500}
+              height={270}
+              className="w-full h-48 object-cover rounded-t-xl"
+            />
+
+            <div className="p-3 flex flex-col grow">
+              <p className="w-fit rounded-2xl py-1 px-2 text-primary-foreground text-[10px] md:text-xs bg-linear-to-b from-[#222631] via-[#454545] to-black">
+                {post.category}
+              </p>
+
+              <h4 className="text-lg md:text-xl lg:text-2xl mt-3 font-bold font-parkinsans text-primary-foreground">
+                {post.title}
+              </h4>
+
+              <p className="text-xs md:text-sm text-primary-foreground font-normal font-parkinsans mt-2 line-clamp-2">
+                {post.description}
+              </p>
+
+              {/* 👇 এই div টা কার্ডের নিচে থাকবে */}
+              <div className="mt-auto flex items-center justify-between pt-4">
+                <Link href="#">
+                  <Button
+                    className="font-normal bg-[#B118BF] text-white rounded-lg py-3 px-3 sm:py-4 md:py-5"
+                    variant="default"
+                  >
+                    Read More
+                  </Button>
+                </Link>
+                <div className="text-sm text-primary-foreground">
+                  {post.date} • {post.day} • {post.time}
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}

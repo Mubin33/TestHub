@@ -1,7 +1,12 @@
 import React from 'react'
+import BlogHero from './_ui/BlogHero'
+import AllBlogs from './_ui/AllBlogs'
 
 export default function page() {
   return (
-    <div>page</div>
+    <div>
+        <BlogHero/>
+        <AllBlogs/>
+    </div>
   )
 }
