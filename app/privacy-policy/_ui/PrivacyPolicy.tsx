@@ -2,7 +2,7 @@ import React from "react";
 
 export default function PrivacyPolicy() {
   return (
-    <div className="bg-black">
+    <div className="bg-black pt-8 pb-16">
       <div className="z-20 max-w-[1600px] mx-auto h-full xl:gap-20 px-2 2xl:px-3">
         {/*  */}
         <div>
@@ -66,7 +66,7 @@ export default function PrivacyPolicy() {
             <li>Secure login sessions</li>
             <li>Analyze site performance</li>
             <li>Show relevant ads</li>
-            <li className="list-none -ml-10">
+            <li className="list-none -ml-8">
               👉 You can manage or disable cookies anytime through your browser
               settings.
             </li>
@@ -115,6 +115,46 @@ export default function PrivacyPolicy() {
             <li>Opt out of marketing communications</li>
             <li>Manage cookie preferences</li>
           </ul>
+        </div>
+        {/*  */}
+        <div className="space-y-5 mt-10 lg:mt-16">
+          <h4 className="text-primary-foreground font-semibold font-parkinsans text-lg md:text-xl lg:text-2xl">
+            Compliance
+          </h4>
+          <h4 className="text-primary-foreground font-semibold font-parkinsans text-base md:text-lg lg:text-xl">
+            We comply with:
+          </h4>
+          <ul className="mt-0 text-primary-foreground text-xs md:text-sm font-parkinsans list-disc ml-7 space-y-1">
+            <li>GDPR (General Data Protection Regulation – EU)</li>
+            <li>CCPA (California Consumer Privacy Act – USA)</li>
+            <li>Other applicable US privacy laws and regulations</li>
+          </ul>
+        </div>
+        {/*  */}
+        <div className="space-y-5 mt-10 lg:mt-16">
+          <h4 className="text-primary-foreground font-semibold font-parkinsans text-lg md:text-xl lg:text-2xl">
+            Changes to This Policy
+          </h4>
+          <p className="text-xs md:text-sm rounded-[6px] font-parkinsans text-primary-foreground font-normal">
+            We may update this Privacy Policy from time to time. Updates will be
+            posted here with a revised “Last Updated” date.
+          </p>
+        </div>
+        {/*  */}
+        <div className="space-y-5 mt-10 lg:mt-16">
+          <h4 className="text-primary-foreground font-semibold font-parkinsans text-lg md:text-xl lg:text-2xl">
+            Contact Us
+          </h4>
+          <p className="text-xs md:text-sm rounded-[6px] font-parkinsans text-primary-foreground font-normal">
+            If you have any questions about this Privacy Policy or how your data
+            is handled, contact us:
+          </p>
+          <p className="text-xs md:text-sm rounded-[6px] font-parkinsans text-primary-foreground font-normal">
+            <span className="font-black">Email</span> privacy@zhbsolutions.com
+          </p>
+          <p className="text-xs md:text-sm rounded-[6px] font-parkinsans text-primary-foreground font-normal">
+            <span className="font-black">Phone:</span> +1 (XXX) XXX-XXXX
+          </p>
         </div>
       </div>
     </div>
