@@ -199,21 +199,28 @@ export default function AllBlogs() {
         ))}
       </div>
 
-
-
       {/* Subscribe */}
 
-      <div className="max-w-[1166px] h-[272px] mx-auto bg-cover mt-10 p-10 gap-5 lg:gap-20 flex flex-col lg:flex-row items-center justify-center" style={{ backgroundImage: "url('/subscriber_bg.png')" }} >
-        <h2 className="text-xl md:text-2xl lg:text-[32px] text-[#FDFDFD] font-parkinsans font-semibold">Subscribe For The <br /> Daily Updates</h2>
-      <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 items-center">
-        <input type="email" placeholder="Write Your Email" className="bg-white p-2 lg:p-3 rounded-lg w-64"/>
-        <Button
-                    className="font-normal bg-[#B118BF] md:text-sm text-white rounded-lg py-3 px-3 sm:py-4 md:py-6"
-                    variant="default"
-                  >
-                   Submit Now
-                  </Button>
-      </div>
+      <div
+        className="max-w-[1166px] h-[272px] mx-auto bg-cover mt-10 p-10 gap-5 lg:gap-20 flex flex-col lg:flex-row items-center justify-center"
+        style={{ backgroundImage: "url('/subscriber_bg.png')" }}
+      >
+        <h2 className="text-xl md:text-2xl lg:text-[32px] text-[#FDFDFD] font-parkinsans font-semibold">
+          Subscribe For The <br /> Daily Updates
+        </h2>
+        <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 items-center">
+          <input
+            type="email"
+            placeholder="Write Your Email"
+            className="bg-white p-2 lg:p-3 rounded-lg w-64"
+          />
+          <Button
+            className="font-normal bg-[#B118BF] md:text-sm text-white rounded-lg py-3 px-3 sm:py-4 md:py-6"
+            variant="default"
+          >
+            Submit Now
+          </Button>
+        </div>
       </div>
     </div>
   );
