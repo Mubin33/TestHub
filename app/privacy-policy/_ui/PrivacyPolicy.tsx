@@ -2,7 +2,7 @@ import React from "react";
 
 export default function PrivacyPolicy() {
   return (
-    <div className="bg-black pt-8 pb-16">
+    <div className="bg-black lg:pt-8 pb-16">
       <div className="z-20 max-w-[1600px] mx-auto h-full xl:gap-20 px-2 2xl:px-3">
         {/*  */}
         <div>
@@ -150,7 +150,7 @@ export default function PrivacyPolicy() {
             is handled, contact us:
           </p>
           <p className="text-xs md:text-sm rounded-[6px] font-parkinsans text-primary-foreground font-normal">
-            <span className="font-black">Email</span> privacy@zhbsolutions.com
+            <span className="font-black">Email</span> privacy@tastehub.com
           </p>
           <p className="text-xs md:text-sm rounded-[6px] font-parkinsans text-primary-foreground font-normal">
             <span className="font-black">Phone:</span> +1 (XXX) XXX-XXXX
