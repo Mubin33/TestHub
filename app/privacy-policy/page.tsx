@@ -1,10 +1,10 @@
-import React from 'react'
-import PrivacyPolicy from './_ui/PrivacyPolicy'
+import React from "react";
+import PrivacyPolicy from "./_ui/PrivacyPolicy";
 
 export default function page() {
   return (
     <div>
-        <PrivacyPolicy/>
+      <PrivacyPolicy />
     </div>
-  )
+  );
 }

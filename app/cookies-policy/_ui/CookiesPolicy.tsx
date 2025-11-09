@@ -13,8 +13,8 @@ export default function CookiesPolicy() {
           </h2>
 
           <p className="mt-4 text-base sm:text-sm md:text-base lg:text-lg font-normal mx-auto text-center max-w-[708px] font-parkinsans text-primary-foreground">
-            At TasteHub, we value your privacy. This page explains how and
-            why we use cookies to improve your experience on our website.
+            At TasteHub, we value your privacy. This page explains how and why
+            we use cookies to improve your experience on our website.
           </p>
         </div>
         {/*  */}
@@ -83,62 +83,63 @@ export default function CookiesPolicy() {
           </h4>
           <ul className="mt-0 text-primary-foreground text-xs md:text-sm font-parkinsans list-disc ml-7 space-y-1">
             <li>Accept all cookies for the best experience</li>
+            <li>Manage cookie preferences from our settings panel</li>
             <li>
-              Manage cookie preferences from our settings panel
-            </li>
-            <li>
-              Disable cookies in your browser (note: some features may not work correctly)
+              Disable cookies in your browser (note: some features may not work
+              correctly)
             </li>
           </ul>
           <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 md:gap-8 mt-8 sm:mt-10 lg:mt-14">
-          <Link href="#">
-            <Button
-              className="font-normal px-5 py-3 sm:px-6 sm:py-4 md:px-8 md:py-5 text-sm sm:text-base"
-              variant="default"
-            >
-             Accept All Cookies
-            </Button>
-          </Link>
-          <Link href="#">
-            <Button
-              className="px-5 py-3 sm:px-6 sm:py-4 md:px-8 md:py-5 text-sm sm:text-base"
-              variant="outline"
-            >
-            Manage Preferences
-            </Button>
-          </Link>
+            <Link href="#">
+              <Button
+                className="font-normal px-5 py-3 sm:px-6 sm:py-4 md:px-8 md:py-5 text-sm sm:text-base"
+                variant="default"
+              >
+                Accept All Cookies
+              </Button>
+            </Link>
+            <Link href="#">
+              <Button
+                className="px-5 py-3 sm:px-6 sm:py-4 md:px-8 md:py-5 text-sm sm:text-base"
+                variant="outline"
+              >
+                Manage Preferences
+              </Button>
+            </Link>
+          </div>
         </div>
-        </div> 
         {/*  */}
         <div className="space-y-5 mt-10 lg:mt-16">
           <h4 className="text-primary-foreground font-semibold font-parkinsans text-lg md:text-xl lg:text-2xl">
             Data Privecy & Security
           </h4>
           <h4 className="text-primary-foreground font-semibold font-parkinsans text-base md:text-lg lg:text-xl">
-          At TasteHub, your data is always safe:
+            At TasteHub, your data is always safe:
           </h4>
           <ul className="mt-0 text-primary-foreground text-xs md:text-sm font-parkinsans list-disc ml-7 space-y-1">
             <li>We encrypt all sensitive information</li>
             <li>We never sell your data to third parties</li>
-            <li>We comply with GDPR, CCPA, and US privacy standards</li> 
+            <li>We comply with GDPR, CCPA, and US privacy standards</li>
           </ul>
         </div>
-        {/*  */} 
+        {/*  */}
         <div className="space-y-5 mt-10 lg:mt-16">
           <h4 className="text-primary-foreground font-semibold font-parkinsans text-lg md:text-xl lg:text-2xl">
-           Updates to This Policy
+            Updates to This Policy
           </h4>
           <p className="text-xs md:text-sm rounded-[6px] font-parkinsans text-primary-foreground font-normal">
-           We may update this Cookies Policy from time to time. Any changes will be posted here with the “Last Updated” date.
+            We may update this Cookies Policy from time to time. Any changes
+            will be posted here with the “Last Updated” date.
           </p>
         </div>
         {/*  */}
         <div className="space-y-5 mt-10 lg:mt-16">
           <h4 className="text-primary-foreground font-semibold font-parkinsans text-lg md:text-xl lg:text-2xl">
-    Contact Us
+            Contact Us
           </h4>
           <p className="text-xs md:text-sm rounded-[6px] font-parkinsans text-primary-foreground font-normal">
-          If you have any questions about this Privacy Policy or how your data is handled, contact us:
+            If you have any questions about this Privacy Policy or how your data
+            is handled, contact us:
           </p>
           <p className="text-xs md:text-sm rounded-[6px] font-parkinsans text-primary-foreground font-normal">
             <span className="font-black">Email</span> privacy@tastehub.com
