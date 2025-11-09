@@ -92,14 +92,30 @@ export default function Contact() {
               <option className="bg-black" value="" disabled hidden>
                 Choose an option
               </option>
-              <option className="bg-black" value="option1">Enterprise Cloud Management</option>
-              <option className="bg-black" value="option2">Hybrid/Multi Cloud Platform Management</option>
-              <option className="bg-black" value="option3">Cloud Security, Compliance & Governance</option>
-              <option className="bg-black" value="option4">Cloud Native Infrastructure Management</option>
-              <option className="bg-black" value="option5">AI Consulting & Implementation</option>
-              <option className="bg-black" value="option6">Enterprise Generative AI Solution</option>
-              <option className="bg-black" value="option7">Intelligent Business Process Automation</option>
-              <option className="bg-black" value="option8">Cybersecurity Advisory & Consultation</option>
+              <option className="bg-black" value="option1">
+                Enterprise Cloud Management
+              </option>
+              <option className="bg-black" value="option2">
+                Hybrid/Multi Cloud Platform Management
+              </option>
+              <option className="bg-black" value="option3">
+                Cloud Security, Compliance & Governance
+              </option>
+              <option className="bg-black" value="option4">
+                Cloud Native Infrastructure Management
+              </option>
+              <option className="bg-black" value="option5">
+                AI Consulting & Implementation
+              </option>
+              <option className="bg-black" value="option6">
+                Enterprise Generative AI Solution
+              </option>
+              <option className="bg-black" value="option7">
+                Intelligent Business Process Automation
+              </option>
+              <option className="bg-black" value="option8">
+                Cybersecurity Advisory & Consultation
+              </option>
             </select>
 
             <div className="absolute right-2 top-1/2 -translate-y-1/2 pointer-events-none">
@@ -110,10 +126,7 @@ export default function Contact() {
                 viewBox="0 0 24 24"
                 fill="none"
               >
-                <path
-                  d="M12 16L6 10H18L12 16Z"
-                  fill="#F8F8F8"
-                />
+                <path d="M12 16L6 10H18L12 16Z" fill="#F8F8F8" />
               </svg>
             </div>
           </div>
@@ -155,13 +168,6 @@ export default function Contact() {
     </div>
   );
 }
-
-
-
-
-
-
-
 
 // import { Button } from "@/components/ui/button";
 // import Image from "next/image";
