@@ -228,7 +228,10 @@ export default function Footer() {
               </svg>{" "}
               Career{" "}
             </div>{" "}
-            <div className="mt-2 space-y-3 flex items-center gap-2 text-sm text-[#FFF] font-parkinsans font-normal">
+            <Link
+              href={"/privacy-policy"}
+              className="mt-2 space-y-3 flex items-center gap-2 text-sm text-[#FFF] font-parkinsans font-normal"
+            >
               {" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -247,7 +250,7 @@ export default function Footer() {
                 />{" "}
               </svg>{" "}
               Privacy Policy{" "}
-            </div>{" "}
+            </Link>{" "}
             <div className="mt-2 space-y-3 flex items-center gap-2 text-sm text-[#FFF] font-parkinsans font-normal">
               {" "}
               <svg
