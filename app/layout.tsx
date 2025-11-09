@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Parkinsans, Orbitron } from "next/font/google";
-import "./globals.css"; 
+import "./globals.css";
 import Footer from "./components/shared/Footer";
 import Navbar from "./components/shared/Navbar";
 
@@ -40,13 +40,12 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${parkinsans.variable} ${orbitron.variable} antialiased`}
       >
         <div className="sticky top-0 z-50">
-        <div className="backdrop-blur-xs ">
-        <Navbar/>
-        </div>
-
+          <div className="backdrop-blur-xs ">
+            <Navbar />
+          </div>
         </div>
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );

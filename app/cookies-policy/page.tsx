@@ -1,10 +1,10 @@
-import React from 'react'
-import CookiesPolicy from './_ui/CookiesPolicy'
+import React from "react";
+import CookiesPolicy from "./_ui/CookiesPolicy";
 
 export default function page() {
   return (
     <div>
-        <CookiesPolicy/>
+      <CookiesPolicy />
     </div>
-  )
+  );
 }
