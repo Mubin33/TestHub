@@ -38,13 +38,17 @@ const HeroSection: React.FC<HeroSectionProps> = ({
 
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4 sm:px-6 md:px-10 lg:px-16">
-        <h1 className="font-orbitron font-bold text-primary-foreground mx-auto max-w-[988px]
-          text-3xl sm:text-4xl md:text-5xl lg:text-[48px] xl:text-[56px] leading-tight">
+        <h1
+          className="font-orbitron font-bold text-primary-foreground mx-auto max-w-[988px]
+          text-3xl sm:text-4xl md:text-5xl lg:text-[48px] xl:text-[56px] leading-tight"
+        >
           {heading}
         </h1>
 
-        <p className="mt-4 sm:mt-6 text-base sm:text-lg md:text-xl lg:text-2xl font-normal font-parkinsans 
-          max-w-[950px] mx-auto px-2 sm:px-4">
+        <p
+          className="mt-4 sm:mt-6 text-base sm:text-lg md:text-xl lg:text-2xl font-normal font-parkinsans 
+          max-w-[950px] mx-auto px-2 sm:px-4"
+        >
           {description}
         </p>
 
@@ -72,16 +76,6 @@ const HeroSection: React.FC<HeroSectionProps> = ({
 };
 
 export default HeroSection;
-
-
-
-
-
-
-
-
-
-
 
 // import { Button } from "@/components/ui/button";
 // import Link from "next/link";
@@ -146,6 +140,5 @@ export default HeroSection;
 //     </div>
 //   );
 // }
-
 
 // export default HeroSection;
