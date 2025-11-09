@@ -13,7 +13,7 @@ export default function CookiesPolicy() {
           </h2>
 
           <p className="mt-4 text-base sm:text-sm md:text-base lg:text-lg font-normal mx-auto text-center max-w-[708px] font-parkinsans text-primary-foreground">
-            At ZHB Solutions, we value your privacy. This page explains how and
+            At TasteHub, we value your privacy. This page explains how and
             why we use cookies to improve your experience on our website.
           </p>
         </div>
@@ -115,7 +115,7 @@ export default function CookiesPolicy() {
             Data Privecy & Security
           </h4>
           <h4 className="text-primary-foreground font-semibold font-parkinsans text-base md:text-lg lg:text-xl">
-          At ZHB Solutions, your data is always safe:
+          At TasteHub, your data is always safe:
           </h4>
           <ul className="mt-0 text-primary-foreground text-xs md:text-sm font-parkinsans list-disc ml-7 space-y-1">
             <li>We encrypt all sensitive information</li>
