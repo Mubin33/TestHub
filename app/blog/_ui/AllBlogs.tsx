@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
@@ -93,13 +93,48 @@ const tabs = [
   "Cloud Computing",
 ];
 
+export interface BlogData {
+  id: number;
+  category: string;
+  description: string;
+  on_this_page: string[];
+  title: string;
+  publisher_name: string;
+  publish_date: string;
+  read_duration: string;
+  image: string;
+  tags: string[];
+  author: {
+    name: string;
+    bio: string;
+  };
+  content: {
+    heading: string;
+    text: string;
+  }[];
+}
+
 export default function AllBlogs() {
   const [activeTab, setActiveTab] = useState("All Post");
 
-  const filteredData =
-    activeTab === "All Post"
-      ? blogData
-      : blogData.filter((item) => item.category === activeTab);
+ const [item, setItem] = useState<BlogData[]>([]);
+
+useEffect(() => { 
+  fetch("/blog_data.json")
+    .then((res) => res.json())
+    .then((data: BlogData[]) => setItem(data))
+    .catch((err) => console.error("Failed to fetch blog data:", err));
+}, []);
+
+if (item.length === 0) return <p className="text-white text-center py-20">Loading...</p>;
+
+const filteredData =
+  activeTab === "All Post"
+    ? item
+    : item.filter((blog) => blog.category === activeTab);
+
+console.log(filteredData);
+
 
   return (
     <div className="w-full max-w-[1600px] mx-auto px-4 py-10">
@@ -182,7 +217,7 @@ export default function AllBlogs() {
               </p>
 
               <div className="mt-auto flex items-center justify-between pt-4">
-                <Link href="/blog/1">
+                <Link href={`/blog/${post.id}`}>
                   <Button
                     className="font-normal bg-[#B118BF] md:text-sm text-white rounded-lg py-3 px-3 sm:py-4 md:py-5"
                     variant="default"
@@ -191,7 +226,7 @@ export default function AllBlogs() {
                   </Button>
                 </Link>
                 <div className="text-sm text-primary-foreground">
-                  {post.date} • {post.day} • {post.time}
+                  {post.publish_date} •  {post.read_duration}
                 </div>
               </div>
             </div>
