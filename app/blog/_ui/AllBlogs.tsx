@@ -5,86 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
-type Blog = {
-  id: number;
-  title: string;
-  description: string;
-  image: string;
-  date: string;
-  day: string;
-  time: string;
-  category: "Artificial Intelligence" | "Cyber Security" | "Cloud Computing";
-};
 
-const blogData: Blog[] = [
-  {
-    id: 1,
-    title:
-      "The Future of Business Efficiency How AI and Automation Are Redefining Enterprise Growth",
-    description:
-      "Discover how AI and automation revolutionize enterprise workflows and unlock new growth opportunities.",
-    image: "/blog_image.png",
-    date: "Nov 2, 2025",
-    day: "Sunday",
-    time: "10:30 AM",
-    category: "Artificial Intelligence",
-  },
-  {
-    id: 2,
-    title: "Cloud & AI: The Dynamic Duo Transforming Digital Operations",
-    description:
-      "Discover how AI and automation revolutionize enterprise workflows and unlock new growth opportunities.",
-    image: "/blog_image.png",
-    date: "Nov 3, 2025",
-    day: "Monday",
-    time: "9:00 AM",
-    category: "Artificial Intelligence",
-  },
-  {
-    id: 3,
-    title: "How AI is Reinventing Cyber Security in the Digital Age",
-    description:
-      " Explore how artificial intelligence helps detect threats, predict breaches, and secure enterprise systems faster than ever before.",
-    image: "/blog_image.png",
-    date: "Nov 4, 2025",
-    day: "Tuesday",
-    time: "11:00 AM",
-    category: "Cyber Security",
-  },
-  {
-    id: 4,
-    title: "The Rise of Hybrid Cloud — Balancing Flexibility and Security",
-    description:
-      " Discover how hybrid cloud solutions help enterprises maintain data control while scaling globally with agility and cost efficiency.",
-    image: "/blog_image.png",
-    date: "Nov 5, 2025",
-    day: "Wednesday",
-    time: "2:30 PM",
-    category: "Cloud Computing",
-  },
-  {
-    id: 5,
-    title: "Cloud Migration Made Simple — A Strategic Guide for 2025",
-    description:
-      "Learn the key steps to move your business to the cloud successfully, minimize downtime, and optimize performance.",
-    image: "/blog_image.png",
-    date: "Nov 3, 2025",
-    day: "Monday",
-    time: "9:00 AM",
-    category: "Cloud Computing",
-  },
-  {
-    id: 6,
-    title: "Cloud Security in the Era of AI-Powered Attacks",
-    description:
-      " Understand the new wave of AI-driven cyber threats and how enterprises can protect their cloud infrastructure effectively.",
-    image: "/blog_image.png",
-    date: "Nov 4, 2025",
-    day: "Tuesday",
-    time: "11:00 AM",
-    category: "Cyber Security",
-  },
-];
+
 
 const tabs = [
   "All Post",

@@ -15,7 +15,7 @@
     "publisher_name": "TasteHUb ITelligence",
     "publish_date": "December 25, 2025",
     "read_duration": "5 min read",
-    "image": "/blog_details_hero.png",
+    "image": "/cybersecurity_blog.jpg",
     "tags": ["#AI", "#Automation", "#Efficiency", "#Technology"],
     "author": {
       "name": "John Doe",
@@ -65,7 +65,7 @@
     "publisher_name": "TasteHUb ITelligence",
     "publish_date": "January 10, 2026",
     "read_duration": "6 min read",
-    "image": "/blog_details_hero_2.png",
+    "image": "/blog_details_hero.png",
     "tags": ["#AI", "#Healthcare", "#Innovation", "#Ethics"],
     "author": {
       "name": "Dr. Sarah Lin",
@@ -115,7 +115,7 @@
     "publisher_name": "TasteHUb ITelligence",
     "publish_date": "January 11, 2026",
     "read_duration": "10 min read",
-    "image": "/blog_details_hero_2.png",
+    "image": "/unlocking_blog.webp",
     "tags": ["#AI", "#Innovation", "#Ethics"],
     "author": {
       "name": "Dr. Arafat Lin",
