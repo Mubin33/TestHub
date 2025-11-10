@@ -62,6 +62,7 @@ export interface CaseStudyData {
   title: string;
   subtitle: string;
   hero_image: string;
+  challange_image: string;
   publisher_name: string;
   publish_date: string;
   metrics: Metric[];
@@ -149,7 +150,7 @@ export default function CaseStudyDetails() {
 
           {/* right side */}
           <Image
-            src="/AI-Powered.png"
+            src={item?.hero_image}
             alt="AI-Powered"
             width={680}
             height={550}
@@ -190,7 +191,7 @@ export default function CaseStudyDetails() {
           {/*  */}
           <div className="flex flex-col lg:flex-row-reverse items-center gap-10 mt-14">
             <Image
-              src="/case_study_details.png"
+              src={item?.challange_image}
               alt="case_study_details"
               width={742}
               height={476}
@@ -260,7 +261,7 @@ export default function CaseStudyDetails() {
             </p>
             <div className="flex flex-wrap items-center justify-center gap-10 mt-10">
               {item?.solution?.solution_items?.map((solution, idx) => (
-                <div key={idx} className="p-5 max-w-24">
+                <div key={idx} className="p-5 max-w-32">
                   <Image
                     className="mx-auto"
                     src={solution?.icon}
@@ -346,79 +347,25 @@ export default function CaseStudyDetails() {
             </p>
 
             <div className="flex items-center flex-wrap justify-center gap-16 mt-10">
-              <div>
+              {item?.technology_stack.map((stack, idx) => ( 
+              <div key={idx}>
                 <div className="flex items-center gap-4">
-                  <Image
-                    className="mx-auto"
-                    src="/material-icon-theme_python.png"
-                    alt="material-icon-theme_python Icon"
-                    width={48}
-                    height={48}
-                  />
-                  <Image
-                    className="mx-auto"
-                    src="/devicon_tensorflow.png"
-                    alt="devicon_tensorflow Icon"
-                    width={48}
-                    height={48}
-                  />
-                  <Image
-                    className="mx-auto"
-                    src="/devicon_azure.png"
-                    alt="devicon_azure Icon"
-                    width={48}
-                    height={48}
-                  />
+                  {stack?.icons?.map((icon, idx) => (
+                    <Image key={idx}
+                      className="mx-auto"
+                      src={icon}
+                      alt={icon}
+                      width={48}
+                      height={48}
+                    />
+
+                   ))} 
                 </div>
                 <p className="mt-2 text-sm md:text-base lg:text-lg font-normal text-center mx-auto font-parkinsans text-primary-foreground">
-                  AL & ML
+                 {stack?.title}
                 </p>
               </div>
-              <div>
-                <Image
-                  className="mx-auto"
-                  src="/logos_microsoft-power-bi.png"
-                  alt="logos_microsoft-power-bi Icon"
-                  width={48}
-                  height={48}
-                />
-                <p className="mt-2 text-sm md:text-base lg:text-lg font-normal text-center mx-auto font-parkinsans text-primary-foreground">
-                  Data Visualization
-                </p>
-              </div>
-              <div>
-                <div className="flex items-center gap-4">
-                  <Image
-                    className="mx-auto"
-                    src="/logos_sap.png"
-                    alt="logos_sap Icon"
-                    width={48}
-                    height={48}
-                  />
-                  <Image
-                    className="mx-auto"
-                    src="/image 4.png"
-                    alt="image 4 Icon"
-                    width={48}
-                    height={48}
-                  />
-                </div>
-                <p className="mt-2 text-sm md:text-base lg:text-lg font-normal text-center mx-auto font-parkinsans text-primary-foreground">
-                  Data Integration
-                </p>
-              </div>
-              <div>
-                <Image
-                  className="mx-auto"
-                  src="/cloud and hybrid 1.png"
-                  alt="cloud and hybrid 1 Icon"
-                  width={48}
-                  height={48}
-                />
-                <p className="mt-2 text-sm md:text-base lg:text-lg font-normal text-center mx-auto font-parkinsans text-primary-foreground">
-                  Infrastructure
-                </p>
-              </div>
+                    ))}  
             </div>
           </div>
         </div>

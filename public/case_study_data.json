@@ -4,6 +4,7 @@
     "title": "AI-Powered Predictive Intelligence for a Global Manufacturing Leader",
     "subtitle": "Transforming MüllerTech’s production with AI-driven automation and predictive analytics.",
     "hero_image": "/AI-Powered.png",
+    "challange_image": "/case_study_details.png",
     "publisher_name": "TasteHub ITelligence",
     "publish_date": "December 25, 2025",
     "metrics": [
@@ -138,125 +139,129 @@
       }
     ]
   },
-  {
+   {
     "id": 2,
-    "title": "Smart Factory Analytics — Driving Efficiency Through AI",
-    "subtitle": "Optimizing production lines using IoT and predictive modeling for real-time insights.",
-    "hero_image": "/smart_factory.png",
+    "title": "Cybersecurity Modernization for a Global Fintech Platform",
+    "subtitle": "Strengthening FinSage Global’s security posture through AI-driven Zero Trust architecture and automated threat response",
+    "hero_image": "/Cybersecurity_Modernization_for_a_Global_Fintech_Platform.png",
+    "challange_image": "/futuristic.png",
     "publisher_name": "TasteHub ITelligence",
-    "publish_date": "January 15, 2026",
-    "metrics": [
-      {
-        "value": "40%",
-        "description": "Reduction in Downtime"
-      },
-      {
-        "value": "30%",
-        "description": "Increase in Production Efficiency"
-      },
-      {
-        "value": "6",
-        "description": "Months ROI"
-      }
+    "publish_date": "December 25, 2025",
+    "metrics": [ 
     ],
     "client_overview": {
       "basic_info": {
-        "Client": "TechMotion Inc.",
-        "Industry": "Automotive Components",
-        "Region": "USA"
+        "Client": "FinSage Global",
+        "Industry": "Financial Technology (Fintech)",
+        "Region": "Global (Operations in 20+ countries)"
       },
-      "description": "TechMotion operates multiple production plants across North America, specializing in high-precision automotive components."
+      "description": "FinSage Global is a rapidly growing fintech company offering cross-border digital payment solutions for consumers and enterprises across Europe, Asia, and North America. With rapid expansion came the challenge of managing large-scale user data securely while complying with evolving international data privacy laws."
     },
     "challenge": {
-      "description": "The client struggled with high machine downtime, inconsistent quality, and slow adaptation to new production demands. Key issues included:",
-      "points": [
-        "Frequent unplanned machine stops",
-        "Manual inspection causing bottlenecks",
-        "Inefficient predictive maintenance",
-        "Delayed production reporting"
+      "description": "As FinSage’s customer base grew, so did the scale and complexity of cybersecurity threats. The company faced:",
+      "points": [   
+        "Unauthorized access attempts across user accounts",
+        "Inconsistent encryption practices in legacy systems",
+        "Compliance risks under GDPR and PSD2",
+        "Lack of unified threat monitoring across platforms",
+        "Time-consuming manual response workflows"
       ],
-      "impact": "These challenges reduced overall productivity and delayed product delivery schedules."
+      "impact": "These challenges heightened operational risk and could erode customer trust if not addressed swiftly."
     },
     "objectives": [
       {
-        "title": "Predictive Maintenance",
-        "icon": "/case_study_icon_pm.png",
-        "description": "Implement AI-driven predictive maintenance to prevent unexpected equipment failures."
+        "title": "End-to-End Data Protection",
+        "icon": "/case_study_objects_details2_icon1.png",
+        "description": "Strengthen data security and identity management"
       },
       {
-        "title": "Automate Quality Checks",
-        "icon": "/case_study_icon_qc.png",
-        "description": "Deploy machine vision systems to ensure consistent product quality."
+        "title": "Regulatory Compliance",
+        "icon": "/case_study_objects_details2_icon2.png",
+        "description": " Achieve GDPR and PSD2 alignment"
       },
       {
-        "title": "Real-time Analytics",
-        "icon": "/case_study_icon_rt.png",
-        "description": "Provide dashboards for monitoring KPIs in real time."
+        "title": "Automation",
+        "icon": "/case_study_objects_details2_icon3.png",
+        "description": "Introduce real-time threat monitoring and automated incident response"
       }
     ],
     "solution": {
-      "description": "A fully integrated AI & IoT solution was deployed, combining predictive analytics, machine vision, and MES integration.",
+      "description": "TasteHub ITelligence deployed a Zero Trust Security Architecture integrated with AI-driven monitoring and automated incident response systems.",
       "solution_items": [
-        { "title": "AI Vision", "icon": "/solution_icon1.png" },
-        { "title": "Predictive Analytics", "icon": "/solution_icon2.png" },
-        { "title": "ERP Integration", "icon": "/solution_icon3.png" },
-        { "title": "Real-time Dashboards", "icon": "/solution_icon4.png" }
+        { "title": "Next-Gen SIEM Implementation", "icon": "/case_study_solutions_details2_icon1.png" },
+        { "title": "Identity  Management", "icon": "/case_study_solutions_details2_icon2.png" },
+        { "title": "Compliance Automation", "icon": "/case_study_solutions_details2_icon3.png" },
+        { "title": "Security Awareness", "icon": "/case_study_solutions_details2_icon4.png" }
       ]
     },
     "key_features": [
       {
-        "title": "Predictive Analytics",
-        "icon": "/key_features_icon1.png",
-        "description": "Early detection of machine anomalies using AI models."
+        "title": "AI-Driven Monitoring",
+        "icon": "/case_study_feture_details2_icon1.png",
+        "description": "Continuous behavioral analytics for proactive threat detection"
       },
       {
-        "title": "IoT Monitoring",
-        "icon": "/key_features_icon2.png",
-        "description": "Real-time data collection from production sensors."
+        "title": "Zero Trust Model",
+        "icon": "/case_study_feture_details2_icon2.png",
+        "description": "Never trust, always verify” approach ensuring constant validation"
       },
       {
-        "title": "Centralized Reporting",
-        "icon": "/key_features_icon3.png",
-        "description": "Unified reporting across multiple production lines."
+        "title": "Automated Response",
+        "icon": "/case_study_feture_details2_icon3.png",
+        "description": "Threat response time reduced via intelligent playbooks"
+      },
+      {
+        "title": "Centralized Dashboard",
+        "icon": "/case_study_feture_details2_icon4.png",
+        "description": "Unified security visibility through Microsoft 365 Defender"
+      },
+      {
+        "title": "Employee Training",
+        "icon": "/case_study_feture_details2_icon5.png",
+        "description": "Real-world simulations to strengthen human firewalls"
       }
     ],
     "results": [
       {
-        "value": "40%",
-        "description": "Reduction in Downtime",
-        "icon": "/results_icon1.png"
+        "value": "35% ",
+        "description": "Reduction in unplanned downtime",
+        "icon": "/case_study_result_details2_icon1.png"
       },
       {
-        "value": "30%",
-        "description": "Increase in Production Efficiency",
-        "icon": "/results_icon2.png"
+        "value": "Zero Major Findings ",
+        "description": "in GDPR Audit",
+        "icon": "/case_study_result_details2_icon2.png"
       },
       {
-        "value": "6 Months",
-        "description": "ROI Achieved",
-        "icon": "/results_icon3.png"
+        "value": "Response Time",
+        "description": "Reduced from 40 mins to <5 mins",
+        "icon": "/case_study_result_details2_icon3.png"
+      },
+      {
+        "value": "Increased",
+        "description": "Customer Trust & Reliability",
+        "icon": "/case_study_result_details2_icon4.png"
       }
     ],
     "technology_stack": [
       {
-        "title": "AL & ML",
+        "title": "Threat Detection & SIEM",
         "icons": [
-          "/material-icon-theme_python.png",
-          "/devicon_tensorflow.png",
-          "/devicon_azure.png"
+          "/case_study_stack_details2_icon1.png",
+          "/case_study_stack_details2_icon2.png" 
         ]
       },
       {
-        "title": "Data Visualization",
-        "icons": ["/logos_microsoft-power-bi.png"]
+        "title": "Identity Management",
+        "icons": ["/case_study_stack_details2_icon3.png"]
       },
       {
-        "title": "Data Integration",
-        "icons": ["/logos_sap.png"]
+        "title": "Endpoint Security",
+        "icons": ["/case_study_stack_details2_icon4.png", "/image 4.png"]
       },
       {
-        "title": "Infrastructure",
-        "icons": ["/cloud and hybrid 1.png"]
+        "title": "Compliance Automation",
+        "icons": ["/case_study_stack_details2_icon6.png"]
       }
     ]
   }
