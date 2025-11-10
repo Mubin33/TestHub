@@ -5,6 +5,8 @@ import React, { useEffect, useState } from "react";
 
 export interface BlogData {
   id: number;
+  category: string;
+  description: string;
   on_this_page: string[];
   title: string;
   publisher_name: string;

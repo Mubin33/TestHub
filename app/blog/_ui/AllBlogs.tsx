@@ -1,90 +1,12 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
-type Blog = {
-  id: number;
-  title: string;
-  description: string;
-  image: string;
-  date: string;
-  day: string;
-  time: string;
-  category: "Artificial Intelligence" | "Cyber Security" | "Cloud Computing";
-};
 
-const blogData: Blog[] = [
-  {
-    id: 1,
-    title:
-      "The Future of Business Efficiency How AI and Automation Are Redefining Enterprise Growth",
-    description:
-      "Discover how AI and automation revolutionize enterprise workflows and unlock new growth opportunities.",
-    image: "/blog_image.png",
-    date: "Nov 2, 2025",
-    day: "Sunday",
-    time: "10:30 AM",
-    category: "Artificial Intelligence",
-  },
-  {
-    id: 2,
-    title: "Cloud & AI: The Dynamic Duo Transforming Digital Operations",
-    description:
-      "Discover how AI and automation revolutionize enterprise workflows and unlock new growth opportunities.",
-    image: "/blog_image.png",
-    date: "Nov 3, 2025",
-    day: "Monday",
-    time: "9:00 AM",
-    category: "Artificial Intelligence",
-  },
-  {
-    id: 3,
-    title: "How AI is Reinventing Cyber Security in the Digital Age",
-    description:
-      " Explore how artificial intelligence helps detect threats, predict breaches, and secure enterprise systems faster than ever before.",
-    image: "/blog_image.png",
-    date: "Nov 4, 2025",
-    day: "Tuesday",
-    time: "11:00 AM",
-    category: "Cyber Security",
-  },
-  {
-    id: 4,
-    title: "The Rise of Hybrid Cloud — Balancing Flexibility and Security",
-    description:
-      " Discover how hybrid cloud solutions help enterprises maintain data control while scaling globally with agility and cost efficiency.",
-    image: "/blog_image.png",
-    date: "Nov 5, 2025",
-    day: "Wednesday",
-    time: "2:30 PM",
-    category: "Cloud Computing",
-  },
-  {
-    id: 5,
-    title: "Cloud Migration Made Simple — A Strategic Guide for 2025",
-    description:
-      "Learn the key steps to move your business to the cloud successfully, minimize downtime, and optimize performance.",
-    image: "/blog_image.png",
-    date: "Nov 3, 2025",
-    day: "Monday",
-    time: "9:00 AM",
-    category: "Cloud Computing",
-  },
-  {
-    id: 6,
-    title: "Cloud Security in the Era of AI-Powered Attacks",
-    description:
-      " Understand the new wave of AI-driven cyber threats and how enterprises can protect their cloud infrastructure effectively.",
-    image: "/blog_image.png",
-    date: "Nov 4, 2025",
-    day: "Tuesday",
-    time: "11:00 AM",
-    category: "Cyber Security",
-  },
-];
+
 
 const tabs = [
   "All Post",
@@ -93,13 +15,48 @@ const tabs = [
   "Cloud Computing",
 ];
 
+export interface BlogData {
+  id: number;
+  category: string;
+  description: string;
+  on_this_page: string[];
+  title: string;
+  publisher_name: string;
+  publish_date: string;
+  read_duration: string;
+  image: string;
+  tags: string[];
+  author: {
+    name: string;
+    bio: string;
+  };
+  content: {
+    heading: string;
+    text: string;
+  }[];
+}
+
 export default function AllBlogs() {
   const [activeTab, setActiveTab] = useState("All Post");
 
-  const filteredData =
-    activeTab === "All Post"
-      ? blogData
-      : blogData.filter((item) => item.category === activeTab);
+ const [item, setItem] = useState<BlogData[]>([]);
+
+useEffect(() => { 
+  fetch("/blog_data.json")
+    .then((res) => res.json())
+    .then((data: BlogData[]) => setItem(data))
+    .catch((err) => console.error("Failed to fetch blog data:", err));
+}, []);
+
+if (item.length === 0) return <p className="text-white text-center py-20">Loading...</p>;
+
+const filteredData =
+  activeTab === "All Post"
+    ? item
+    : item.filter((blog) => blog.category === activeTab);
+
+console.log(filteredData);
+
 
   return (
     <div className="w-full max-w-[1600px] mx-auto px-4 py-10">
@@ -182,7 +139,7 @@ export default function AllBlogs() {
               </p>
 
               <div className="mt-auto flex items-center justify-between pt-4">
-                <Link href="/blog/1">
+                <Link href={`/blog/${post.id}`}>
                   <Button
                     className="font-normal bg-[#B118BF] md:text-sm text-white rounded-lg py-3 px-3 sm:py-4 md:py-5"
                     variant="default"
@@ -191,7 +148,7 @@ export default function AllBlogs() {
                   </Button>
                 </Link>
                 <div className="text-sm text-primary-foreground">
-                  {post.date} • {post.day} • {post.time}
+                  {post.publish_date} •  {post.read_duration}
                 </div>
               </div>
             </div>

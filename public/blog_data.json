@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "category": "Cyber Security",
     "on_this_page": [
       "Introduction",
       "Intelligent Operations",
@@ -9,11 +10,12 @@
       "AI Adoption",
       "Conclusion"
     ],
+    "description": "Discover how AI and automation revolutionize enterprise workflows and unlock new growth opportunities.",
     "title": "The Future of Business Efficiency — How AI and Automation Are Redefining Enterprise Growth",
     "publisher_name": "TasteHUb ITelligence",
     "publish_date": "December 25, 2025",
     "read_duration": "5 min read",
-    "image": "/blog_details_hero.png",
+    "image": "/cybersecurity_blog.jpg",
     "tags": ["#AI", "#Automation", "#Efficiency", "#Technology"],
     "author": {
       "name": "John Doe",
@@ -48,6 +50,7 @@
   },
   {
     "id": 2,
+    "category": "Artificial Intelligence",
     "on_this_page": [
       "Overview",
       "AI in Healthcare",
@@ -56,11 +59,13 @@
       "Challenges Ahead",
       "Final Thoughts"
     ],
+    "description": " Explore how artificial intelligence helps detect threats, predict breaches, and secure enterprise systems faster than ever before.",
+
     "title": "Unlocking the Power of Data — How Predictive Analytics Transforms Decision-Making",
     "publisher_name": "TasteHUb ITelligence",
     "publish_date": "January 10, 2026",
     "read_duration": "6 min read",
-    "image": "/blog_details_hero_2.png",
+    "image": "/blog_details_hero.png",
     "tags": ["#AI", "#Healthcare", "#Innovation", "#Ethics"],
     "author": {
       "name": "Dr. Sarah Lin",
@@ -92,21 +97,25 @@
         "text": "AI’s potential in healthcare is limitless, but it must be pursued responsibly. With proper oversight, it can create a future where treatment is faster, more accurate, and accessible to all."
       }
     ]
-  },{
+  },
+  {
     "id": 3,
+    "category": "Cloud Computing",
     "on_this_page": [
-        "Final Thoughts",
-        "Data Ethics",
-        "Impact on Doctors",
-        "AI in Healthcare",
-        "Overview",
+      "Final Thoughts",
+      "Data Ethics",
+      "Impact on Doctors",
+      "AI in Healthcare",
+      "Overview",
       "Challenges Ahead"
     ],
+    "description": "Learn the key steps to move your business to the cloud successfully, minimize downtime, and optimize performance.",
+
     "title": "Building a Secure Digital Future — Why Cybersecurity Is the Core of Digital Transformation",
     "publisher_name": "TasteHUb ITelligence",
     "publish_date": "January 11, 2026",
     "read_duration": "10 min read",
-    "image": "/blog_details_hero_2.png",
+    "image": "/unlocking_blog.webp",
     "tags": ["#AI", "#Innovation", "#Ethics"],
     "author": {
       "name": "Dr. Arafat Lin",
