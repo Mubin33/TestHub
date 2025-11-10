@@ -5,7 +5,7 @@ import BlogDetails from "../_ui/BlogDetails";
 export default function page() {
   return (
     <div>
-      <BlogDetailsHero />
+      {/* <BlogDetailsHero /> */}
       <BlogDetails />
     </div>
   );
