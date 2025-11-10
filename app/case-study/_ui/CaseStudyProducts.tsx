@@ -71,7 +71,7 @@ export default function CaseStudyProducts() {
                   Architecture supported by AI driven monitoring and .......
                 </p>
               </div>
-              <Link href="/case-study/1">
+              <Link href="/case-study/2">
                 <Button
                   className="group mt-9 lg:mt-full w-fit mb-0 px-7 py-5 flex items-center gap-2"
                   variant="outline"
@@ -113,7 +113,7 @@ export default function CaseStudyProducts() {
                   across Europe and Asia.
                 </p>
               </div>
-              <Link href="/case-study/1">
+              <Link href="/case-study/3">
                 <Button
                   className="group mt-9 lg:mt-full w-fit mb-0 px-7 py-5 flex items-center gap-2"
                   variant="outline"
@@ -156,7 +156,7 @@ export default function CaseStudyProducts() {
                   and .......
                 </p>
               </div>
-              <Link href="/case-study/1">
+              <Link href="/case-study/4">
                 <Button
                   className="group mt-9 lg:mt-full w-fit mb-0 px-7 py-5 flex items-center gap-2"
                   variant="outline"
