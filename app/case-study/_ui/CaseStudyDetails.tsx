@@ -326,10 +326,10 @@ export default function CaseStudyDetails() {
                   width={56}
                   height={56}
                 />
-                <h3 className="mt-2 text-2xl lg:text-4xl xl:text-[56px] text-primary-foreground font-bold font-orbitron text-center">
+                <h3 className="mt-2 text-lg lg:text-xl xl:text-2xl text-primary-foreground font-bold font-orbitron text-center">
                 {result?.value}
                 </h3>
-                <p className="mt-2 text-xs md:text-sm lg:text-base font-normal text-center mx-auto font-parkinsans text-primary-foreground">
+                <p className="mt-2 text-[10px] md:text-xs lg:text-sm font-normal text-center mx-auto font-parkinsans text-primary-foreground">
                   {result?.description}
                 </p>
               </div> 
