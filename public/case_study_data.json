@@ -1,0 +1,263 @@
+[
+  {
+    "id": 1,
+    "title": "AI-Powered Predictive Intelligence for a Global Manufacturing Leader",
+    "subtitle": "Transforming MüllerTech’s production with AI-driven automation and predictive analytics.",
+    "hero_image": "/AI-Powered.png",
+    "publisher_name": "TasteHub ITelligence",
+    "publish_date": "December 25, 2025",
+    "metrics": [
+      {
+        "value": "35%",
+        "description": "Reduction in Downtime"
+      },
+      {
+        "value": "25%",
+        "description": "Boost in Efficiency (OEE)"
+      },
+      {
+        "value": "9",
+        "description": "Months ROI"
+      }
+    ],
+    "client_overview": {
+      "basic_info": {
+        "Client": "MüllerTech Industries GmbH",
+        "Industry": "Industrial Manufacturing & Supply Chain",
+        "Region": "Germany"
+      },
+      "description": "MüllerTech is a global manufacturing leader with 15+ production facilities across Europe and Asia. The company specializes in precision components and advanced materials for the automotive and heavy industries."
+    },
+    "challenge": {
+      "description": "MüllerTech faced recurring delays in its production pipeline due to manual quality inspection and reactive maintenance workflows. The lack of centralized visibility across facilities resulted in:",
+      "points": [
+        "Unplanned equipment downtime",
+        "Manual Quality Inspection",
+        "Reactive Maintenance",
+        "Lack of Centralized Data Visibility",
+        "Inconsistent product quality",
+        "Inefficient demand forecasting"
+      ],
+      "impact": "These issues collectively reduced operational efficiency and increased production costs."
+    },
+    "objectives": [
+      {
+        "title": "Automate Quality Control",
+        "icon": "/case_study_details_icon1.png",
+        "description": "Deploy AI-powered vision systems to detect and classify defects in real time, ensuring consistent product quality."
+      },
+      {
+        "title": "Reduce Downtime",
+        "icon": "/case_study_details_icon2.png",
+        "description": "Implement predictive maintenance analytics to identify machine failures before they occur and minimize disruptions."
+      },
+      {
+        "title": "Enable Data-Driven Forecasting",
+        "icon": "/case_study_details_icon3.png",
+        "description": "Leverage production data and machine learning models for accurate, proactive decision-making."
+      }
+    ],
+    "solution": {
+      "description": "TasteHub ITelligence designed and deployed a custom AI & Automation system integrated with MüllerTech’s existing MES (Manufacturing Execution System).",
+      "solution_items": [
+        { "title": "AI Vision", "icon": "/solution_icon1.png" },
+        { "title": "Predictive Analytics", "icon": "/solution_icon2.png" },
+        { "title": "ERP Integration", "icon": "/solution_icon3.png" },
+        { "title": "Dashboard insights", "icon": "/solution_icon4.png" }
+      ]
+    },
+    "key_features": [
+      {
+        "title": "AI Vision System",
+        "icon": "/key_features_icon1.png",
+        "description": "Real-time anomaly detection using TensorFlow - based AI models."
+      },
+      {
+        "title": "Predictive Analytics",
+        "icon": "/key_features_icon2.png",
+        "description": "Predictive maintenance analytics powered by Azure Machine Learning."
+      },
+      {
+        "title": "Centralized Reporting",
+        "icon": "/key_features_icon3.png",
+        "description": "SAP ERP integration for unified performance visibility."
+      },
+      {
+        "title": "IoT-Enabled Monitoring",
+        "icon": "/key_features_icon4.png",
+        "description": "Continuous data streaming from edge sensors across production lines."
+      },
+      {
+        "title": "Interactive Dashboards",
+        "icon": "/key_features_icon5.png",
+        "description": "Power BI dashboards delivering live KPIs and trend analysis."
+      }
+    ],
+    "results": [
+      {
+        "value": "35%",
+        "description": "Reduction in unplanned downtime",
+        "icon": "/results_icon1.png"
+      },
+      {
+        "value": "25%",
+        "description": "Increase in overall equipment effectiveness (OEE)",
+        "icon": "/results_icon2.png"
+      },
+      {
+        "value": "4.2%1.1%",
+        "description": "Increase in overall equipment effectiveness (OEE)",
+        "icon": "/results_icon3.png"
+      },
+      {
+        "value": "9 Months",
+        "description": "ROI achieved",
+        "icon": "/results_icon4.png"
+      }
+    ],
+    "technology_stack": [
+      {
+        "title": "AL & ML",
+        "icons": [
+          "/material-icon-theme_python.png",
+          "/devicon_tensorflow.png",
+          "/devicon_azure.png"
+        ]
+      },
+      {
+        "title": "Data Visualization",
+        "icons": ["/logos_microsoft-power-bi.png"]
+      },
+      {
+        "title": "Data Integration",
+        "icons": ["/logos_sap.png", "/image 4.png"]
+      },
+      {
+        "title": "Infrastructure",
+        "icons": ["/cloud and hybrid 1.png"]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Smart Factory Analytics — Driving Efficiency Through AI",
+    "subtitle": "Optimizing production lines using IoT and predictive modeling for real-time insights.",
+    "hero_image": "/smart_factory.png",
+    "publisher_name": "TasteHub ITelligence",
+    "publish_date": "January 15, 2026",
+    "metrics": [
+      {
+        "value": "40%",
+        "description": "Reduction in Downtime"
+      },
+      {
+        "value": "30%",
+        "description": "Increase in Production Efficiency"
+      },
+      {
+        "value": "6",
+        "description": "Months ROI"
+      }
+    ],
+    "client_overview": {
+      "basic_info": {
+        "Client": "TechMotion Inc.",
+        "Industry": "Automotive Components",
+        "Region": "USA"
+      },
+      "description": "TechMotion operates multiple production plants across North America, specializing in high-precision automotive components."
+    },
+    "challenge": {
+      "description": "The client struggled with high machine downtime, inconsistent quality, and slow adaptation to new production demands. Key issues included:",
+      "points": [
+        "Frequent unplanned machine stops",
+        "Manual inspection causing bottlenecks",
+        "Inefficient predictive maintenance",
+        "Delayed production reporting"
+      ],
+      "impact": "These challenges reduced overall productivity and delayed product delivery schedules."
+    },
+    "objectives": [
+      {
+        "title": "Predictive Maintenance",
+        "icon": "/case_study_icon_pm.png",
+        "description": "Implement AI-driven predictive maintenance to prevent unexpected equipment failures."
+      },
+      {
+        "title": "Automate Quality Checks",
+        "icon": "/case_study_icon_qc.png",
+        "description": "Deploy machine vision systems to ensure consistent product quality."
+      },
+      {
+        "title": "Real-time Analytics",
+        "icon": "/case_study_icon_rt.png",
+        "description": "Provide dashboards for monitoring KPIs in real time."
+      }
+    ],
+    "solution": {
+      "description": "A fully integrated AI & IoT solution was deployed, combining predictive analytics, machine vision, and MES integration.",
+      "solution_items": [
+        { "title": "AI Vision", "icon": "/solution_icon1.png" },
+        { "title": "Predictive Analytics", "icon": "/solution_icon2.png" },
+        { "title": "ERP Integration", "icon": "/solution_icon3.png" },
+        { "title": "Real-time Dashboards", "icon": "/solution_icon4.png" }
+      ]
+    },
+    "key_features": [
+      {
+        "title": "Predictive Analytics",
+        "icon": "/key_features_icon1.png",
+        "description": "Early detection of machine anomalies using AI models."
+      },
+      {
+        "title": "IoT Monitoring",
+        "icon": "/key_features_icon2.png",
+        "description": "Real-time data collection from production sensors."
+      },
+      {
+        "title": "Centralized Reporting",
+        "icon": "/key_features_icon3.png",
+        "description": "Unified reporting across multiple production lines."
+      }
+    ],
+    "results": [
+      {
+        "value": "40%",
+        "description": "Reduction in Downtime",
+        "icon": "/results_icon1.png"
+      },
+      {
+        "value": "30%",
+        "description": "Increase in Production Efficiency",
+        "icon": "/results_icon2.png"
+      },
+      {
+        "value": "6 Months",
+        "description": "ROI Achieved",
+        "icon": "/results_icon3.png"
+      }
+    ],
+    "technology_stack": [
+      {
+        "title": "AL & ML",
+        "icons": [
+          "/material-icon-theme_python.png",
+          "/devicon_tensorflow.png",
+          "/devicon_azure.png"
+        ]
+      },
+      {
+        "title": "Data Visualization",
+        "icons": ["/logos_microsoft-power-bi.png"]
+      },
+      {
+        "title": "Data Integration",
+        "icons": ["/logos_sap.png"]
+      },
+      {
+        "title": "Infrastructure",
+        "icons": ["/cloud and hybrid 1.png"]
+      }
+    ]
+  }
+]

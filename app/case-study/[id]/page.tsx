@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import CaseStudyHero from "../_ui/CaseStudyHero";
+// import CaseStudyHero from "../_ui/CaseStudyHero";
 import CaseStudyDetails from "../_ui/CaseStudyDetails";
 import CaseStudySection from "../_ui/CaseStudySection";
 import TestimonialSlider from "@/app/components/_ui/Testimonial";
@@ -14,7 +14,7 @@ export default function page() {
   return (
     <div>
       {/* <div className="-mt-20"> */}
-      <CaseStudyHero />
+      {/* <CaseStudyHero /> */}
       {/* </div> */}
       <CaseStudyDetails />
       <CaseStudySection />
