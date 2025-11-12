@@ -6,15 +6,6 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 
-
-
-const tabs = [
-  "All Post",
-  "Artificial Intelligence",
-  "Cyber Security",
-  "Cloud Computing",
-];
-
 export interface BlogData {
   id: number;
   category: string;
