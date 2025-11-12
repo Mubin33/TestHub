@@ -149,6 +149,28 @@
   }
 }
 
+.spin-reverse {
+  animation: spin-reverse linear infinite;
+  animation-duration: var(--orbit-speed, 22.3s); /* same as main orbit speed */
+}
+
+
+.orbit-wrapper {
+  animation: spin linear infinite;
+  animation-duration: var(--orbit-speed, 22s);
+}
+
+
+@keyframes spin-reverse {
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.shadow-demo {
+  box-shadow: 0 0 180px rgb(255, 111, 0);
+}
+
 .animate-marquee {
   display: flex;
   width: 200%;
