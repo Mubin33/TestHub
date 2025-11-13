@@ -167,9 +167,6 @@
   }
 }
 
-.shadow-demo {
-  box-shadow: 0 0 180px rgb(255, 111, 0);
-}
 
 .animate-marquee {
   display: flex;
@@ -177,6 +174,12 @@
   animation-name: marquee;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+}
+
+
+
+.shadow-demo {
+  box-shadow: 0 0 180px rgb(255, 111, 0);
 }
 }
  
