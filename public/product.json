@@ -68,6 +68,20 @@
       { "img": "/Voting/analytics-unscreen.gif", "text": "Analytics & Election Insights" },
       { "img": "/Voting/fingerprint-authentication-unscreen.gif", "text": "Voter Verification Tools" }
     ]
+  },
+  {
+    "id": 6,
+    "title": "Agentic AI ",
+    "subtitle": "Harness the power of Agentic AI to make your operations smarter and faster.",
+    "category": "Agentic AI",
+    "image": "/Agentic AI.png",
+    "features": [
+      { "img": "/Agentic AI/brain-unscreen.gif", "text": "Predictive Decision Intelligence" },
+      { "img": "/Agentic AI/clipboard-gear-unscreen.gif", "text": "Workflow Automation" },
+      { "img": "/Agentic AI/ai-microphone-unscreen.gif", "text": "Natural Language Interaction" },
+      { "img": "/Agentic AI/stats-unscreen.gif", "text": "AI-Powered Analytics Dashboard" },
+      { "img": "/Agentic AI/society-unscreen.gif", "text": "Seamless Integration with ERP/HRM" }
+    ]
   }
   
 ]
