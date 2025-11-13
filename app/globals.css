@@ -138,6 +138,10 @@
   body {
     @apply bg-black text-foreground;
   }
+  html {
+  scroll-behavior: smooth;
+}
+
  
 
  @keyframes marquee {

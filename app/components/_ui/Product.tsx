@@ -65,7 +65,7 @@ export default function Product() {
             className={`px-4 py-2 cursor-pointer rounded-lg text-xs md:text-sm font-parkinsans font-medium transition-all duration-300 ${
               activeTab === tab
                 ? "bg-[#B118BF] text-primary-foreground"
-                : "bg-[#181818] border border-[#B118BF] text-white "
+                : "bg-[#181818] border border-[#B118BF] text-white"
             }`}
           >
             {tab}
