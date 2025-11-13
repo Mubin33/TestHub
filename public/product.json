@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1,
+    "title": "Employee Management Portal",
+    "subtitle": "Smarter HR Management in One Platform",
+    "category": "Employee  Management Portal",
+    "image": "/product_side_image.png", 
+    "features": [
+      { "img": "/performance_report_unscreen.gif", "text": "Performance & Evaluation Tools" },
+      { "img": "/self-service-unscreen.gif", "text": "Employee Self Service Portal" },
+      { "img": "/folder-unscreen.gif", "text": "Secure Data Management" },
+      { "img": "/salary-increase-unscreen.gif", "text": "Automated Payroll & Tax Compliance" },
+      { "img": "/finder-unscreen.gif", "text": "Smart Attendance & Leave Tracking" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Point of Sale (POS)",
+    "subtitle": "Transform your sales process with a modern Point-of-Sale system built for efficiency.",
+    "category": "POS Machine",
+    "image": "/POS_Machine.png",
+    "features": [
+      { "img": "/POS/bill-unscreen.gif", "text": "Cloud-Based Billing & Invoicing" },
+      { "img": "/POS/supply-unscreen.gif", "text": "Stock & Inventory Sync" },
+      { "img": "/POS/management-1-unscreen.gif", "text": "Multi-Branch Management" },
+      { "img": "/POS/search-box-unscreen.gif", "text": "Customer Loyalty Tracking" },
+      { "img": "/POS/payment-unscreen.gif", "text": "Secure Payment Integrations" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": " TasteHub ITelligence ERP",
+    "subtitle": "Streamline operations and boost productivity with one unified ERP platform.",
+    "category": "TasteHub ITelligence ERP",
+    "image": "/ITelligence ERP.png",
+    "features": [
+      { "img": "/ERP/management-unscreen.gif", "text": "Inventory & Supply Chain Management" },
+      { "img": "/ERP/settings-unscreen.gif", "text": "Accounting & Financial Control" },
+      { "img": "/ERP/speedometer-unscreen.gif", "text": "Real-Time Data Analytics" },
+      { "img": "/ERP/process-unscreen.gif", "text": "Customizable Workflow Automation" },
+      { "img": "/ERP/dashboard-unscreen.gif", "text": "Centralized Reporting Dashboard" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": " Partner Program",
+    "subtitle": "Join our partner ecosystem to grow your business with shared innovation.",
+    "category": "Partner Program",
+    "image": "/Partner Program.png",
+    "features": [
+      { "img": "/Partner Portal/partner-unscreen.gif", "text": "Dedicated Partner Dashboard" },
+      { "img": "/Partner Portal/business-finance-unscreen.gif", "text": "Performance & Revenue Insights" },
+      { "img": "/Partner Portal/24-hours-support-unscreen.gif", "text": "Resource & Training Support" },
+      { "img": "/Partner Portal/marketing-unscreen.gif", "text": "Co-Marketing Opportunities" },
+      { "img": "/Partner Portal/api-unscreen.gif", "text": "API & Integration Access" }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Voting & Election Management System",
+    "subtitle": "A fully digital voting platform ensuring accuracy, accessibility, and trust.",
+    "category": "Voting App",
+    "image": "/Voting App.png",
+    "features": [
+      { "img": "/Voting/vote-unscreen.gif", "text": "Real-Time Vote Counting" },
+      { "img": "/Voting/password-unscreen.gif", "text": "Multi-Level Access Control" },
+      { "img": "/Voting/cloud-protection-unscreen.gif", "text": "Secure Cloud Infrastructure" },
+      { "img": "/Voting/analytics-unscreen.gif", "text": "Analytics & Election Insights" },
+      { "img": "/Voting/fingerprint-authentication-unscreen.gif", "text": "Voter Verification Tools" }
+    ]
+  }
+  
+]
