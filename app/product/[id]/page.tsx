@@ -299,27 +299,30 @@ export default function page() {
       </div>
 
       {/*  */}
-      <div className="w-full min-h-screen bg-center bg-cover px-2 xl:px-0"
-        style={{ backgroundImage: "url('/product_bg.png')" }}>
-<div className="max-w-[1600px] mx-auto grid grid-cols-1 lg:grid-cols-10 gap-6 py-10 sm:py-16 ">
-    <div className="lg:col-span-6">
+      <div
+        className="w-full min-h-screen bg-center bg-cover px-2 xl:px-0"
+        style={{ backgroundImage: "url('/product_bg.png')" }}
+      >
+        <div className="max-w-[1600px] mx-auto grid grid-cols-1 lg:grid-cols-10 gap-6 py-10 sm:py-16 ">
+          <div className="lg:col-span-6">
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[40px] text-primary-foreground font-bold font-orbitron">
-            Why Choose TasteHub ITelligence HRM
+              Why Choose TasteHub ITelligence HRM
             </h1>
             <h4 className="text-base md:text-xl lg:text-2xl font-normal font-parkinsans text-[#F8F8F899] mt-8">
-             Built for efficiency, scalability, and security empowering HR teams at every stage of growth.
+              Built for efficiency, scalability, and security empowering HR
+              teams at every stage of growth.
             </h4>
             <Image
-            src="/hrm_product.png"
-            className="rounded-lg mt-20"
-            alt="hrm_product"
-            width={912}
-            height={800}
-          />
+              src="/hrm_product.png"
+              className="rounded-lg mt-20"
+              alt="hrm_product"
+              width={912}
+              height={800}
+            />
           </div>
           {/*  */}
           <div className="lg:col-span-4 space-y-10">
-<div className="rounded-xl bg-[#181818] p-6 space-y-1 transition-transform duration-500 hover:scale-[1.03]">
+            <div className="rounded-xl bg-[#181818] p-6 space-y-1 transition-transform duration-500 hover:scale-[1.03]">
               <div className="w-10 h-10 p-2 bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] rounded-md">
                 <Image
                   src="/hrm_management2.png"
@@ -329,13 +332,13 @@ export default function page() {
                 />
               </div>
               <h4 className="font-parkinsans font-semibold text-base sm:text-lg md:text-xl lg:text-2xl text-white mt-3">
-               Scalable Architecture
+                Scalable Architecture
               </h4>
               <p className="text-sm md:text-base lg:text-lg text-white font-parkinsans font-normal mt-3">
                 Start small and expand as your organization grows.
               </p>
             </div>
-<div className="rounded-xl bg-[#181818] p-6 space-y-1 transition-transform duration-500 hover:scale-[1.03]">
+            <div className="rounded-xl bg-[#181818] p-6 space-y-1 transition-transform duration-500 hover:scale-[1.03]">
               <div className="w-10 h-10 p-2 bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] rounded-md">
                 <Image
                   src="/key_features_icon4.png"
@@ -345,13 +348,13 @@ export default function page() {
                 />
               </div>
               <h4 className="font-parkinsans font-semibold text-base sm:text-lg md:text-xl lg:text-2xl text-white mt-3">
-               User-Friendly Interface
+                User-Friendly Interface
               </h4>
               <p className="text-sm md:text-base lg:text-lg text-white font-parkinsans font-normal mt-3">
-          Clear and intuitive design for both HR teams and employees.
+                Clear and intuitive design for both HR teams and employees.
               </p>
             </div>
-<div className="rounded-xl bg-[#181818] p-6 space-y-1 transition-transform duration-500 hover:scale-[1.03]">
+            <div className="rounded-xl bg-[#181818] p-6 space-y-1 transition-transform duration-500 hover:scale-[1.03]">
               <div className="w-10 h-10 p-2 bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] rounded-md">
                 <Image
                   src="/case_study_feture_details2_icon3.png"
@@ -361,13 +364,13 @@ export default function page() {
                 />
               </div>
               <h4 className="font-parkinsans font-semibold text-base sm:text-lg md:text-xl lg:text-2xl text-white mt-3">
-              Fast Deployment
+                Fast Deployment
               </h4>
               <p className="text-sm md:text-base lg:text-lg text-white font-parkinsans font-normal mt-3">
-              Quick setup that minimizes disruption.
+                Quick setup that minimizes disruption.
               </p>
             </div>
-<div className="rounded-xl bg-[#181818] p-6 space-y-1 transition-transform duration-500 hover:scale-[1.03]">
+            <div className="rounded-xl bg-[#181818] p-6 space-y-1 transition-transform duration-500 hover:scale-[1.03]">
               <div className="w-10 h-10 p-2 bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] rounded-md">
                 <Image
                   src="/settings_icon.png"
@@ -377,13 +380,13 @@ export default function page() {
                 />
               </div>
               <h4 className="font-parkinsans font-semibold text-base sm:text-lg md:text-xl lg:text-2xl text-white mt-3">
-              Customizable & Extensible
+                Customizable & Extensible
               </h4>
               <p className="text-sm md:text-base lg:text-lg text-white font-parkinsans font-normal mt-3">
                 Tailor workflows, reports, and dashboards easily.
               </p>
             </div>
-<div className="rounded-xl bg-[#181818] p-6 space-y-1 transition-transform duration-500 hover:scale-[1.03]">
+            <div className="rounded-xl bg-[#181818] p-6 space-y-1 transition-transform duration-500 hover:scale-[1.03]">
               <div className="w-10 h-10 p-2 bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] rounded-md">
                 <Image
                   src="/lock_icon.png"
@@ -393,17 +396,47 @@ export default function page() {
                 />
               </div>
               <h4 className="font-parkinsans font-semibold text-base sm:text-lg md:text-xl lg:text-2xl text-white mt-3">
-               Secure & Compliant
+                Secure & Compliant
               </h4>
               <p className="text-sm md:text-base lg:text-lg text-white font-parkinsans font-normal mt-3">
-               Enterprise-grade security with local compliance.
+                Enterprise-grade security with local compliance.
               </p>
             </div>
           </div>
-</div>
+        </div>
       </div>
 
-      <FAQ_AITransformation/>
+      <FAQ_AITransformation />
+
+      {/* ITelligence */}
+      <div className="bg-[#111111] py-10">
+        <div className="relative rounded-xl p-10 bg-linear-to-b from-[#222631] via-[#454545] to-[#000000]  max-w-[1210px] mx-auto grid md:grid-cols-3 gap-40">
+          <Image
+            className="absolute bottom-1 right-80"
+            src="/arrow.png"
+            alt="arrow"
+            width={147}
+            height={147}
+          />
+          <div className="md:col-span-2">
+            <h2 className="text-2xl md:text-3xl lg:text-[40px] font-semibold font-orbitron text-primary-foreground">
+              Get Started with TasteHub ITelligence HRM Today
+            </h2>
+            <p className="text-sm md:text-base text-primary-foreground font-parkinsans font-medium mt-2 max-w-[700px]">
+              Simplify your HR operations, empower your people, and scale with
+              confidence all from one intelligent platform.
+            </p>
+          </div>
+          <Link href="/contact" className="md:col-span-1">
+            <Button
+              className="px-5 py-3 sm:px-6 sm:py-4 md:px-10 md:py-6 text-sm sm:text-base mt-16 bg-[#B118BF] rounded-xl text-white"
+              variant="default"
+            >
+              Request a Free Demo
+            </Button>
+          </Link>
+        </div>
+      </div>
     </div>
   );
 }
