@@ -1,3 +1,4 @@
+import { FAQ_AITransformation } from "@/app/our-solution/_ui/FAQ_AITransformation";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
@@ -90,7 +91,7 @@ export default function page() {
         </div>
       </div>
 
-      {/*  */}
+      {/* Why Choose TasteHub ITelligence HR Management */}
       <div
         className="w-full min-h-screen bg-center bg-cover px-2 xl:px-0"
         style={{ backgroundImage: "url('/product_bg.png')" }}
@@ -197,7 +198,7 @@ export default function page() {
         </div>
       </div>
 
-      {/*  */}
+      {/* Core Features of TasteHub ITelligence HRM */}
       <div className="bg-[#181818] py-20 px-2 xl:px-0">
         <div className="max-w-[1600px] mx-auto grid grid-cols-1 lg:grid-cols-11 items-center gap-24">
           {/* left */}
@@ -296,6 +297,113 @@ export default function page() {
           </div>
         </div>
       </div>
+
+      {/*  */}
+      <div className="w-full min-h-screen bg-center bg-cover px-2 xl:px-0"
+        style={{ backgroundImage: "url('/product_bg.png')" }}>
+<div className="max-w-[1600px] mx-auto grid grid-cols-1 lg:grid-cols-10 gap-6 py-10 sm:py-16 ">
+    <div className="lg:col-span-6">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[40px] text-primary-foreground font-bold font-orbitron">
+            Why Choose TasteHub ITelligence HRM
+            </h1>
+            <h4 className="text-base md:text-xl lg:text-2xl font-normal font-parkinsans text-[#F8F8F899] mt-8">
+             Built for efficiency, scalability, and security empowering HR teams at every stage of growth.
+            </h4>
+            <Image
+            src="/hrm_product.png"
+            className="rounded-lg mt-20"
+            alt="hrm_product"
+            width={912}
+            height={800}
+          />
+          </div>
+          {/*  */}
+          <div className="lg:col-span-4 space-y-10">
+<div className="rounded-xl bg-[#181818] p-6 space-y-1 transition-transform duration-500 hover:scale-[1.03]">
+              <div className="w-10 h-10 p-2 bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] rounded-md">
+                <Image
+                  src="/hrm_management2.png"
+                  alt="hrm_management2"
+                  width={24}
+                  height={24}
+                />
+              </div>
+              <h4 className="font-parkinsans font-semibold text-base sm:text-lg md:text-xl lg:text-2xl text-white mt-3">
+               Scalable Architecture
+              </h4>
+              <p className="text-sm md:text-base lg:text-lg text-white font-parkinsans font-normal mt-3">
+                Start small and expand as your organization grows.
+              </p>
+            </div>
+<div className="rounded-xl bg-[#181818] p-6 space-y-1 transition-transform duration-500 hover:scale-[1.03]">
+              <div className="w-10 h-10 p-2 bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] rounded-md">
+                <Image
+                  src="/key_features_icon4.png"
+                  alt="key_features_icon4"
+                  width={24}
+                  height={24}
+                />
+              </div>
+              <h4 className="font-parkinsans font-semibold text-base sm:text-lg md:text-xl lg:text-2xl text-white mt-3">
+               User-Friendly Interface
+              </h4>
+              <p className="text-sm md:text-base lg:text-lg text-white font-parkinsans font-normal mt-3">
+          Clear and intuitive design for both HR teams and employees.
+              </p>
+            </div>
+<div className="rounded-xl bg-[#181818] p-6 space-y-1 transition-transform duration-500 hover:scale-[1.03]">
+              <div className="w-10 h-10 p-2 bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] rounded-md">
+                <Image
+                  src="/case_study_feture_details2_icon3.png"
+                  alt="case_study_feture_details2_icon3"
+                  width={24}
+                  height={24}
+                />
+              </div>
+              <h4 className="font-parkinsans font-semibold text-base sm:text-lg md:text-xl lg:text-2xl text-white mt-3">
+              Fast Deployment
+              </h4>
+              <p className="text-sm md:text-base lg:text-lg text-white font-parkinsans font-normal mt-3">
+              Quick setup that minimizes disruption.
+              </p>
+            </div>
+<div className="rounded-xl bg-[#181818] p-6 space-y-1 transition-transform duration-500 hover:scale-[1.03]">
+              <div className="w-10 h-10 p-2 bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] rounded-md">
+                <Image
+                  src="/settings_icon.png"
+                  alt="settings_icon"
+                  width={24}
+                  height={24}
+                />
+              </div>
+              <h4 className="font-parkinsans font-semibold text-base sm:text-lg md:text-xl lg:text-2xl text-white mt-3">
+              Customizable & Extensible
+              </h4>
+              <p className="text-sm md:text-base lg:text-lg text-white font-parkinsans font-normal mt-3">
+                Tailor workflows, reports, and dashboards easily.
+              </p>
+            </div>
+<div className="rounded-xl bg-[#181818] p-6 space-y-1 transition-transform duration-500 hover:scale-[1.03]">
+              <div className="w-10 h-10 p-2 bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] rounded-md">
+                <Image
+                  src="/lock_icon.png"
+                  alt="lock_icon"
+                  width={24}
+                  height={24}
+                />
+              </div>
+              <h4 className="font-parkinsans font-semibold text-base sm:text-lg md:text-xl lg:text-2xl text-white mt-3">
+               Secure & Compliant
+              </h4>
+              <p className="text-sm md:text-base lg:text-lg text-white font-parkinsans font-normal mt-3">
+               Enterprise-grade security with local compliance.
+              </p>
+            </div>
+          </div>
+</div>
+      </div>
+
+      <FAQ_AITransformation/>
     </div>
   );
 }
