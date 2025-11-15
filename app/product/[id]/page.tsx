@@ -6,9 +6,9 @@ import React from "react";
 export default function page() {
   return (
     <div>
-        {/* hero section */}
+      {/* hero section */}
       <div
-        className="-mt-20 h-[calc(100vh-450px)] lg:h-screen bg-cover overflow-hidden"
+        className="lg:-mt-20 h-screen bg-cover overflow-hidden"
         style={{ backgroundImage: "url('/blog_hero.jpg')" }}
       >
         {" "}
@@ -55,125 +55,247 @@ export default function page() {
         </div>
       </div>
 
-
       {/* body */}
-      <div className="bg-[#181818] py-20">
-        <div className="max-w-[1600px] mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-5"> 
-        <div>
-            <h3 className="text-xl md:text-2xl lg:text-[32px] font-semibold text-primary-foreground font-orbitron pb-4 border-b-2 border-[#B118BF] max-w-[450px]">Human Resource 
-Management (HRM)</h3>
-<p className="text-sm md:text-base lg:text-lg mt-6 text-[#F8F8F899] font-normal font-parkinsans">TasteHub ITelligence HRM is a next‑generation human resource management system designed to bring together performance management, self‑service, payroll automation, attendance tracking, and data security into one unified experience. Whether you’re a growing business or a large organization, our platform grows with you  giving you the flexibility, insight, and control you need.</p>
-        <Link href="">
-                <Button
-                  className="px-5 py-3 sm:px-6 sm:py-4 md:px-8 md:py-5 text-sm sm:text-base mt-16"
-                  variant="default"
-                >
-                  Start Free Product Trial
-                </Button>
-              </Link>
+      <div className="bg-[#181818] py-20 px-2 xl:px-0">
+        <div className="max-w-[1600px] mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-5">
+          <div>
+            <h3 className="text-xl md:text-2xl lg:text-[32px] font-semibold text-primary-foreground font-orbitron pb-4 border-b-2 border-[#B118BF] max-w-[450px]">
+              Human Resource Management (HRM)
+            </h3>
+            <p className="text-sm md:text-base lg:text-lg mt-6 text-[#F8F8F899] font-normal font-parkinsans">
+              TasteHub ITelligence HRM is a next‑generation human resource
+              management system designed to bring together performance
+              management, self‑service, payroll automation, attendance tracking,
+              and data security into one unified experience. Whether you’re a
+              growing business or a large organization, our platform grows with
+              you giving you the flexibility, insight, and control you need.
+            </p>
+            <Link href="">
+              <Button
+                className="px-5 py-3 sm:px-6 sm:py-4 md:px-8 md:py-5 text-sm sm:text-base mt-16"
+                variant="default"
+              >
+                Start Free Product Trial
+              </Button>
+            </Link>
+          </div>
+          {/*  */}
+          <Image
+            src="/HRM_product.jpg"
+            className="rounded-lg"
+            alt="HRM_product"
+            width={840}
+            height={585}
+          />
         </div>
-        {/*  */}
-        <Image src="/HRM_product.jpg" className="rounded-lg"  alt="HRM_product" width={840} height={585}/>
       </div>
 
-        </div>
-
-
-        <div className="w-full min-h-screen bg-center bg-cover"
-      style={{ backgroundImage: "url('/product_bg.png')" }}>
-            <div className="max-w-[1600px] mx-auto">
-                 <div className="w-fit mx-auto text-center mt-10 sm:mt-16">
-        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[40px] max-w-[800px] text-primary-foreground font-bold font-orbitron mx-auto">
-        Why Choose TasteHub ITelligence
-HR Management
-        </h1>
-        <h4 className="text-base md:text-xl lg:text-2xl text-center font-normal font-parkinsans text-[#F8F8F899] max-w-[1060px] mt-8">Discover how TasteHub ITelligence HRM empowers teams, simplifies operations, and secures every aspect of your people management all in one intelligent platform.</h4>
-      </div>
       {/*  */}
-      <div className="flex items-center flex-wrap justify-center gap-10 mt-16">
-      <div className="w-[480px] flex flex-col h-full rounded-xl bg-[#181818] shadow-md shadow-[#B118BF] p-6 space-y-1 transition-transform duration-500 hover:scale-[1.03]">
-                        <div className="w-10 h-10 p-2 bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] rounded-md">
-                        <Image
-                          src="/key_features_icon2.png"
-                          alt="key_features_icon2"
-                          width={24}
-                          height={24}
-                          />
-                          </div>
-                        <h4 className="font-parkinsans font-semibold text-base sm:text-lg md:text-xl lg:text-2xl text-white mt-3">
-                          Drive performance‑focused culture
-                        </h4>
-                        <p className="text-sm md:text-base lg:text-lg text-white font-parkinsans font-normal mt-3">
-                          Use real‑time insights and analytics to monitor, evaluate and elevate your workforce.
-                        </p>
-                      </div>
-      <div className="w-[480px] flex flex-col h-full rounded-xl bg-[#181818] shadow-md shadow-[#B118BF] p-6 space-y-1 transition-transform duration-500 hover:scale-[1.03]">
-                        <div className="w-10 h-10 p-2 bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] rounded-md">
-                        <Image
-                          src="/hrm_management.png"
-                          alt="hrm_management"
-                          width={24}
-                          height={24}
-                          />
-                          </div>
-                        <h4 className="font-parkinsans font-semibold text-base sm:text-lg md:text-xl lg:text-2xl text-white mt-3">
-                    Empower your people
-                        </h4>
-                        <p className="text-sm md:text-base lg:text-lg text-white font-parkinsans font-normal mt-3">
-                          With a dedicated self‑service portal, employees manage profiles, requests, documents  freeing HR to focus on strategy
-                        </p>
-                      </div>
-      <div className="w-[480px] flex flex-col h-full rounded-xl bg-[#181818] shadow-md shadow-[#B118BF] p-6 space-y-1 transition-transform duration-500 hover:scale-[1.03]">
-                        <div className="w-10 h-10 p-2 bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] rounded-md">
-                        <Image
-                          src="/hrm_management1.png"
-                          alt="hrm_management1"
-                          width={24}
-                          height={24}
-                          />
-                          </div>
-                        <h4 className="font-parkinsans font-semibold text-base sm:text-lg md:text-xl lg:text-2xl text-white mt-3">
-                         Simplify payroll and ensure compliance
-                        </h4>
-                        <p className="text-sm md:text-base lg:text-lg text-white font-parkinsans font-normal mt-3">
-                      Use real‑time insights and analytics to monitor, evaluate and elevate your workforce.
-                        </p>
-                      </div>
-      <div className="w-[480px] flex flex-col h-full rounded-xl bg-[#181818] shadow-md shadow-[#B118BF] p-6 space-y-1 transition-transform duration-500 hover:scale-[1.03]">
-                        <div className="w-10 h-10 p-2 bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] rounded-md">
-                        <Image
-                          src="/hrm_management2.png"
-                          alt="hrm_management2"
-                          width={24}
-                          height={24}
-                          />
-                          </div>
-                        <h4 className="font-parkinsans font-semibold text-base sm:text-lg md:text-xl lg:text-2xl text-white mt-3">
-                      Intelligent time & leave tracking
-                        </h4>
-                        <p className="text-sm md:text-base lg:text-lg text-white font-parkinsans font-normal mt-3">
-                         Manage attendance, leaves, and shifts with automation and smart notifications  less admin, more productivity
-                        </p>
-                      </div>
-      <div className="w-[480px] flex flex-col h-full rounded-xl bg-[#181818] shadow-md shadow-[#B118BF] p-6 space-y-1 transition-transform duration-500 hover:scale-[1.03]">
-                        <div className="w-10 h-10 p-2 bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] rounded-md">
-                        <Image
-                          src="/case_study_feture_details2_icon2.png"
-                          alt="case_study_feture_details2_icon2"
-                          width={24}
-                          height={24}
-                          />
-                          </div>
-                        <h4 className="font-parkinsans font-semibold text-base sm:text-lg md:text-xl lg:text-2xl text-white mt-3">
-                          Rock‑solid data security
-                        </h4>
-                        <p className="text-sm md:text-base lg:text-lg text-white font-parkinsans font-normal mt-3">
-                        With encryption and role‑based access controls, your sensitive HR data is fully protected, giving you peace of mind
-                        </p>
-                      </div>
-      </div>
+      <div
+        className="w-full min-h-screen bg-center bg-cover px-2 xl:px-0"
+        style={{ backgroundImage: "url('/product_bg.png')" }}
+      >
+        <div className="max-w-[1600px] mx-auto">
+          <div className="w-fit mx-auto text-center mt-10 sm:mt-16">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[40px] max-w-[800px] text-primary-foreground font-bold font-orbitron mx-auto">
+              Why Choose TasteHub ITelligence HR Management
+            </h1>
+            <h4 className="text-base md:text-xl lg:text-2xl text-center font-normal font-parkinsans text-[#F8F8F899] max-w-[1060px] mt-8">
+              Discover how TasteHub ITelligence HRM empowers teams, simplifies
+              operations, and secures every aspect of your people management all
+              in one intelligent platform.
+            </h4>
+          </div>
+          {/*  */}
+          <div className="flex items-center flex-wrap justify-center gap-10 mt-16">
+            <div className="w-[480px] flex flex-col h-full rounded-xl bg-[#181818] shadow-md shadow-[#B118BF] p-6 space-y-1 transition-transform duration-500 hover:scale-[1.03]">
+              <div className="w-10 h-10 p-2 bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] rounded-md">
+                <Image
+                  src="/key_features_icon2.png"
+                  alt="key_features_icon2"
+                  width={24}
+                  height={24}
+                />
+              </div>
+              <h4 className="font-parkinsans font-semibold text-base sm:text-lg md:text-xl lg:text-2xl text-white mt-3">
+                Drive performance‑focused culture
+              </h4>
+              <p className="text-sm md:text-base lg:text-lg text-white font-parkinsans font-normal mt-3">
+                Use real‑time insights and analytics to monitor, evaluate and
+                elevate your workforce.
+              </p>
             </div>
+            <div className="w-[480px] flex flex-col h-full rounded-xl bg-[#181818] shadow-md shadow-[#B118BF] p-6 space-y-1 transition-transform duration-500 hover:scale-[1.03]">
+              <div className="w-10 h-10 p-2 bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] rounded-md">
+                <Image
+                  src="/hrm_management.png"
+                  alt="hrm_management"
+                  width={24}
+                  height={24}
+                />
+              </div>
+              <h4 className="font-parkinsans font-semibold text-base sm:text-lg md:text-xl lg:text-2xl text-white mt-3">
+                Empower your people
+              </h4>
+              <p className="text-sm md:text-base lg:text-lg text-white font-parkinsans font-normal mt-3">
+                With a dedicated self‑service portal, employees manage profiles,
+                requests, documents freeing HR to focus on strategy
+              </p>
+            </div>
+            <div className="w-[480px] flex flex-col h-full rounded-xl bg-[#181818] shadow-md shadow-[#B118BF] p-6 space-y-1 transition-transform duration-500 hover:scale-[1.03]">
+              <div className="w-10 h-10 p-2 bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] rounded-md">
+                <Image
+                  src="/hrm_management1.png"
+                  alt="hrm_management1"
+                  width={24}
+                  height={24}
+                />
+              </div>
+              <h4 className="font-parkinsans font-semibold text-base sm:text-lg md:text-xl lg:text-2xl text-white mt-3">
+                Simplify payroll and ensure compliance
+              </h4>
+              <p className="text-sm md:text-base lg:text-lg text-white font-parkinsans font-normal mt-3">
+                Use real‑time insights and analytics to monitor, evaluate and
+                elevate your workforce.
+              </p>
+            </div>
+            <div className="w-[480px] flex flex-col h-full rounded-xl bg-[#181818] shadow-md shadow-[#B118BF] p-6 space-y-1 transition-transform duration-500 hover:scale-[1.03]">
+              <div className="w-10 h-10 p-2 bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] rounded-md">
+                <Image
+                  src="/hrm_management2.png"
+                  alt="hrm_management2"
+                  width={24}
+                  height={24}
+                />
+              </div>
+              <h4 className="font-parkinsans font-semibold text-base sm:text-lg md:text-xl lg:text-2xl text-white mt-3">
+                Intelligent time & leave tracking
+              </h4>
+              <p className="text-sm md:text-base lg:text-lg text-white font-parkinsans font-normal mt-3">
+                Manage attendance, leaves, and shifts with automation and smart
+                notifications less admin, more productivity
+              </p>
+            </div>
+            <div className="w-[480px] flex flex-col h-full rounded-xl bg-[#181818] shadow-md shadow-[#B118BF] p-6 space-y-1 transition-transform duration-500 hover:scale-[1.03]">
+              <div className="w-10 h-10 p-2 bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] rounded-md">
+                <Image
+                  src="/case_study_feture_details2_icon2.png"
+                  alt="case_study_feture_details2_icon2"
+                  width={24}
+                  height={24}
+                />
+              </div>
+              <h4 className="font-parkinsans font-semibold text-base sm:text-lg md:text-xl lg:text-2xl text-white mt-3">
+                Rock‑solid data security
+              </h4>
+              <p className="text-sm md:text-base lg:text-lg text-white font-parkinsans font-normal mt-3">
+                With encryption and role‑based access controls, your sensitive
+                HR data is fully protected, giving you peace of mind
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
+
+      {/*  */}
+      <div className="bg-[#181818] py-20 px-2 xl:px-0">
+        <div className="max-w-[1600px] mx-auto grid grid-cols-1 lg:grid-cols-11 items-center gap-24">
+          {/* left */}
+          <div className="lg:col-span-3 space-y-8">
+            <div className="rounded-xl bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] p-6 space-y-1">
+              <Image
+                src="/performance_report_unscreen.gif"
+                alt="feature"
+                width={55}
+                height={65}
+              />
+              <h4 className="font-parkinsans text-base md:text-xl lg:text-2xl font-normal text-primary-foreground">
+                Performance & Evaluation Tools
+              </h4>
+              <p className="text-sm md:text-base lg:text-lg font-normal font-parkinsans text-primary-foreground mt-1">
+                Track, assess, and optimize employee performance with real‑time
+                insights and analytics.
+              </p>
+            </div>
+            <div className="rounded-xl bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] p-6 space-y-1">
+              <Image
+                src="/self-service-unscreen.gif"
+                alt="feature"
+                width={55}
+                height={65}
+              />
+              <h4 className="font-parkinsans text-base md:text-xl lg:text-2xl font-normal text-primary-foreground">
+                Employee Self Service Portal
+              </h4>
+              <p className="text-sm md:text-base lg:text-lg font-normal font-parkinsans text-primary-foreground mt-1">
+                Enable employees to manage their profiles, requests, and
+                documents seamlessly.
+              </p>
+            </div>
+          </div>
+          {/* mid */}
+          <div className="lg:col-span-5 space-y-20">
+            <div className="w-fit mx-auto text-center">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[40px] text-primary-foreground font-bold font-orbitron mx-auto">
+                Why Choose TasteHub ITelligence HR Management
+              </h1>
+              <h4 className="text-base md:text-xl lg:text-2xl text-center font-normal font-parkinsans text-[#F8F8F899] mt-4">
+                Discover how TasteHub ITelligence HRM empowers teams, simplifies
+                operations, and secures every aspect of your people management
+                all in one intelligent platform.
+              </h4>
+            </div>
+            <div className="rounded-xl bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] p-6 space-y-1 max-w-[600px] mx-auto">
+              <Image
+                src="/folder-unscreen.gif"
+                alt="feature"
+                width={55}
+                height={65}
+              />
+              <h4 className="font-parkinsans text-base md:text-xl lg:text-2xl font-normal text-primary-foreground">
+                Secure Data Management
+              </h4>
+              <p className="text-sm md:text-base lg:text-lg font-normal font-parkinsans text-primary-foreground mt-1">
+                Simplify payroll processing while ensuring accurate tax
+                compliance and timely payments
+              </p>
+            </div>
+          </div>
+          {/* right */}
+          <div className="lg:col-span-3 space-y-8">
+            <div className="rounded-xl bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] p-6 space-y-1">
+              <Image
+                src="/salary-increase-unscreen.gif"
+                alt="feature"
+                width={55}
+                height={65}
+              />
+              <h4 className="font-parkinsans text-base md:text-xl lg:text-2xl font-normal text-primary-foreground">
+                Automated Payroll & Tax Compliance
+              </h4>
+              <p className="text-sm md:text-base lg:text-lg font-normal font-parkinsans text-primary-foreground mt-1">
+                Monitor attendance, leave requests, and schedules efficiently
+                with intelligent automation
+              </p>
+            </div>
+            <div className="rounded-xl bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] p-6 space-y-1">
+              <Image
+                src="/finder-unscreen.gif"
+                alt="feature"
+                width={55}
+                height={65}
+              />
+              <h4 className="font-parkinsans text-base md:text-xl lg:text-2xl font-normal text-primary-foreground">
+                Smart Attendance & Leave Tracking
+              </h4>
+              <p className="text-sm md:text-base lg:text-lg font-normal font-parkinsans text-primary-foreground mt-1">
+                Keep sensitive HR data safe with advanced encryption and
+                role‑based access control
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
