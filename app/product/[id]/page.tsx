@@ -147,9 +147,9 @@ export default function page() {
           {/*  */}
           <Image
             className="lg:col-span-5"
-            src="/product_side_image.png"
+            src={product?.heroSection?.sideImage} 
             alt="product_side_image"
-            width={628}
+            width={928}
             height={628}
           />
         </div>
@@ -193,7 +193,7 @@ export default function page() {
         <div className="max-w-[1600px] mx-auto">
           <div className="w-fit mx-auto text-center mt-10 sm:mt-16">
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[40px] max-w-[800px] text-primary-foreground font-bold font-orbitron mx-auto">
-             {product?.whyChooseSection1?.title} Why Choose TasteHub ITelligence HR Management
+             {product?.whyChooseSection1?.title} 
             </h1>
             <h4 className="text-base md:text-xl lg:text-2xl text-center font-normal font-parkinsans text-[#F8F8F899] max-w-[1060px] mt-8">
             {product?.whyChooseSection1?.subtitle}  
@@ -331,10 +331,10 @@ export default function page() {
              {product?.whyChooseSection2?.left?.subtitle}
             </h4>
             <Image
-              src="/hrm_product.png"
+              src={product?.whyChooseSection2?.left?.image}
               className="rounded-lg mt-20"
               alt="hrm_product"
-              width={912}
+              width={712}
               height={800}
             />
           </div>
