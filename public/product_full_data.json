@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "heroSection": {
+      "backgroundImage": "/blog_hero.jpg",
+      "title": "Empowering People, Driving Performance",
+      "subtitle": "Manage your workforce efficiently with a next-generation HRM platform designed for growth and engagement.",
+      "buttons": [
+        { "label": "Start Free Product Trial", "link": "" },
+        { "label": "Book a Strategy Call", "link": "" }
+      ],
+      "sideImage": "/product_side_image.png"
+    },
+
+    "hrmIntro": {
+      "heading": "Human Resource Management (HRM)",
+      "description": "TasteHub ITelligence HRM is a next-generation human resource management system designed to bring together performance management, self-service, payroll automation, attendance tracking, and data security into one unified experience. Whether you’re a growing business or a large organization, our platform grows with you giving you the flexibility, insight, and control you need.",
+      "button": { "label": "Start Free Product Trial", "link": "" },
+      "image": "/HRM_product.jpg"
+    },
+
+    "whyChooseSection1": {
+      "backgroundImage": "/product_bg.png",
+      "title": "Why Choose TasteHub ITelligence HR Management",
+      "subtitle": "Discover how TasteHub ITelligence HRM empowers teams, simplifies operations, and secures every aspect of your people management all in one intelligent platform.",
+      "features": [
+        {
+          "icon": "/key_features_icon2.png",
+          "title": "Drive performance-focused culture",
+          "description": "Use real-time insights and analytics to monitor, evaluate and elevate your workforce."
+        },
+        {
+          "icon": "/hrm_management.png",
+          "title": "Empower your people",
+          "description": "With a dedicated self-service portal, employees manage profiles, requests, documents freeing HR to focus on strategy"
+        },
+        {
+          "icon": "/hrm_management1.png",
+          "title": "Simplify payroll and ensure compliance",
+          "description": "Use real-time insights and analytics to monitor, evaluate and elevate your workforce."
+        },
+        {
+          "icon": "/hrm_management2.png",
+          "title": "Intelligent time & leave tracking",
+          "description": "Manage attendance, leaves, and shifts with automation and smart notifications less admin, more productivity"
+        },
+        {
+          "icon": "/case_study_feture_details2_icon2.png",
+          "title": "Rock-solid data security",
+          "description": "With encryption and role-based access controls, your sensitive HR data is fully protected, giving you peace of mind"
+        }
+      ]
+    },
+
+    "coreFeatures": {
+      "leftFeatures": [
+        {
+          "icon": "/performance_report_unscreen.gif",
+          "title": "Performance & Evaluation Tools",
+          "description": "Track, assess, and optimize employee performance with real-time insights and analytics."
+        },
+        {
+          "icon": "/self-service-unscreen.gif",
+          "title": "Employee Self Service Portal",
+          "description": "Enable employees to manage their profiles, requests, and documents seamlessly."
+        }
+      ],
+      "middle": {
+        "title": "Why Choose TasteHub ITelligence HR Management",
+        "subtitle": "Discover how TasteHub ITelligence HRM empowers teams, simplifies operations, and secures every aspect of your people management all in one intelligent platform.",
+        "feature": {
+          "icon": "/folder-unscreen.gif",
+          "title": "Secure Data Management",
+          "description": "Simplify payroll processing while ensuring accurate tax compliance and timely payments"
+        }
+      },
+      "rightFeatures": [
+        {
+          "icon": "/salary-increase-unscreen.gif",
+          "title": "Automated Payroll & Tax Compliance",
+          "description": "Monitor attendance, leave requests, and schedules efficiently with intelligent automation"
+        },
+        {
+          "icon": "/finder-unscreen.gif",
+          "title": "Smart Attendance & Leave Tracking",
+          "description": "Keep sensitive HR data safe with advanced encryption and role-based access control"
+        }
+      ]
+    },
+
+    "whyChooseSection2": {
+      "backgroundImage": "/product_bg.png",
+      "left": {
+        "title": "Why Choose TasteHub ITelligence HRM",
+        "subtitle": "Built for efficiency, scalability, and security empowering HR teams at every stage of growth.",
+        "image": "/hrm_product.png"
+      },
+      "rightFeatures": [
+        {
+          "icon": "/hrm_management2.png",
+          "title": "Scalable Architecture",
+          "description": "Start small and expand as your organization grows."
+        },
+        {
+          "icon": "/key_features_icon4.png",
+          "title": "User-Friendly Interface",
+          "description": "Clear and intuitive design for both HR teams and employees."
+        },
+        {
+          "icon": "/case_study_feture_details2_icon3.png",
+          "title": "Fast Deployment",
+          "description": "Quick setup that minimizes disruption."
+        },
+        {
+          "icon": "/settings_icon.png",
+          "title": "Customizable & Extensible",
+          "description": "Tailor workflows, reports, and dashboards easily."
+        },
+        {
+          "icon": "/lock_icon.png",
+          "title": "Secure & Compliant",
+          "description": "Enterprise-grade security with local compliance."
+        }
+      ]
+    },
+
+    "ctaSection": {
+      "title": "Get Started with TasteHub ITelligence HRM Today",
+      "description": "Simplify your HR operations, empower your people, and scale with confidence all from one intelligent platform."
+    }
+  }
+]
