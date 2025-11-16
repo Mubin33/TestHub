@@ -283,39 +283,39 @@
     "hrmIntro": {
       "heading": "TasteHub ITelligence ERP",
       "description": "TasteHub ITelligence ERP is a powerful, modular, and cloud-based ERP system that brings every part of your business into one unified ecosystem. It enables real-time visibility, automation, and seamless integration to help your business operate faster, smarter, and more efficiently.",
-      "button": { "label": "Pre- Book Now", "link": "" },
+      "button": { "label": "Start Free Product Trial", "link": "" },
       "image": "/HRM_product.jpg"
     },
 
     "whyChooseSection1": {
       "backgroundImage": "/product_bg.png",
-      "title": "Why Partner With TasteHub ITelligence  ",
+      "title": "Centralized Data Visibility",
       "subtitle": "Unlock extraordinary value for your business and for your clients.",
       "features": [
         {
-          "icon": "/key_features_icon5.png",
+          "icon": "/case_study_feture_details2_icon4.png",
           "title": "Shared Revenue Opportunities",
-          "description": "Earn competitive margins, recurring commissions, or referral bonuses through joint engagements and product sales."
+          "description": "Access all financial, inventory, and HR data in one place."
         },
         {
           "icon": "/settings_icon.png",
-          "title": "Robust Technical Support",
-          "description": "Get access to our expert engineering and solution‑architecture team for co‑sales, implementation, and troubleshooting."
+          "title": "Automation-Driven Efficiency",
+          "description": "Reduce manual work, errors, and time-consuming processes."
         },
         {
           "icon": "/long1.png",
-          "title": "Co‑Marketing & Sales Enablement",
-          "description": "Use co-branded materials, joint campaigns, and partner-focused training to win more business, faster."
+          "title": "Improved Forecasting",
+          "description": "Real-time analytics and BI tools support smarter planning."
         },
         {
           "icon": "/long2.png",
-          "title": "Early Access & Innovation",
-          "description": "Be first in line for our new modules, betas, and technology releases — stay ahead of the market."
+          "title": "Lower Operational Costs",
+          "description": "Optimize inventory and minimize unnecessary expenses."
         },
         {
           "icon": "/long3.png",
-          "title": "Partner Community",
-          "description": "Connect with other tech-forward companies in our partner ecosystem, share best practices, and grow together."
+          "title": "Scalable Architecture",
+          "description": "Easily add new modules as your business grows."
         }
       ]
     },
