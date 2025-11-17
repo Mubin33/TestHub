@@ -7,7 +7,7 @@ export default function ErrorPage() {
   const router = useRouter();
 
   return (
-    <div className="fixed inset-0 z-[9999] flex h-screen w-screen flex-col items-center justify-center bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white">
+    <div className="fixed inset-0 z-9999 flex h-screen w-screen flex-col items-center justify-center bg-linear-to-br from-gray-900 via-gray-800 to-black text-white">
       <div className="flex flex-col items-center text-center space-y-6 p-6">
         <h1 className="text-6xl font-bold tracking-tight">404</h1>
 
