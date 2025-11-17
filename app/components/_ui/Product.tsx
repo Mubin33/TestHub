@@ -45,7 +45,7 @@ export default function Product() {
   return (
     <div
       id="product"
-      className="w-full min-h-screen bg-center bg-cover py-10 sm:py-16 md:py-20"
+      className="w-full min-h-screen bg-center bg-cover py-10 sm:py-16 md:py-20 px-2 2xl:px-0"
       style={{ backgroundImage: "url('/product_bg.png')" }}
     >
       {/* Section Title */}
@@ -57,7 +57,7 @@ export default function Product() {
       </div>
 
       {/* Tabs */}
-      <div className="mb-10 max-w-[1600px] mx-auto  bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] rounded-2xl mt-10 flex flex-col lg:flex-row items-center justify-between px-10 lg:px-20 py-4">
+      <div className="mb-10 max-w-[1600px] mx-auto  bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] rounded-2xl mt-10 flex flex-col gap-3 lg:flex-row items-center justify-between px-10 lg:px-20 py-4">
         {tabs.map((tab) => (
           <button
             key={tab}
@@ -74,9 +74,9 @@ export default function Product() {
       </div>
 
       {/* Product Content */}
-      <div className="grid grid-cols-1 lg:grid-cols-11 gap-10 md:gap-16 lg:gap-[120px] xl:gap-[156px] max-w-[1600px] mx-auto mt-10 px-5 sm:px-8 md:px-12 lg:px-16">
+      <div className="grid grid-cols-1 2xl:grid-cols-11 gap-10 md:gap-16 lg:gap-[120px] xl:gap-[156px] max-w-[1600px] mx-auto mt-10 px-5 sm:px-8 md:px-12 lg:px-16">
         {/* Left Side */}
-        <div className="lg:col-span-6 text-center lg:text-left">
+        <div className="2xl:col-span-6 text-center lg:text-left">
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[30px] xl:text-[40px] text-primary-foreground font-bold font-orbitron max-w-[988px] mx-auto">
             {activeItem.title}
           </h1>
@@ -88,7 +88,7 @@ export default function Product() {
             {activeItem.features.map((f, i) => (
               <div
                 key={i}
-                className="w-[232px] rounded-xl bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] p-6 space-y-1"
+                className="w-[232px] md:min-h-48 rounded-xl bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] p-6 space-y-1"
               >
                 <Image src={f.img} alt="feature" width={55} height={65} />
                 <p className="font-parkinsans text-base sm:text-lg md:text-xl  text-primary-foreground">
@@ -106,7 +106,7 @@ export default function Product() {
             alt="product_side_image"
             width={628}
             height={628}
-            className="w-[80%] sm:w-[70%] md:w-[65%] lg:w-[90%] h-auto"
+            className="w-[80%] md:w-[55%] 2xl:w-[90%] h-auto"
           />
         </div>
       </div>

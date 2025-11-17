@@ -143,7 +143,7 @@ export default function CoreSection() {
 
   return (
     <div>
-      <div className="bg-[#111111]" id="core_section">
+      <div className="bg-[#111111] px-3 2xl:px-0" id="core_section">
         <div className="py-16">
           {/* Tabs */}
           <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 sm:gap-8 lg:gap-20 xl:gap-28 px-4 sm:px-6 lg:px-10 max-w-[1600px] mx-auto">

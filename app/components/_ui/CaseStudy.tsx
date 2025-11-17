@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function CaseStudy() {
   return (
-    <div className="bg-[#111111]" id="case_study">
+    <div className="bg-[#111111] px-3 2xl:px-0" id="case_study">
       <div className="py-5 max-w-[1600px] mx-auto">
         <div className="w-fit mx-auto mt-20">
           <h1 className="text-2xl sm:text-3xl md:text-[32px] lg:text-[36px] xl:text-[40px] text-primary-foreground font-bold font-orbitron max-w-[988px]">
