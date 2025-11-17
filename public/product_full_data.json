@@ -124,6 +124,21 @@
       ]
     },
 
+    "faqs": [
+      {
+        "question": "Is the HRM software suitable for small and mid-sized companies?",
+        "answer": "Absolutely. It’s designed to scale with growing teams and can be configured for both smaller HR setups and larger organizations."
+      },
+      {
+        "question": "Does it support biometric or app-based attendance tracking?",
+        "answer": "Yes — it supports biometric devices, mobile check-in/out, geolocation tracking, and QR-based attendance."
+      },
+      {
+        "question": "Can employees update their own profiles and documents?",
+        "answer": "Yes — the self-service portal allows employees to manage their information, submit requests, and upload documents securely."
+      }
+    ],
+
     "ctaSection": {
       "title": "Get Started with TasteHub ITelligence HRM Today",
       "description": "Simplify your HR operations, empower your people, and scale with confidence all from one intelligent platform."
@@ -187,44 +202,58 @@
       ]
     },
 
-   "coreFeatures": {
-  "leftFeatures": [
-    {
-      "icon": "/POS/bill-unscreen.gif",
-      "title": "Cloud-Based Billing & Invoicing",
-      "description": "Create and manage bills from anywhere with fast, secure cloud access."
+    "coreFeatures": {
+      "leftFeatures": [
+        {
+          "icon": "/POS/bill-unscreen.gif",
+          "title": "Cloud-Based Billing & Invoicing",
+          "description": "Create and manage bills from anywhere with fast, secure cloud access."
+        },
+        {
+          "icon": "/POS/search-box-unscreen.gif",
+          "title": "Multi-Branch Management",
+          "description": "Monitor sales, inventory, and staff performance across every outlet from one dashboard"
+        }
+      ],
+
+      "middle": {
+        "title": "Core Features of TasteHub ITelligence POS",
+        "subtitle": "Everything you need for seamless retail and hospitality operations",
+        "feature": {
+          "icon": "/POS/search-box-unscreen.gif",
+          "title": "Customer Loyalty Tracking",
+          "description": "Reward customers, track repeat purchases, and boost retention with smart loyalty tools"
+        }
+      },
+
+      "rightFeatures": [
+        {
+          "icon": "/POS/supply-unscreen.gif",
+          "title": "Stock & Inventory Sync",
+          "description": "Keep your product stock updated in real time across all channels."
+        },
+        {
+          "icon": "/POS/payment-unscreen.gif",
+          "title": "Secure Payment Integrations",
+          "description": "Accept cards, mobile wallets, and digital payments safely with encrypted processing."
+        }
+      ]
     },
-    {
-      "icon": "/POS/search-box-unscreen.gif",
-      "title": "Multi-Branch Management",
-      "description": "Monitor sales, inventory, and staff performance across every outlet from one dashboard"
-    }
-  ],
 
-  "middle": {
-    "title": "Core Features of TasteHub ITelligence POS",
-    "subtitle": "Everything you need for seamless retail and hospitality operations",
-    "feature": {
-      "icon": "/POS/search-box-unscreen.gif",
-      "title": "Customer Loyalty Tracking",
-      "description": "Reward customers, track repeat purchases, and boost retention with smart loyalty tools"
-    }
-  },
-
-  "rightFeatures": [
-    {
-      "icon": "/POS/supply-unscreen.gif",
-      "title": "Stock & Inventory Sync",
-      "description": "Keep your product stock updated in real time across all channels."
-    },
-    {
-      "icon": "/POS/payment-unscreen.gif",
-      "title": "Secure Payment Integrations",
-      "description": "Accept cards, mobile wallets, and digital payments safely with encrypted processing."
-    }
-  ]
-},
-
+    "faqs": [
+      {
+        "question": "Does the POS work offline and sync data later?",
+        "answer": "Yes — offline mode ensures uninterrupted sales, syncing transactions once connectivity is restored."
+      },
+      {
+        "question": " Is the POS compatible with barcode scanners, printers, and cash drawers?",
+        "answer": "Yes — it supports standard retail hardware for seamless in-store operations."
+      },
+      {
+        "question": "Can we track customer loyalty and repeat purchases?",
+        "answer": "Yes — loyalty programs, points, and purchase history are built into the system."
+      }
+    ],
 
     "whyChooseSection2": {
       "backgroundImage": "/product_bg.png",
@@ -392,6 +421,21 @@
       ]
     },
 
+    "faqs": [
+      {
+        "question": "Is the ERP customizable for different industries and workflows?",
+        "answer": "Yes — the ERP is modular and can be adapted for manufacturing, retail, services, trading, education, and more."
+      },
+      {
+        "question": "Can the ERP integrate with existing HRM, POS, CRM, or billing systems?",
+        "answer": "Yes — it supports integrations with most major business systems and APIs."
+      },
+      {
+        "question": "Does the ERP support real-time inventory and financial tracking?",
+        "answer": "Yes — inventory, supply chain, accounting, and analytics update in real time."
+      }
+    ],
+
     "ctaSection": {
       "title": "Get Started with TasteHub ITelligence HRM Today",
       "description": "Simplify your HR operations, empower your people, and scale with confidence all from one intelligent platform."
@@ -417,7 +461,7 @@
       "image": "/HRM_product.jpg"
     },
 
-"coreFeatures": {
+    "coreFeatures": {
       "leftFeatures": [
         {
           "icon": "/POS/supply-unscreen.gif",
@@ -453,29 +497,26 @@
       ]
     },
 
-"partnershipFramework": [
-    {
-      "title": "Referral Partner",
-      "icon": "/referral-partner.png",
-      "base": "/partnership_base1.png",
-      "description": "Refer clients and earn commission on each successful deal  simple, fast, effortless."
-    },
-    {
-      "title": "Reseller Partner",
-      "icon": "/tech-partner.png",
-      "base": "/partnership_base2.png",
-      "description": "Sell, implement, and support TasteHub products in your region with dedicated tools and training."
-    },
-    {
-      "title": "Technology/Integration Partner",
-      "icon": "/reseller-partner.png",
-      "base": "/partnership_base3.png",
-      "description": "Integrate your product or services with the TasteHub ecosystem and jointly scale customer value."
-    }
-  ],
-
-
-
+    "partnershipFramework": [
+      {
+        "title": "Referral Partner",
+        "icon": "/referral-partner.png",
+        "base": "/partnership_base1.png",
+        "description": "Refer clients and earn commission on each successful deal  simple, fast, effortless."
+      },
+      {
+        "title": "Reseller Partner",
+        "icon": "/tech-partner.png",
+        "base": "/partnership_base2.png",
+        "description": "Sell, implement, and support TasteHub products in your region with dedicated tools and training."
+      },
+      {
+        "title": "Technology/Integration Partner",
+        "icon": "/reseller-partner.png",
+        "base": "/partnership_base3.png",
+        "description": "Integrate your product or services with the TasteHub ecosystem and jointly scale customer value."
+      }
+    ],
 
     "whyChooseSection1": {
       "backgroundImage": "/product_bg.png",
@@ -510,7 +551,6 @@
       ]
     },
 
-
     "whyChooseSection2": {
       "backgroundImage": "/product_bg.png",
       "left": {
@@ -542,22 +582,20 @@
       ]
     },
 
-
-
-     "faqs": [
-    {
-      "question": "Do partners get sales training?",
-      "answer": " Yes — partners receive live training, documentation, and recorded sessions."
-    },
-    {
-      "question": "Is there a minimum sales requirement?",
-      "answer": " No, but higher performance unlocks higher-tier benefits."
-    },
-    {
-      "question": "Can partners white-label the solutions?",
-      "answer": " Yes — white-label or co-branded options are available depending on the tier."
-    }
-  ],
+    "faqs": [
+      {
+        "question": "Do partners get sales training?",
+        "answer": " Yes — partners receive live training, documentation, and recorded sessions."
+      },
+      {
+        "question": "Is there a minimum sales requirement?",
+        "answer": " No, but higher performance unlocks higher-tier benefits."
+      },
+      {
+        "question": "Can partners white-label the solutions?",
+        "answer": " Yes — white-label or co-branded options are available depending on the tier."
+      }
+    ],
 
     "ctaSection": {
       "title": "Ready to Grow with TasteHub ITelligence?",
@@ -568,139 +606,148 @@
     "id": 5,
     "heroSection": {
       "backgroundImage": "/voting_hero_bg.png",
-      "title": "One ERP. Total Business Control",
-      "subtitle": "Unify your Finance, Operations, Supply Chain, Inventory, and HR into one intelligent platform",
+      "title": "Voting & Election Management System",
+      "subtitle": "From voter onboarding to real-time results  manage your entire election cycle with accuracy, transparency, and confidence.",
       "buttons": [
         { "label": "Start Free Product Trial", "link": "" },
         { "label": "Book a Strategy Call", "link": "" }
       ],
-      "sideImage": "/ITelligence ERP.png"
+      "sideImage": "/Voting App.png"
     },
 
     "hrmIntro": {
-      "heading": "TasteHub ITelligence ERP",
-      "description": "TasteHub ITelligence ERP is a powerful, modular, and cloud-based ERP system that brings every part of your business into one unified ecosystem. It enables real-time visibility, automation, and seamless integration to help your business operate faster, smarter, and more efficiently.",
+      "heading": "Simplify Your Elections with TasteHub ITelligence",
+      "description": "TasteHub ITelligence Voting System is a next-generation digital election platform built for organizations, committees, institutions, and communities that need a secure, paperless, and fully automated election process. It ensures trust, speed, and complete transparency across every stage of voting registration, verification, voting, counting, and reporting.",
       "button": { "label": "Start Free Product Trial", "link": "" },
       "image": "/HRM_product.jpg"
     },
 
-"coreFeatures": {
+    "coreFeatures": {
       "leftFeatures": [
         {
-          "icon": "/POS/supply-unscreen.gif",
-          "title": "Inventory & Supply Chain Management",
-          "description": "Create and manage bills from anywhere with fast, secure cloud access."
+          "icon": "/Voting/vote-unscreen.gif",
+          "title": "Real-Time Vote Counting",
+          "description": "Get instant, accurate vote updates as ballots are cast, ensuring transparency and eliminating manual delays."
         },
         {
-          "icon": "/speedometer-unscreen.gif",
-          "title": "Real-Time Data Analytics",
-          "description": "Access instant insights, monitor KPIs, and make faster decisions with live dashboards and performance metrics."
+          "icon": "/Voting/cloud-protection-unscreen.gif",
+          "title": "Secure Cloud Infrastructure",
+          "description": "Your entire election runs on encrypted, reliable cloud servers designed to prevent tampering and ensure uninterrupted access."
         }
       ],
       "middle": {
-        "title": "Core Features of TasteHub ITelligence ERP",
-        "subtitle": "Everything you need for seamless retail and hospitality operations",
+        "title": "That Power Transparent Digital Elections",
+        "subtitle": "Discover how TasteHub ITelligence simplifies complex election workflows with smart automation and enterprise-grade security.",
         "feature": {
-          "icon": "/workflow-unscreen.gif",
-          "title": "Customizable Workflow Automation",
-          "description": "Automate approvals, tasks, and processes with flexible workflows tailored to your business operations."
+          "icon": "/Voting/analytics-unscreen.gif",
+          "title": "Analytics & Election Insights",
+          "description": "Visual dashboards show turnout rates, vote trends, and performance analytics to help you understand results instantly."
         }
       },
       "rightFeatures": [
         {
-          "icon": "/ERP/settings-unscreen.gif",
-          "title": "Accounting & Financial Control",
-          "description": "Manage invoices, expenses, budgeting, and financial reporting with full transparency and automated compliance."
+          "icon": "/Voting/password-unscreen.gif",
+          "title": "Multi-Level Access Control",
+          "description": "Assign role-based permissions for admins, agents, and voters to keep every action secure and properly managed."
         },
         {
-          "icon": "/ERP/dashboard-unscreen.gif",
-          "title": "Centralized Reporting Dashboard",
-          "description": "View all key operational, financial, and inventory reports in one unified dashboard for complete business oversight."
+          "icon": "/Voting/fingerprint-authentication-unscreen.gif",
+          "title": "Voter Verification Tools",
+          "description": "Verify voter identity through digital ID checks, OTP authentication, or membership validation to prevent duplicate or fraudulent votes."
         }
       ]
     },
 
     "whyChooseSection1": {
       "backgroundImage": "/product_bg.png",
-      "title": "Centralized Data Visibility",
-      "subtitle": "Unlock extraordinary value for your business and for your clients.",
+      "title": "Use Cases of TasteHub ITelligence Voting App System",
+      "subtitle": "TasteHub’s flexible architecture supports a wide range of election scenarios:",
       "features": [
         {
-          "icon": "/case_study_feture_details2_icon4.png",
-          "title": "Shared Revenue Opportunities",
-          "description": "Access all financial, inventory, and HR data in one place."
+          "icon": "/key_features_icon5.png",
+          "title": "Government & Local Elections",
+          "description": "Conduct secure digital elections for councils and local authorities with verified voter identity and multilingual access."
         },
         {
           "icon": "/settings_icon.png",
-          "title": "Automation-Driven Efficiency",
-          "description": "Reduce manual work, errors, and time-consuming processes."
+          "title": "Corporate Boards & Executive Committees",
+          "description": "Enable board members, shareholders, and executives to vote securely with complete transparency and trackable results."
         },
         {
           "icon": "/long1.png",
-          "title": "Improved Forecasting",
-          "description": "Real-time analytics and BI tools support smarter planning."
+          "title": "Universities & Academic Communities",
+          "description": "Run student elections, alumni ballots, and faculty appointments with automated notifications and simplified onboarding."
         },
         {
           "icon": "/long2.png",
-          "title": "Lower Operational Costs",
-          "description": "Optimize inventory and minimize unnecessary expenses."
+          "title": "NGOs & International Communities",
+          "description": "Support donors, trustees, and global communities with a mobile-first platform that handles multi-regional participation."
         },
         {
           "icon": "/long3.png",
-          "title": "Scalable Architecture",
-          "description": "Easily add new modules as your business grows."
+          "title": "Clubs & Professional Associations",
+          "description": "Manage leadership elections, membership renewals, and annual polls with zero paperwork and audit-ready results."
         }
       ]
     },
 
-
     "whyChooseSection2": {
       "backgroundImage": "/product_bg.png",
       "left": {
-        "title": "Why Choose TasteHub ITelligence ERP?",
+        "title": "Why Choose TasteHub ITelligence Voting App System",
         "subtitle": "Modern architecture, exceptional reliability, enterprise-grade security.",
         "image": "/ctangle11.png"
       },
       "rightFeatures": [
         {
           "icon": "/long4.png",
-          "title": "Modular & Scalable",
-          "description": "Deploy what you need now, expand when you’re ready."
+          "title": "Enterprise-Grade Security & Compliance",
+          "description": "Aligned with global compliance standards to maintain data privacy and election integrity."
         },
         {
           "icon": "/long5.png",
-          "title": "Cloud-Based Reliability",
-          "description": "No hardware-heavy setup; access from any device"
+          "title": "24/7 Technical Support",
+          "description": "Our dedicated team ensures uninterrupted operations with continuous monitoring."
         },
         {
           "icon": "/long6.png",
-          "title": "Fast Deployment",
-          "description": "Get started quickly — our system integrates seamlessly without long downtime."
+          "title": "White-Label Ready",
+          "description": "Fully customizable interface for organizations that require branded, professional presentation."
         },
         {
           "icon": "/settings_icon.png",
-          "title": "Customizable Workflows",
-          "description": "Set up promotions, user roles, and order flows to match your business."
-        },
-        {
-          "icon": "/lock_icon.png",
-          "title": "Robust Security",
-          "description": "PCI-compliant payments, encrypted data, and secure access control."
+          "title": "Scalable for Any Election Size",
+          "description": "From small committees to international associations deploy effortlessly at any scale."
         }
       ]
     },
 
+    "faqs": [
+      {
+        "question": "Is the voting platform secure enough for high-stakes elections?",
+        "answer": "Yes — it uses encryption, secure cloud storage, and audit trails to maintain election integrity."
+      },
+      {
+        "question": "How does the system verify voters and prevent duplicate votes?",
+        "answer": "Through unique IDs, OTP verification, access codes, and other identity validation methods."
+      },
+      {
+        "question": "Can we run multiple elections or polls at the same time?",
+        "answer": "Yes — the system supports multiple elections, ballots, and committees simultaneously."
+      }
+    ],
+
     "ctaSection": {
-      "title": "Get Started with TasteHub ITelligence HRM Today",
-      "description": "Simplify your HR operations, empower your people, and scale with confidence all from one intelligent platform."
+      "title": "Looking for a Secure & Scalable Election System?",
+      "description": "Experience a fast, transparent, and fully automated voting process."
     }
   },
   {
     "id": 6,
     "heroSection": {
       "backgroundImage": "/agentic_hero_bg.png",
-      "title": "Join the TasteHub ITelligence Partner Program",
-      "subtitle": "Empower businesses with intelligent IT solutions — drive mutual growth, revenue, and innovation by partnering with us.",
+      "title": "Agentic AI Your Autonomous Business Assistant",
+      "subtitle": "Transform the way your business handles sales, communication, and customer engagement with an AI agent that works intelligently 24/7, fully automated, and always on-brand.",
       "buttons": [
         { "label": "Start Free Product Trial", "link": "" },
         { "label": "Book a Strategy Call", "link": "" }
@@ -709,121 +756,133 @@
     },
 
     "hrmIntro": {
-      "heading": "TasteHub ITelligence Partner Program",
-      "description": "TasteHub’s ITelligence Partner Program is designed for forward-thinking technology firms, consultancies, and system integrators who want to expand their offerings and deliver world-class IT solutions to their clients. As our partner, you’ll benefit from shared growth, deep technical support, and a structured rewards system built to make collaboration seamless and profitable.",
+      "heading": "Reimagine Growth with Agentic Intelligence",
+      "description": "TasteHub’s Agentic AI brings a new era of operational automation, delivering personalized communication, intelligent decision-making, and seamless integration across your entire digital ecosystem. Whether you’re closing deals, managing leads, or nurturing customers — Agentic AI ensures every interaction is smart, contextual, and aligned with your goals.",
       "button": { "label": "Pre- Book Now", "link": "" },
       "image": "/HRM_product.jpg"
     },
 
-"coreFeatures": {
+    "coreFeatures": {
       "leftFeatures": [
         {
-          "icon": "/POS/supply-unscreen.gif",
-          "title": "Inventory & Supply Chain Management",
-          "description": "Create and manage bills from anywhere with fast, secure cloud access."
+          "icon": "/Agentic AI/artificial-intelligence-unscreen.gif",
+          "title": "Intelligent Lead Insights",
+          "description": "Understands your business data, profiles prospects, and identifies high-value leads using advanced AI-driven analysis."
         },
         {
-          "icon": "/speedometer-unscreen.gif",
-          "title": "Real-Time Data Analytics",
-          "description": "Access instant insights, monitor KPIs, and make faster decisions with live dashboards and performance metrics."
+          "icon": "/Agentic AI/support-unscreen.gif",
+          "title": "Adaptive Negotiation & Deal Support",
+          "description": "Analyzes buyer behavior, recommends pricing adjustments, and supports negotiation workflows with full rule-based autonomy."
         }
       ],
       "middle": {
-        "title": "Core Features of TasteHub ITelligence ERP",
+        "title": "Core Features of TasteHub ITelligence Agentic AI",
         "subtitle": "Everything you need for seamless retail and hospitality operations",
         "feature": {
-          "icon": "/workflow-unscreen.gif",
-          "title": "Customizable Workflow Automation",
-          "description": "Automate approvals, tasks, and processes with flexible workflows tailored to your business operations."
+          "icon": "/Agentic AI/marketing-automation-unscreen.gif",
+          "title": "Integrated Workflow Automation",
+          "description": "Connects directly with your CRM, ERP, and marketing stack to update records, score leads, track deal status, and reduce manual effort."
         }
       },
       "rightFeatures": [
         {
-          "icon": "/ERP/settings-unscreen.gif",
-          "title": "Accounting & Financial Control",
-          "description": "Manage invoices, expenses, budgeting, and financial reporting with full transparency and automated compliance."
+          "icon": "/Agentic AI/business-network-unscreen.gif",
+          "title": "Autonomous Communication Engine",
+          "description": "Engages prospects across email, chat, and messaging channels  pitching, following up, and handling queries like an expert sales rep."
         },
         {
-          "icon": "/ERP/dashboard-unscreen.gif",
-          "title": "Centralized Reporting Dashboard",
-          "description": "View all key operational, financial, and inventory reports in one unified dashboard for complete business oversight."
+          "icon": "/Agentic AI/language-unscreen.gif",
+          "title": "Human-Tone Conversational Intelligence",
+          "description": "Generates responses that feel natural, professional, and brand-aligned — ensuring your business voice stays consistent."
         }
       ]
     },
 
     "whyChooseSection1": {
       "backgroundImage": "/product_bg.png",
-      "title": "Why Partner With TasteHub ITelligence  ",
-      "subtitle": "Unlock extraordinary value for your business and for your clients.",
+      "title": "Where TasteHub Agentic AI  Works Best",
+      "subtitle": "rom lead capture to long-term customer success, Agentic AI elevates each stage of the journey. all in one platform.",
       "features": [
         {
-          "icon": "/key_features_icon5.png",
-          "title": "Shared Revenue Opportunities",
-          "description": "Earn competitive margins, recurring commissions, or referral bonuses through joint engagements and product sales."
+          "icon": "/long14.png",
+          "title": "B2B Product Presentation",
+          "description": "Delivers detailed product explanations, feature breakdowns, and competitive comparisons — all tailored to buyer needs."
         },
         {
-          "icon": "/settings_icon.png",
-          "title": "Robust Technical Support",
-          "description": "Get access to our expert engineering and solution‑architecture team for co‑sales, implementation, and troubleshooting."
+          "icon": "/long15.png",
+          "title": "Pricing Support & Deal Assistance",
+          "description": "Helps negotiate pricing, handles objections, and ensures every deal follows your predefined business rules."
         },
         {
-          "icon": "/long1.png",
-          "title": "Co‑Marketing & Sales Enablement",
-          "description": "Use co-branded materials, joint campaigns, and partner-focused training to win more business, faster."
-        },
-        {
-          "icon": "/long2.png",
-          "title": "Early Access & Innovation",
-          "description": "Be first in line for our new modules, betas, and technology releases — stay ahead of the market."
-        },
-        {
-          "icon": "/long3.png",
-          "title": "Partner Community",
-          "description": "Connect with other tech-forward companies in our partner ecosystem, share best practices, and grow together."
+          "icon": "/long16.png",
+          "title": "Customer Retention & Lifecycle Engagement",
+          "description": "Reconnects inactive customers, shares updates, promotes new offers, and keeps your audience engaged without manual effort."
         }
       ]
     },
 
-
     "whyChooseSection2": {
       "backgroundImage": "/product_bg.png",
       "left": {
-        "title": "Why Choose TasteHub ITelligence ERP?",
+        "title": "Why Choose TasteHub ITelligence Agentic AI?",
         "subtitle": "Modern architecture, exceptional reliability, enterprise-grade security.",
         "image": "/ctangle11.png"
       },
       "rightFeatures": [
         {
-          "icon": "/long4.png",
-          "title": "Modular & Scalable",
-          "description": "Deploy what you need now, expand when you’re ready."
+          "icon": "/case_study_feture_details2_icon1.png",
+          "title": "Autonomous but Always Controlled",
+          "description": "AI operates independently while respecting your rules, tone, guidelines, and approval hierarchies."
         },
         {
           "icon": "/long5.png",
-          "title": "Cloud-Based Reliability",
-          "description": "No hardware-heavy setup; access from any device"
-        },
-        {
-          "icon": "/long6.png",
-          "title": "Fast Deployment",
-          "description": "Get started quickly — our system integrates seamlessly without long downtime."
+          "title": "Context-Aware Reasoning",
+          "description": "Understands your products, pricing, policies, and customer behavior for more accurate responses."
         },
         {
           "icon": "/settings_icon.png",
-          "title": "Customizable Workflows",
-          "description": "Set up promotions, user roles, and order flows to match your business."
+          "title": "Tailored for Every Business Model",
+          "description": "Configurable workflows, conversation styles, and logic to match your unique operational needs."
+        },
+        {
+          "icon": "/long6.png",
+          "title": "Effortless Deployment",
+          "description": "Works on cloud, hybrid, or on-prem setups — ready to scale with any business size."
         },
         {
           "icon": "/lock_icon.png",
-          "title": "Robust Security",
-          "description": "PCI-compliant payments, encrypted data, and secure access control."
+          "title": "Security-First Design",
+          "description": "Built with enterprise-grade encryption, access control, and compliance standards."
         }
       ]
     },
 
+    "faqs": [
+      {
+        "question": "Can the AI handle multiple sales or engagement tasks at once?",
+        "answer": "Yes — Agentic AI can manage numerous conversations, leads, and tasks simultaneously without performance loss."
+      },
+      {
+        "question": "Is the system customizable?",
+        "answer": "Completely. You can define tone, conversation flows, negotiation limits, integrations, and automation rules."
+      },
+      {
+        "question": "Does it integrate with third-party tools?",
+        "answer": "Yes. It connects with CRM, ERP, POS, marketing automation platforms, and custom APIs."
+      },
+      {
+        "question": "Do you offer training and support?",
+        "answer": "Absolutely. We provide onboarding, configuration assistance, and continuous support."
+      },
+      {
+        "question": "Is Agentic AI cloud-based?",
+        "answer": "Yes — it is cloud-ready with options for hybrid deployment."
+      }
+    ],
+
     "ctaSection": {
-      "title": "Get Started with TasteHub ITelligence HRM Today",
-      "description": "Simplify your HR operations, empower your people, and scale with confidence all from one intelligent platform."
+      "title": "Accelerate Your Business with AI-Driven Automation",
+      "description": "TasteHub Agentic AI unlocks new levels of efficiency, productivity, and customer experience."
     }
   }
 ]
