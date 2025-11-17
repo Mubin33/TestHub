@@ -25,9 +25,7 @@ export function FAQ_AITransformation() {
         <AccordionTrigger>Question: How long does it take to implement AI automation?</AccordionTrigger>
         <AccordionContent className="flex flex-col gap-4 text-balance">
           <p>
-            Our flagship product combines cutting-edge technology with sleek
-            design. Built with premium materials, it offers unparalleled
-            performance and reliability.
+            Most deployments are completed in 4-8 weeks, depending on system complexity 
           </p> 
         </AccordionContent>
       </AccordionItem>
@@ -36,8 +34,7 @@ export function FAQ_AITransformation() {
         <AccordionContent className="flex flex-col gap-4 text-balance">
  
           <p>
-            All orders are carefully packaged and fully insured. Track your
-            shipment in real-time through our dedicated tracking portal.
+            Yes, our automation solution are designed for seamless integration with major platforms like SAP, salesforce, and oracle.
           </p>
         </AccordionContent>
       </AccordionItem>
@@ -46,9 +43,7 @@ export function FAQ_AITransformation() {
         <AccordionContent className="flex flex-col gap-4 text-balance">
        
           <p>
-            Our hassle-free return process includes free return shipping and
-            full refunds processed within 48 hours of receiving the returned
-            item.
+            Absolutely, our modular framework ensure scalability across departments and geographies.
           </p>
         </AccordionContent>
       </AccordionItem>

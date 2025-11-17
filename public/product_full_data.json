@@ -417,40 +417,174 @@
       "image": "/HRM_product.jpg"
     },
 
-    "whyChooseSection1": {
-      "backgroundImage": "/product_bg.png",
-      "title": "Why Partner With TasteHub ITelligence  ",
-      "subtitle": "Unlock extraordinary value for your business and for your clients.",
-      "features": [
+"coreFeatures": {
+      "leftFeatures": [
         {
-          "icon": "/key_features_icon5.png",
-          "title": "Shared Revenue Opportunities",
-          "description": "Earn competitive margins, recurring commissions, or referral bonuses through joint engagements and product sales."
+          "icon": "/POS/supply-unscreen.gif",
+          "title": "Expand Your Opportunities",
+          "description": "Create and manage bills from anywhere with fast, secure cloud access."
         },
         {
-          "icon": "/settings_icon.png",
-          "title": "Robust Technical Support",
-          "description": "Get access to our expert engineering and solution‑architecture team for co‑sales, implementation, and troubleshooting."
+          "icon": "/speedometer-unscreen.gif",
+          "title": "Stronger Market Positioning",
+          "description": "Access instant insights, monitor KPIs, and make faster decisions with live dashboards and performance metrics."
+        }
+      ],
+      "middle": {
+        "title": "Core Features of TasteHub ITelligence Partner Program",
+        "subtitle": "Everything you need for seamless retail and hospitality operations",
+        "feature": {
+          "icon": "/workflow-unscreen.gif",
+          "title": "Co-Selling & Co-Marketing",
+          "description": "Automate approvals, tasks, and processes with flexible workflows tailored to your business operations."
+        }
+      },
+      "rightFeatures": [
+        {
+          "icon": "/ERP/settings-unscreen.gif",
+          "title": "Earn Recurring Revenue",
+          "description": "Manage invoices, expenses, budgeting, and financial reporting with full transparency and automated compliance."
         },
         {
-          "icon": "/long1.png",
-          "title": "Co‑Marketing & Sales Enablement",
-          "description": "Use co-branded materials, joint campaigns, and partner-focused training to win more business, faster."
-        },
-        {
-          "icon": "/long2.png",
-          "title": "Early Access & Innovation",
-          "description": "Be first in line for our new modules, betas, and technology releases — stay ahead of the market."
-        },
-        {
-          "icon": "/long3.png",
-          "title": "Partner Community",
-          "description": "Connect with other tech-forward companies in our partner ecosystem, share best practices, and grow together."
+          "icon": "/ERP/dashboard-unscreen.gif",
+          "title": "Hands-on Technical Enablement",
+          "description": "View all key operational, financial, and inventory reports in one unified dashboard for complete business oversight."
         }
       ]
     },
 
-    "coreFeatures": {
+"partnershipFramework": [
+    {
+      "title": "Referral Partner",
+      "icon": "/referral-partner.png",
+      "base": "/partnership_base1.png",
+      "description": "Refer clients and earn commission on each successful deal  simple, fast, effortless."
+    },
+    {
+      "title": "Reseller Partner",
+      "icon": "/tech-partner.png",
+      "base": "/partnership_base2.png",
+      "description": "Sell, implement, and support TasteHub products in your region with dedicated tools and training."
+    },
+    {
+      "title": "Technology/Integration Partner",
+      "icon": "/reseller-partner.png",
+      "base": "/partnership_base3.png",
+      "description": "Integrate your product or services with the TasteHub ecosystem and jointly scale customer value."
+    }
+  ],
+
+
+
+
+    "whyChooseSection1": {
+      "backgroundImage": "/product_bg.png",
+      "title": "Key Benefits of  Partner With TasteHub ITelligence  ",
+      "subtitle": "Unlock extraordinary value for your business and for your clients.",
+      "features": [
+        {
+          "icon": "/key_features_icon5.png",
+          "title": "Partner Onboarding Made Simple",
+          "description": "Quick onboarding process with digital sign-up, product introduction sessions, and onboarding kits."
+        },
+        {
+          "icon": "/settings_icon.png",
+          "title": "Sales & Product Training",
+          "description": "Interactive training sessions and certification paths to help you confidently represent our solutions."
+        },
+        {
+          "icon": "/long1.png",
+          "title": "Deal Protection & Approval Workflow",
+          "description": "Register opportunities, get deal protection, and track status through a transparent approval pipeline."
+        },
+        {
+          "icon": "/long2.png",
+          "title": "Marketing & Sales Resources",
+          "description": "Access pitch decks, brochures, product videos, email templates, and branded marketing assets."
+        },
+        {
+          "icon": "/long3.png",
+          "title": "Exclusive Partner Portal",
+          "description": "Manage leads, register deals, track commissions, and access resources in one centralized platform."
+        }
+      ]
+    },
+
+
+    "whyChooseSection2": {
+      "backgroundImage": "/product_bg.png",
+      "left": {
+        "title": "Why Companies Choose TasteHub ITelligence",
+        "subtitle": "Modern architecture, exceptional reliability, enterprise-grade security.",
+        "image": "/partner_product.png"
+      },
+      "rightFeatures": [
+        {
+          "icon": "/light_icon.png",
+          "title": "Innovation-Driven Platform",
+          "description": "Modern, cloud-ready business software with ongoing updates and enhancements."
+        },
+        {
+          "icon": "/rectangle_icon.png",
+          "title": "Scalable & Flexible",
+          "description": "Solutions built to support every client — from startups to large enterprises."
+        },
+        {
+          "icon": "/long7.png",
+          "title": "Industry Versatility",
+          "description": "Trusted across retail, manufacturing, education, professional services, healthcare, and more."
+        },
+        {
+          "icon": "/headphone_icon.png",
+          "title": "Exceptional Support",
+          "description": "Our technical and customer success teams ensure smooth implementations and long-term satisfaction."
+        }
+      ]
+    },
+
+
+
+     "faqs": [
+    {
+      "question": "Do partners get sales training?",
+      "answer": " Yes — partners receive live training, documentation, and recorded sessions."
+    },
+    {
+      "question": "Is there a minimum sales requirement?",
+      "answer": " No, but higher performance unlocks higher-tier benefits."
+    },
+    {
+      "question": "Can partners white-label the solutions?",
+      "answer": " Yes — white-label or co-branded options are available depending on the tier."
+    }
+  ],
+
+    "ctaSection": {
+      "title": "Ready to Grow with TasteHub ITelligence?",
+      "description": "Unlock new business possibilities with a partnership built for scale, support, and long-term success."
+    }
+  },
+  {
+    "id": 5,
+    "heroSection": {
+      "backgroundImage": "/voting_hero_bg.png",
+      "title": "One ERP. Total Business Control",
+      "subtitle": "Unify your Finance, Operations, Supply Chain, Inventory, and HR into one intelligent platform",
+      "buttons": [
+        { "label": "Start Free Product Trial", "link": "" },
+        { "label": "Book a Strategy Call", "link": "" }
+      ],
+      "sideImage": "/ITelligence ERP.png"
+    },
+
+    "hrmIntro": {
+      "heading": "TasteHub ITelligence ERP",
+      "description": "TasteHub ITelligence ERP is a powerful, modular, and cloud-based ERP system that brings every part of your business into one unified ecosystem. It enables real-time visibility, automation, and seamless integration to help your business operate faster, smarter, and more efficiently.",
+      "button": { "label": "Start Free Product Trial", "link": "" },
+      "image": "/HRM_product.jpg"
+    },
+
+"coreFeatures": {
       "leftFeatures": [
         {
           "icon": "/POS/supply-unscreen.gif",
@@ -484,67 +618,6 @@
           "description": "View all key operational, financial, and inventory reports in one unified dashboard for complete business oversight."
         }
       ]
-    },
-
-    "whyChooseSection2": {
-      "backgroundImage": "/product_bg.png",
-      "left": {
-        "title": "Why Choose TasteHub ITelligence ERP?",
-        "subtitle": "Modern architecture, exceptional reliability, enterprise-grade security.",
-        "image": "/ctangle11.png"
-      },
-      "rightFeatures": [
-        {
-          "icon": "/long4.png",
-          "title": "Modular & Scalable",
-          "description": "Deploy what you need now, expand when you’re ready."
-        },
-        {
-          "icon": "/long5.png",
-          "title": "Cloud-Based Reliability",
-          "description": "No hardware-heavy setup; access from any device"
-        },
-        {
-          "icon": "/long6.png",
-          "title": "Fast Deployment",
-          "description": "Get started quickly — our system integrates seamlessly without long downtime."
-        },
-        {
-          "icon": "/settings_icon.png",
-          "title": "Customizable Workflows",
-          "description": "Set up promotions, user roles, and order flows to match your business."
-        },
-        {
-          "icon": "/lock_icon.png",
-          "title": "Robust Security",
-          "description": "PCI-compliant payments, encrypted data, and secure access control."
-        }
-      ]
-    },
-
-    "ctaSection": {
-      "title": "Get Started with TasteHub ITelligence HRM Today",
-      "description": "Simplify your HR operations, empower your people, and scale with confidence all from one intelligent platform."
-    }
-  },
-  {
-    "id": 5,
-    "heroSection": {
-      "backgroundImage": "/voting_hero_bg.png",
-      "title": "One ERP. Total Business Control",
-      "subtitle": "Unify your Finance, Operations, Supply Chain, Inventory, and HR into one intelligent platform",
-      "buttons": [
-        { "label": "Start Free Product Trial", "link": "" },
-        { "label": "Book a Strategy Call", "link": "" }
-      ],
-      "sideImage": "/ITelligence ERP.png"
-    },
-
-    "hrmIntro": {
-      "heading": "TasteHub ITelligence ERP",
-      "description": "TasteHub ITelligence ERP is a powerful, modular, and cloud-based ERP system that brings every part of your business into one unified ecosystem. It enables real-time visibility, automation, and seamless integration to help your business operate faster, smarter, and more efficiently.",
-      "button": { "label": "Start Free Product Trial", "link": "" },
-      "image": "/HRM_product.jpg"
     },
 
     "whyChooseSection1": {
@@ -580,41 +653,6 @@
       ]
     },
 
-    "coreFeatures": {
-      "leftFeatures": [
-        {
-          "icon": "/POS/supply-unscreen.gif",
-          "title": "Inventory & Supply Chain Management",
-          "description": "Create and manage bills from anywhere with fast, secure cloud access."
-        },
-        {
-          "icon": "/speedometer-unscreen.gif",
-          "title": "Real-Time Data Analytics",
-          "description": "Access instant insights, monitor KPIs, and make faster decisions with live dashboards and performance metrics."
-        }
-      ],
-      "middle": {
-        "title": "Core Features of TasteHub ITelligence ERP",
-        "subtitle": "Everything you need for seamless retail and hospitality operations",
-        "feature": {
-          "icon": "/workflow-unscreen.gif",
-          "title": "Customizable Workflow Automation",
-          "description": "Automate approvals, tasks, and processes with flexible workflows tailored to your business operations."
-        }
-      },
-      "rightFeatures": [
-        {
-          "icon": "/ERP/settings-unscreen.gif",
-          "title": "Accounting & Financial Control",
-          "description": "Manage invoices, expenses, budgeting, and financial reporting with full transparency and automated compliance."
-        },
-        {
-          "icon": "/ERP/dashboard-unscreen.gif",
-          "title": "Centralized Reporting Dashboard",
-          "description": "View all key operational, financial, and inventory reports in one unified dashboard for complete business oversight."
-        }
-      ]
-    },
 
     "whyChooseSection2": {
       "backgroundImage": "/product_bg.png",
@@ -677,40 +715,7 @@
       "image": "/HRM_product.jpg"
     },
 
-    "whyChooseSection1": {
-      "backgroundImage": "/product_bg.png",
-      "title": "Why Partner With TasteHub ITelligence  ",
-      "subtitle": "Unlock extraordinary value for your business and for your clients.",
-      "features": [
-        {
-          "icon": "/key_features_icon5.png",
-          "title": "Shared Revenue Opportunities",
-          "description": "Earn competitive margins, recurring commissions, or referral bonuses through joint engagements and product sales."
-        },
-        {
-          "icon": "/settings_icon.png",
-          "title": "Robust Technical Support",
-          "description": "Get access to our expert engineering and solution‑architecture team for co‑sales, implementation, and troubleshooting."
-        },
-        {
-          "icon": "/long1.png",
-          "title": "Co‑Marketing & Sales Enablement",
-          "description": "Use co-branded materials, joint campaigns, and partner-focused training to win more business, faster."
-        },
-        {
-          "icon": "/long2.png",
-          "title": "Early Access & Innovation",
-          "description": "Be first in line for our new modules, betas, and technology releases — stay ahead of the market."
-        },
-        {
-          "icon": "/long3.png",
-          "title": "Partner Community",
-          "description": "Connect with other tech-forward companies in our partner ecosystem, share best practices, and grow together."
-        }
-      ]
-    },
-
-    "coreFeatures": {
+"coreFeatures": {
       "leftFeatures": [
         {
           "icon": "/POS/supply-unscreen.gif",
@@ -745,6 +750,40 @@
         }
       ]
     },
+
+    "whyChooseSection1": {
+      "backgroundImage": "/product_bg.png",
+      "title": "Why Partner With TasteHub ITelligence  ",
+      "subtitle": "Unlock extraordinary value for your business and for your clients.",
+      "features": [
+        {
+          "icon": "/key_features_icon5.png",
+          "title": "Shared Revenue Opportunities",
+          "description": "Earn competitive margins, recurring commissions, or referral bonuses through joint engagements and product sales."
+        },
+        {
+          "icon": "/settings_icon.png",
+          "title": "Robust Technical Support",
+          "description": "Get access to our expert engineering and solution‑architecture team for co‑sales, implementation, and troubleshooting."
+        },
+        {
+          "icon": "/long1.png",
+          "title": "Co‑Marketing & Sales Enablement",
+          "description": "Use co-branded materials, joint campaigns, and partner-focused training to win more business, faster."
+        },
+        {
+          "icon": "/long2.png",
+          "title": "Early Access & Innovation",
+          "description": "Be first in line for our new modules, betas, and technology releases — stay ahead of the market."
+        },
+        {
+          "icon": "/long3.png",
+          "title": "Partner Community",
+          "description": "Connect with other tech-forward companies in our partner ecosystem, share best practices, and grow together."
+        }
+      ]
+    },
+
 
     "whyChooseSection2": {
       "backgroundImage": "/product_bg.png",

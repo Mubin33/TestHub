@@ -1,10 +1,15 @@
 "use client";
-import { FAQ_AITransformation } from "@/app/our-solution/_ui/FAQ_AITransformation";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import React, { useEffect, useState } from "react";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 export interface ButtonType {
   label: string;
@@ -70,6 +75,17 @@ export interface CTASectionType {
   description: string;
 }
 
+export interface FaqItem {
+  question: string;
+  answer: string;
+}
+
+export interface PartnershipItem {
+  title: string;
+  icon: string;
+  base: string;
+  description: string;
+}
 export interface ProductData {
   id: number;
   heroSection: HeroSectionType;
@@ -78,6 +94,8 @@ export interface ProductData {
   coreFeatures: CoreFeaturesType;
   whyChooseSection2: WhyChooseSection2Type;
   ctaSection: CTASectionType;
+  faqs: FaqItem[];
+  partnershipFramework: PartnershipItem[];
 }
 
 export default function page() {
@@ -149,7 +167,7 @@ export default function page() {
             className="lg:col-span-5"
             src={product?.heroSection?.sideImage}
             alt="product_side_image"
-            width={928}
+            width={828}
             height={628}
           />
         </div>
@@ -182,47 +200,6 @@ export default function page() {
             width={840}
             height={585}
           />
-        </div>
-      </div>
-
-      {/* Why Choose TasteHub ITelligence HR Management */}
-      <div
-        className="w-full min-h-screen bg-center bg-cover px-2 xl:px-0 pt-10 sm:pt-16"
-        style={{ backgroundImage: `url('/common_section_1.png')` }}
-      >
-        <div className="max-w-[1600px] mx-auto">
-          <div className="w-fit mx-auto text-center">
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[40px] max-w-[800px] text-primary-foreground font-bold font-orbitron mx-auto">
-              {product?.whyChooseSection1?.title}
-            </h1>
-            <h4 className="text-base md:text-xl lg:text-2xl text-center font-normal font-parkinsans text-[#F8F8F899] max-w-[1060px] mt-8">
-              {product?.whyChooseSection1?.subtitle}
-            </h4>
-          </div>
-          {/*  */}
-          <div className="flex items-center flex-wrap justify-center gap-10 mt-16">
-            {product?.whyChooseSection1?.features?.map((item, idx) => (
-              <div
-                key={idx}
-                className="w-[480px] flex flex-col h-full rounded-xl bg-[#181818] shadow-md shadow-[#B118BF] p-6 space-y-1 transition-transform duration-500 hover:scale-[1.03]"
-              >
-                <div className="w-10 h-10 p-2 bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] rounded-md">
-                  <Image
-                    src={item?.icon}
-                    alt={item?.title}
-                    width={24}
-                    height={24}
-                  />
-                </div>
-                <h4 className="font-parkinsans font-semibold text-base sm:text-lg md:text-xl lg:text-2xl text-white mt-3">
-                  {item?.title}
-                </h4>
-                <p className="text-sm md:text-base lg:text-lg text-white font-parkinsans font-normal mt-3">
-                  {item?.description}
-                </p>
-              </div>
-            ))}
-          </div>
         </div>
       </div>
 
@@ -319,6 +296,69 @@ export default function page() {
         </div>
       </div>
 
+{product.partnershipFramework && <div className="bg-[#111111]">
+          <div className="py-16 max-w-[1600px] mx-auto">
+             <h1 className="text-2xl sm:text-3xl md:text-[32px] lg:text-[36px] xl:text-[40px] mx-auto text-center text-primary-foreground font-bold font-orbitron max-w-[988px]">
+                Partnership Framework
+              </h1>
+              <div className="grid md:grid-cols-3 grid-cols-1 gap-5 px-2 lg:px-[220px] mt-5">
+                {product?.partnershipFramework?.map((item,idx)=><div key={idx} className="relative rounded-xl h-[423px] py-9 px-4 bg-linear-to-b from-[#222631] via-[#454545] to-black">
+               
+                    <div className="flex items-center gap-4">
+                      <Image src={item.icon} alt={item.title} width={36} height={36} />
+                      <h4 className="text-base md:text-2xl font-medium text-[#B118BF]">{item.title}</h4>
+                    </div>
+                    <p className="text-sm md:text-base text-primary-foreground font-parkinsans mt-4">{item.description}</p>
+              <Image className="absolute bottom-0 right-0" src={item.base} alt={item.title} width={100} height={100} />
+                </div>)}
+              </div>
+            </div>
+            </div>
+            }
+
+
+
+      {/* Why Choose TasteHub ITelligence HR Management */}
+      <div
+        className="w-full min-h-screen bg-center bg-cover px-2 xl:px-0 pt-10 sm:pt-16"
+        style={{ backgroundImage: `url('/common_section_1.png')` }}
+      >
+        <div className="max-w-[1600px] mx-auto">
+          <div className="w-fit mx-auto text-center">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[40px] max-w-[800px] text-primary-foreground font-bold font-orbitron mx-auto">
+              {product?.whyChooseSection1?.title}
+            </h1>
+            <h4 className="text-base md:text-xl lg:text-2xl text-center font-normal font-parkinsans text-[#F8F8F899] max-w-[1060px] mt-8">
+              {product?.whyChooseSection1?.subtitle}
+            </h4>
+          </div>
+          {/*  */}
+          <div className="flex items-center flex-wrap justify-center gap-10 mt-16">
+            {product?.whyChooseSection1?.features?.map((item, idx) => (
+              <div
+                key={idx}
+                className="w-[480px] flex flex-col h-full rounded-xl bg-[#181818] shadow-md shadow-[#B118BF] p-6 space-y-1 transition-transform duration-500 hover:scale-[1.03]"
+              >
+                <div className="w-10 h-10 p-2 bg-linear-to-b from-[#222631] via-[#454545] to-[#000000] rounded-md">
+                  <Image
+                    src={item?.icon}
+                    alt={item?.title}
+                    width={24}
+                    height={24}
+                  />
+                </div>
+                <h4 className="font-parkinsans font-semibold text-base sm:text-lg md:text-xl lg:text-2xl text-white mt-3">
+                  {item?.title}
+                </h4>
+                <p className="text-sm md:text-base lg:text-lg text-white font-parkinsans font-normal mt-3">
+                  {item?.description}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
       {/*  */}
       <div
         className="w-full min-h-screen bg-center bg-cover px-2 xl:px-0"
@@ -369,7 +409,34 @@ export default function page() {
         </div>
       </div>
 
-      <FAQ_AITransformation />
+      {/* faq */}
+      {product.faqs && (
+        <div className="bg-[#111111]">
+          <div className="py-16 max-w-[1600px] mx-auto">
+            <div className="w-fit mx-auto my-10">
+              <h1 className="text-2xl sm:text-3xl md:text-[32px] lg:text-[36px] xl:text-[40px] text-primary-foreground font-bold font-orbitron max-w-[988px]">
+                FAQ
+              </h1>
+              <div className="h-1 w-10 bg-white"></div>
+            </div>
+            <Accordion
+              type="single"
+              collapsible
+              className="max-w-[1060px] mx-auto"
+              defaultValue="item-1"
+            >
+              {product?.faqs?.map((item, idx) => (
+                <AccordionItem key={idx} value={`item-${idx + 1}`}>
+                  <AccordionTrigger> {item?.question}</AccordionTrigger>
+                  <AccordionContent className="flex flex-col gap-4 text-balance">
+                    <p>{item?.answer}</p>
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
+          </div>
+        </div>
+      )}
 
       {/* ITelligence */}
       <div className="bg-[#111111] py-10">
