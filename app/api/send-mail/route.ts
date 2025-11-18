@@ -1,5 +1,5 @@
-import  nodemailer  from 'nodemailer';
- 
+import nodemailer from "nodemailer";
+
 import { NextRequest, NextResponse } from "next/server";
 
 export async function POST(req: NextRequest) {
@@ -35,6 +35,9 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ success: true, message: "Mail sent!" });
   } catch (error) {
     console.error(error);
-    return NextResponse.json({ success: false, message: "Failed to send mail." });
+    return NextResponse.json({
+      success: false,
+      message: "Failed to send mail.",
+    });
   }
 }

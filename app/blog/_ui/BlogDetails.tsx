@@ -31,18 +31,18 @@ export default function BlogDetails() {
   const { id } = useParams(); // e.g. /blog/1
   const [item, setItem] = useState<BlogData | null>(null);
 
-   const [allBlog, setAllBlog] = useState<BlogData[]>([]);
-  
-  useEffect(() => { 
+  const [allBlog, setAllBlog] = useState<BlogData[]>([]);
+
+  useEffect(() => {
     fetch("/blog_data.json")
       .then((res) => res.json())
       .then((data: BlogData[]) => {
-         const found = data.filter((blog) => Number(id) !== blog.id);
-        setAllBlog(found || null)
-      } )
+        const found = data.filter((blog) => Number(id) !== blog.id);
+        setAllBlog(found || null);
+      })
       .catch((err) => console.error("Failed to fetch blog data:", err));
   }, [id]);
-  
+
   // if (allBlog.length === 0) return <p className="text-white text-center py-20">Loading...</p>;
 
   useEffect(() => {
@@ -206,58 +206,55 @@ export default function BlogDetails() {
           </div>
         </div>
 
-
-
         {/* comment or feedback from */}
-        <BlogFeedback/>
-
+        <BlogFeedback />
 
         {/* relavent blogs */}
         <div className="bg-[#111111]">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-[1600px] mx-auto py-5 ">
-        {allBlog.map((post) => (
-          <div
-            key={post.id}
-            className="bg-[#454545] rounded-xl flex flex-col h-full"
-          >
-            <Image
-              src={post.image}
-              alt={post.title}
-              width={500}
-              height={270}
-              className="w-full h-48 object-cover rounded-t-xl transition-transform duration-500 ease-in-out transform origin-left hover:scale-y-105"
-            />
+            {allBlog.map((post) => (
+              <div
+                key={post.id}
+                className="bg-[#454545] rounded-xl flex flex-col h-full"
+              >
+                <Image
+                  src={post.image}
+                  alt={post.title}
+                  width={500}
+                  height={270}
+                  className="w-full h-48 object-cover rounded-t-xl transition-transform duration-500 ease-in-out transform origin-left hover:scale-y-105"
+                />
 
-            <div className="p-3 flex flex-col grow">
-              <p className="w-fit rounded-2xl py-1 px-2 text-primary-foreground text-[10px] md:text-xs bg-linear-to-b from-[#222631] via-[#454545] to-black">
-                {post.category}
-              </p>
+                <div className="p-3 flex flex-col grow">
+                  <p className="w-fit rounded-2xl py-1 px-2 text-primary-foreground text-[10px] md:text-xs bg-linear-to-b from-[#222631] via-[#454545] to-black">
+                    {post.category}
+                  </p>
 
-              <h4 className="text-lg md:text-xl lg:text-2xl mt-3 font-bold font-parkinsans text-primary-foreground">
-                {post.title}
-              </h4>
+                  <h4 className="text-lg md:text-xl lg:text-2xl mt-3 font-bold font-parkinsans text-primary-foreground">
+                    {post.title}
+                  </h4>
 
-              <p className="text-xs md:text-sm text-primary-foreground font-normal font-parkinsans mt-2 line-clamp-2">
-                {post.description}
-              </p>
+                  <p className="text-xs md:text-sm text-primary-foreground font-normal font-parkinsans mt-2 line-clamp-2">
+                    {post.description}
+                  </p>
 
-              <div className="mt-auto flex items-center justify-between pt-4">
-                <Link href={`/blog/${post.id}`}>
-                  <Button
-                    className="font-normal bg-[#B118BF] md:text-sm text-white rounded-lg py-3 px-3 sm:py-4 md:py-5"
-                    variant="default"
-                  >
-                    Read More
-                  </Button>
-                </Link>
-                <div className="text-sm text-primary-foreground">
-                  {post.publish_date} •  {post.read_duration}
+                  <div className="mt-auto flex items-center justify-between pt-4">
+                    <Link href={`/blog/${post.id}`}>
+                      <Button
+                        className="font-normal bg-[#B118BF] md:text-sm text-white rounded-lg py-3 px-3 sm:py-4 md:py-5"
+                        variant="default"
+                      >
+                        Read More
+                      </Button>
+                    </Link>
+                    <div className="text-sm text-primary-foreground">
+                      {post.publish_date} • {post.read_duration}
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
+            ))}
           </div>
-        ))}
-      </div>
         </div>
       </div>
     </div>

@@ -5,9 +5,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
-
-
-
 const tabs = [
   "All Post",
   "Artificial Intelligence",
@@ -39,24 +36,24 @@ export interface BlogData {
 export default function AllBlogs() {
   const [activeTab, setActiveTab] = useState("All Post");
 
- const [item, setItem] = useState<BlogData[]>([]);
+  const [item, setItem] = useState<BlogData[]>([]);
 
-useEffect(() => { 
-  fetch("/blog_data.json")
-    .then((res) => res.json())
-    .then((data: BlogData[]) => setItem(data))
-    .catch((err) => console.error("Failed to fetch blog data:", err));
-}, []);
+  useEffect(() => {
+    fetch("/blog_data.json")
+      .then((res) => res.json())
+      .then((data: BlogData[]) => setItem(data))
+      .catch((err) => console.error("Failed to fetch blog data:", err));
+  }, []);
 
-if (item.length === 0) return <p className="text-white text-center py-20">Loading...</p>;
+  if (item.length === 0)
+    return <p className="text-white text-center py-20">Loading...</p>;
 
-const filteredData =
-  activeTab === "All Post"
-    ? item
-    : item.filter((blog) => blog.category === activeTab);
+  const filteredData =
+    activeTab === "All Post"
+      ? item
+      : item.filter((blog) => blog.category === activeTab);
 
-console.log(filteredData);
-
+  console.log(filteredData);
 
   return (
     <div className="w-full max-w-[1600px] mx-auto px-4 py-10">
@@ -148,7 +145,7 @@ console.log(filteredData);
                   </Button>
                 </Link>
                 <div className="text-sm text-primary-foreground">
-                  {post.publish_date} •  {post.read_duration}
+                  {post.publish_date} • {post.read_duration}
                 </div>
               </div>
             </div>

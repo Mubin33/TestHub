@@ -5,7 +5,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
-
 export interface BlogData {
   id: number;
   category: string;
@@ -27,23 +26,22 @@ export interface BlogData {
   }[];
 }
 
-export default function RelaventBlogsInDetails() { 
+export default function RelaventBlogsInDetails() {
+  const [allBlog, setAllBlog] = useState<BlogData[]>([]);
 
- const [allBlog, setAllBlog] = useState<BlogData[]>([]);
+  useEffect(() => {
+    fetch("/blog_data.json")
+      .then((res) => res.json())
+      .then((data: BlogData[]) => setAllBlog(data))
+      .catch((err) => console.error("Failed to fetch blog data:", err));
+  }, []);
 
-useEffect(() => { 
-  fetch("/blog_data.json")
-    .then((res) => res.json())
-    .then((data: BlogData[]) => setAllBlog(data))
-    .catch((err) => console.error("Failed to fetch blog data:", err));
-}, []);
-
-if (allBlog.length === 0) return <p className="text-white text-center py-20">Loading...</p>;
-
+  if (allBlog.length === 0)
+    return <p className="text-white text-center py-20">Loading...</p>;
 
   return (
     <div className="w-full max-w-[1600px] mx-auto px-4 py-10">
-      {/* Tabs */} 
+      {/* Tabs */}
 
       {/* Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
@@ -83,7 +81,7 @@ if (allBlog.length === 0) return <p className="text-white text-center py-20">Loa
                   </Button>
                 </Link>
                 <div className="text-sm text-primary-foreground">
-                  {post.publish_date} •  {post.read_duration}
+                  {post.publish_date} • {post.read_duration}
                 </div>
               </div>
             </div>
