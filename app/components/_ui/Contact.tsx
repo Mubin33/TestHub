@@ -3,9 +3,45 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 
 export default function Contact() {
+  const [form, setForm] = useState({
+    fullName: "",
+    company: "",
+    email: "",
+    option: "",
+    budget: "",
+    details: "",
+  });
+
+  const [status, setStatus] = useState("");
+
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
+  ) => {
+    setForm({ ...form, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setStatus("Sending...");
+
+    try {
+      const res = await fetch("/api/send-mail", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      });
+      const data = await res.json();
+      if (data.success) setStatus("Mail sent successfully!");
+      else setStatus("Failed to send mail.");
+    } catch (error) {
+      console.error(error);
+      setStatus("Failed to send mail.");
+    }
+  };
+
   return (
     <div className="bg-black">
       <div className="py-16 sm:py-20 max-w-[1600px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 px-4 sm:px-6">
@@ -46,15 +82,22 @@ export default function Contact() {
         </div>
 
         {/* Right Column */}
-        <div className="bg-[#181818] py-6 sm:py-8 px-4 sm:px-6 md:px-9 space-y-4">
+        <form
+          onSubmit={handleSubmit}
+          className="bg-[#181818] py-6 sm:py-8 px-4 sm:px-6 md:px-9 space-y-4"
+        >
           {/* Full Name */}
           <div className="flex flex-col">
             <label className="text-sm sm:text-base md:text-lg font-medium text-primary-foreground font-parkinsans">
               Full Name
             </label>
             <input
+              name="fullName"
+              value={form.fullName}
+              onChange={handleChange}
               className="border-b-2 border-white text-sm sm:text-base md:text-lg text-[#F8F8F866] py-3 sm:py-4 px-2 sm:px-3 font-parkinsans focus:outline-none focus:border-white"
               placeholder="Your name"
+              required
             />
           </div>
 
@@ -64,6 +107,9 @@ export default function Contact() {
               Company Name
             </label>
             <input
+              name="company"
+              value={form.company}
+              onChange={handleChange}
               className="border-b-2 border-white text-sm sm:text-base md:text-lg text-[#F8F8F866] py-3 sm:py-4 px-2 sm:px-3 font-parkinsans focus:outline-none focus:border-white"
               placeholder="Ex: Google"
             />
@@ -75,8 +121,13 @@ export default function Contact() {
               Email*
             </label>
             <input
+              type="email"
+              name="email"
+              value={form.email}
+              onChange={handleChange}
               className="border-b-2 border-white text-sm sm:text-base md:text-lg text-[#F8F8F866] py-3 sm:py-4 px-2 sm:px-3 font-parkinsans focus:outline-none focus:border-white"
               placeholder="your@example.com"
+              required
             />
           </div>
 
@@ -86,34 +137,36 @@ export default function Contact() {
               Select Option
             </label>
             <select
-              defaultValue=""
+              name="option"
+              value={form.option}
+              onChange={handleChange} 
               className="w-full cursor-pointer border-b-2 border-white bg-transparent text-sm sm:text-base md:text-lg text-[#F8F8F866] py-3 sm:py-4 px-2 sm:px-3 pr-10 font-parkinsans appearance-none focus:outline-none focus:border-white"
             >
               <option className="bg-black" value="" disabled hidden>
                 Choose an option
               </option>
-              <option className="bg-black" value="option1">
+              <option className="bg-black" value="Enterprise Cloud Management">
                 Enterprise Cloud Management
               </option>
-              <option className="bg-black" value="option2">
+              <option className="bg-black" value="Hybrid/Multi Cloud Platform Management">
                 Hybrid/Multi Cloud Platform Management
               </option>
-              <option className="bg-black" value="option3">
+              <option className="bg-black" value="Cloud Security, Compliance & Governance">
                 Cloud Security, Compliance & Governance
               </option>
-              <option className="bg-black" value="option4">
+              <option className="bg-black" value="Cloud Native Infrastructure Management">
                 Cloud Native Infrastructure Management
               </option>
-              <option className="bg-black" value="option5">
+              <option className="bg-black" value="AI Consulting & Implementation">
                 AI Consulting & Implementation
               </option>
-              <option className="bg-black" value="option6">
+              <option className="bg-black" value="Enterprise Generative AI Solution">
                 Enterprise Generative AI Solution
               </option>
-              <option className="bg-black" value="option7">
+              <option className="bg-black" value="Intelligent Business Process Automation">
                 Intelligent Business Process Automation
               </option>
-              <option className="bg-black" value="option8">
+              <option className="bg-black" value="Cybersecurity Advisory & Consultation">
                 Cybersecurity Advisory & Consultation
               </option>
             </select>
@@ -137,6 +190,9 @@ export default function Contact() {
               Project budget *
             </label>
             <input
+              name="budget"
+              value={form.budget}
+              onChange={handleChange}
               className="border-b-2 border-white text-sm sm:text-base md:text-lg text-[#F8F8F866] py-3 sm:py-4 px-2 sm:px-3 font-parkinsans focus:outline-none focus:border-white"
               placeholder="Select Your Range"
             />
@@ -148,12 +204,15 @@ export default function Contact() {
               Project Details *
             </label>
             <textarea
+              name="details"
+              value={form.details}
+              onChange={handleChange}
               className="border-b-2 border-white text-sm sm:text-base md:text-lg text-[#F8F8F866] py-3 sm:py-4 px-2 sm:px-3 font-parkinsans focus:outline-none focus:border-white"
               placeholder="Tell us more about your idea"
             />
           </div>
 
-          <Button className="mt-2 font-normal w-full py-4 sm:py-6 px-4 sm:px-5">
+          <Button type="submit" className="mt-2 font-normal w-full py-4 sm:py-6 px-4 sm:px-5">
             Let’s Build Together
           </Button>
 
@@ -163,11 +222,14 @@ export default function Contact() {
               Book A Call Directly
             </Link>
           </p>
-        </div>
+
+          {status && <p className="mt-2 text-sm text-[#B525C2]">{status}</p>}
+        </form>
       </div>
     </div>
   );
 }
+
 
 // import { Button } from "@/components/ui/button";
 // import Image from "next/image";
