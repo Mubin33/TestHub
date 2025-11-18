@@ -1,4 +1,4 @@
- "use client";
+"use client";
 
 import { Button } from "@/components/ui/button";
 import { useRouter } from "next/navigation";
@@ -17,9 +17,9 @@ export default function ErrorPage() {
 
         <Button
           onClick={() => router.push("/")}
-              className="font-normal px-5 py-3 sm:px-6 sm:py-4 md:px-8 md:py-5 text-sm sm:text-base"
-              variant="default"
-           >
+          className="font-normal px-5 py-3 sm:px-6 sm:py-4 md:px-8 md:py-5 text-sm sm:text-base"
+          variant="default"
+        >
           Go Home
         </Button>
       </div>

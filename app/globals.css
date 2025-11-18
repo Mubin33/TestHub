@@ -134,7 +134,7 @@
 @layer base {
   * {
     @apply border-border outline-ring/50;
-  }
+  } 
   body {
     @apply bg-black text-foreground;
   }
@@ -151,11 +151,6 @@
   100% {
     transform: translateX(-50%);
   }
-}
-
-.spin-reverse {
-  animation: spin-reverse linear infinite;
-  animation-duration: var(--orbit-speed, 22.3s); /* same as main orbit speed */
 }
 
 
@@ -187,3 +182,43 @@
 }
 }
  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.spin-reverse {
+  animation: spin-reverse linear infinite;
+  animation-duration: var(--orbit-speed, 22.3s);  
+}
+*/

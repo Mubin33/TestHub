@@ -17,7 +17,7 @@ export default function Navbar() {
 
   return (
     <div className="backdrop-blur-md">
-      <div className="h-20 flex items-center justify-between px-6 sm:px-10 md:px-16 lg:px-24 xl:px-32">
+      <div className="h-20 flex items-center justify-between px-6 sm:px-10 md:px-16 lg:px-24 xl:px-32 max-w-[1900px] mx-auto">
         {/* Logo */}
         <Link href="/">
           <Image
