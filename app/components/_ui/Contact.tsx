@@ -38,7 +38,7 @@ export default function Contact() {
       else setStatus("Failed to send mail.");
     } catch (error) {
       console.error(error);
-      setStatus("Failed to send mail.");
+      setStatus("Sorry,Failed to send mail.");
     }
   };
 
