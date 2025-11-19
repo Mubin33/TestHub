@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
+import { toast } from "sonner"
 
 export default function Contact() {
   const [form, setForm] = useState({
@@ -15,7 +16,7 @@ export default function Contact() {
     details: "",
   });
 
-  const [status, setStatus] = useState("");
+  // const [status, setStatus] = useState("");
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
@@ -25,7 +26,18 @@ export default function Contact() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setStatus("Sending...");
+    // setStatus("Sending...");
+    toast.promise<{ name: string }>(
+            () =>
+              new Promise((resolve) =>
+                setTimeout(() => resolve({ name: "Event" }), 2000)
+              ),
+            {
+              loading: "Loading...",
+              // success: () => `Mail sent successfully!`,
+              // error: "Failed to send mail.",
+            }
+          )
 
     try {
       const res = await fetch("/api/send-mail", {
@@ -34,11 +46,16 @@ export default function Contact() {
         body: JSON.stringify(form),
       });
       const data = await res.json();
-      if (data.success) setStatus("Mail sent successfully!");
-      else setStatus("Failed to send mail.");
+      if (data.success) {
+        toast.success("Mail sent successfully!")
+        // setStatus("Mail sent successfully!");
+      }
+      // else setStatus("Failed to send mail.");
+      else toast.error("Failed to send mail.")
     } catch (error) {
       console.error(error);
-      setStatus("Failed to send mail.");
+      // toast.error("Failed to send mail.")
+      // setStatus("Failed to send mail.");
     }
   };
 
@@ -223,7 +240,7 @@ export default function Contact() {
             </Link>
           </p>
 
-          {status && <p className={`mt-2 text-sm ${status === "Failed to send mail." ? "text-red-600" : "text-green-600"} `}>{status}</p>}
+          {/* {status && <p className={`mt-2 text-sm ${status === "Failed to send mail." ? "text-red-600" : "text-green-600"} `}>{status}</p>} */}
         </form>
       </div>
     </div>
