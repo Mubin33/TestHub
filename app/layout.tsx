@@ -10,7 +10,7 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
+const geistMono = Geist_Mono({ 
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
@@ -35,7 +35,6 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  
   return (
     <html lang="en">
       <body
@@ -47,7 +46,7 @@ export default function RootLayout({
           </div>
         </div>
         {children}
-         <Toaster />
+        <Toaster />
         <Footer />
       </body>
     </html>
