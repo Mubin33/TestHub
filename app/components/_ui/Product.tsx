@@ -113,12 +113,14 @@ export default function Product() {
 
       {/* Buttons */}
       <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 mt-10 sm:mt-14 mx-auto w-fit">
-        <Button
-          className="font-normal px-6 py-3 sm:px-7 sm:py-5 md:px-8 md:py-6 text-sm sm:text-base"
-          variant="default"
-        >
-          Book a Free Demo
-        </Button>
+        <Link href="/contact">
+          <Button
+            className="font-normal px-6 py-3 sm:px-7 sm:py-5 md:px-8 md:py-6 text-sm sm:text-base"
+            variant="default"
+          >
+            Book a Free Demo
+          </Button>
+        </Link>
         <Link href={`/product/${activeItem.id}`}>
           <Button
             className="px-6 py-3 sm:px-7 sm:py-5 md:px-8 md:py-6 text-sm sm:text-base"
@@ -131,4 +133,3 @@ export default function Product() {
     </div>
   );
 }
- 

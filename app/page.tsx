@@ -17,9 +17,9 @@ export default function Home() {
           heading="Your Partner for Smarter, Safer & Scalable Digital Solutions"
           description="From AI driven automation to enterprise cybersecurity and cloud infrastructure, we empower businesses across industries to innovate, grow, and stay secure."
           button1Text="Let’s Build Together"
-          button1Link="#"
+          button1Link="/contact"
           button2Text="Explore Our Services"
-          button2Link="#"
+          button2Link="/our-solution"
         />
       </div>
       <Product />

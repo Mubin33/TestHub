@@ -13,9 +13,9 @@ export default function page() {
       cloud, AI, and security."
           description="Our solutions and services harden your stack and future proof your infrastructure."
           button1Text="Start Free Product Trial"
-          button1Link="#"
+          button1Link="/#product"
           button2Text="Book a Strategy Call"
-          button2Link="#"
+          button2Link="/contact"
         />
       </div>
       <CoreSection />
