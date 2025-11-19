@@ -13,7 +13,7 @@ export default function Home() {
     <div>
       <div className="-mt-10">
         <HeroSection
-          videoSrc="/hero_video.mp4"
+          videoSrc="https://res.cloudinary.com/dfxlejhtr/video/upload/v1763543236/hero_video_xsqw5k.mp4"
           heading="Your Partner for Smarter, Safer & Scalable Digital Solutions"
           description="From AI driven automation to enterprise cybersecurity and cloud infrastructure, we empower businesses across industries to innovate, grow, and stay secure."
           button1Text="Let’s Build Together"
